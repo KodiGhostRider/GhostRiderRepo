@@ -5103,6 +5103,19 @@ Highly configurable: Set your PIN, set your watershed time, exclude addons if re
   </extension>
 </addon>
 
+<addon id="repository.GhostRider" name="..Ghost Rider Kodi Repository" version="1.0" provider-name="Ghost Rider">
+  <extension point="xbmc.addon.repository" name="..Ghost Rider Kodi Repository">
+    <info compressed="false">https://github.com/KodiGhostRider/GhostRiderRepo/raw/master/addons.xml</info>
+    <checksum>https://github.com/KodiGhostRider/GhostRiderRepo/raw/master/addons.xml.md5</checksum>
+    <datadir zip="true">https://github.com/KodiGhostRider/GhostRiderRepo/raw/master/repo/</datadir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Ghost Rider Kodi Repository</summary>
+    <description>Ghost Rider Kodi Repository</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="repository.ytplugin" name="Youtube Addon Repo" version="1.0" provider-name="Jeffrey Frasure">
 	<extension point="xbmc.addon.repository" name="Youtube Addon Repository">
 		<info compressed="false">https://github.com/jdf76/repository/raw/master/addons.xml</info>
