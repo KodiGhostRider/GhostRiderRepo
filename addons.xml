@@ -4013,7 +4013,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
     </extension>
 </addon>
 
-<addon id="script.exodus.artwork" version="1.0.4" name="Exodus Artwork" provider-name="Exodus">
+<addon id="script.exodus.artwork" version="1.0.5" name="Exodus Artwork" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 	</requires>
