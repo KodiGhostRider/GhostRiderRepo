@@ -2045,7 +2045,7 @@ v5.2.14 (2017-01-23)
   </extension>
 </addon>
 
-<addon id="plugin.video.md123movies" name="123Movies" version="2.1.1" provider-name="Mucky Duck">
+<addon id="plugin.video.md123movies" name="123Movies" version="2.1.2" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.metahandler" version="2.5.1"/>
@@ -4741,7 +4741,7 @@ Highly configurable: Set your PIN, set your watershed time, exclude addons if re
   </extension>
 </addon>
 
-<addon id="script.module.youtube.dl" name="youtube-dl Control" version="17.518.1" provider-name="Rick Phillips (ruuk)">
+<addon id="script.module.youtube.dl" name="youtube-dl Control" version="17.518.2" provider-name="Rick Phillips (ruuk)">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.addon.signals" version="0.0.1"/>
