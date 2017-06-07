@@ -266,3 +266,5 @@ failed to add the xml from addon service.subtitles.subscenter
 Finished updating addons xml and md5 files
 removing files larger than : 96
 repo Updated Succefully
+[master cee4370] update push in : Wed Jun  7 00:00:46 UTC 2017
+ 13 files changed, 96 insertions(+), 96 deletions(-)
