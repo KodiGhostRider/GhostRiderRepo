@@ -837,7 +837,7 @@ provider-name="kodi senyor">
   </extension>
 </addon>
 
-<addon id="script.elysium.artwork" version="2017.06.08" name="Elysium Artwork" provider-name="Elysium">
+<addon id="script.elysium.artwork" version="2017.06.27" name="Elysium Artwork" provider-name="Elysium">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 	</requires>
@@ -848,6 +848,7 @@ provider-name="kodi senyor">
 		<summary>Themes for the Elysium Addon</summary>
 		<description></description>
 		<platform>all</platform>
+		<news>Added extra theme (thanks Will Martins)</news>
 	</extension>
 </addon>
 
@@ -5779,10 +5780,10 @@ provider-name="kodi senyor">
   </extension>
 </addon>
 
-<addon id="plugin.video.elysium" version="2017.06.10" name="Elysium" provider-name="Elysium">
+<addon id="plugin.video.elysium" version="2017.06.27" name="Elysium" provider-name="Elysium">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
-		<import addon="script.elysium.artwork"/>
+		<import addon="script.elysium.artwork" version="2017.06.27"/>
 		<import addon="script.module.urlresolver"/>
 		<import addon="script.module.metahandler"/>
 		<import addon="script.module.requests"/>
@@ -5795,16 +5796,13 @@ provider-name="kodi senyor">
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Elysium movies and TV shows</summary>
-		<description lang="en">Watch movies and TV shows in high quality! Please note that this addon is not an official part of the Kodi media player, and therefore not to be mentioned within official support channels. This addon has nothing to do with the media player itself, nor it’s intended use, it is simply a third party plugin which has been added to your system.</description>
-		<disclaimer lang="en">The author does not host or share any content, nor is heaffiliated with any of the content providers.</disclaimer>
+		<description lang="en">Watch movies and TV shows in high quality! Please note that this addon is not an official part of the Kodi media player and is therefore not to be mentioned within Kodi's official support channels. This addon has nothing to do with the media player itself, nor its intended use, it is simply a third party plugin which has been added to your system.</description>
+		<disclaimer lang="en">The author does not host any content, nor is he affiliated with any of the content providers.</disclaimer>
 		<platform>all</platform>
-		<news>Rebrand from Zen to Elysium / Disabled cinemabox</news>
+		<news>Added extra theme and made it default (thanks Will Martins) / Fixed sections not opening / Started re-integrating trakt (thanks Soulless)</news>
 		<assets>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
-			<screenshot>resources/screenshots/01.jpg</screenshot>
-			<screenshot>resources/screenshots/02.jpg</screenshot>
-			<screenshot>resources/screenshots/03.jpg</screenshot>
 		</assets>
 	</extension>
 </addon>
