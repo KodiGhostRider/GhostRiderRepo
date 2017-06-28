@@ -10412,6 +10412,19 @@ level.</description>
   </extension>
 </addon>
 
+<addon id="repository.duckpool" name="DUCKPOOL Repository" version="10.5" provider-name="Mucky Duck">
+	<extension point="xbmc.addon.repository" name="DUCKPOOL">
+		<info compressed="false">https://raw.githubusercontent.com/mucky-duck/duckpool/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/mucky-duck/duckpool/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/mucky-duck/duckpool/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>DUCKPOOL Repo</summary>
+		<description>DUCKPOOL Repo</description>n
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="script.hdfull2kd" name="[COLOR FFC0392B]HDFULL[/COLOR]2KD - TVGUIA" version="1.2.0" provider-name="mancuniancol">
 	<requires>
 		<import addon="xbmc.python" version="2.12.0"/>
