@@ -8,82 +8,82 @@ repository.mdrepo addon version: 1.0.2
 found repo data : https://raw.githubusercontent.com/mucky-duck/mdrepo/master/
 repository.mdrepo-1.0.2.zip - ziptype is  true
 https://raw.githubusercontent.com/mucky-duck/mdrepo/master/addons.xml
-FOUND ADDON : plugin.video.mdizle  2.0.1
-no need to update existing key plugin.video.mdizleold version is 2.0.1
 FOUND ADDON : plugin.video.mdwatch32hd  2.0.1
 no need to update existing key plugin.video.mdwatch32hdold version is 2.0.1
-FOUND ADDON : plugin.video.mdimperialstreams  3.0.1
-no need to update existing key plugin.video.mdimperialstreamsold version is 3.0.1
-FOUND ADDON : plugin.video.mdws  2.0.1
-no need to update existing key plugin.video.mdwsold version is 2.0.1
-FOUND ADDON : plugin.video.mdluckytv  2.0.0
-no need to update existing key plugin.video.mdluckytvold version is 2.0.0
-FOUND ADDON : repository.duckpool  10.5
-no need to update existing key repository.duckpoolold version is 10.5
-FOUND ADDON : plugin.video.welovesoaps  1.0.3
-no need to update existing key plugin.video.welovesoapsold version is 1.0.3
-FOUND ADDON : script.module.muckys.common  1.3.5
-no need to update existing key script.module.muckys.commonold version is 1.3.5
-FOUND ADDON : plugin.video.mdmtvuk  1.0.2
-no need to update existing key plugin.video.mdmtvukold version is 1.0.2
-FOUND ADDON : plugin.video.mdcmovieshd  2.0.0
-no need to update existing key plugin.video.mdcmovieshdold version is 2.0.0
-FOUND ADDON : plugin.video.mdvodlocker  1.0.7
-no need to update existing key plugin.video.mdvodlockerold version is 1.0.7
-FOUND ADDON : plugin.video.mdspacemov  1.0.1
-no need to update existing key plugin.video.mdspacemovold version is 1.0.1
-FOUND ADDON : plugin.audio.oldskool  1.0.3
-no need to update existing key plugin.audio.oldskoolold version is 1.0.3
 FOUND ADDON : plugin.video.mdscenepeeper  1.0.6
 no need to update existing key plugin.video.mdscenepeeperold version is 1.0.6
-FOUND ADDON : plugin.video.mdfubar  1.1.7
-no need to update existing key plugin.video.mdfubarold version is 1.1.7
-FOUND ADDON : plugin.video.mdhdmovie14  1.0.5
-no need to update existing key plugin.video.mdhdmovie14old version is 1.0.5
-FOUND ADDON : plugin.video.mdgenvideos  1.0.2
-no need to update existing key plugin.video.mdgenvideosold version is 1.0.2
-FOUND ADDON : plugin.video.md123movies  2.1.3
-no need to update existing key plugin.video.md123moviesold version is 2.1.3
-FOUND ADDON : plugin.audio.MD3-Audio  1.0.2
-no need to update existing key plugin.audio.MD3-Audioold version is 1.0.2
-FOUND ADDON : plugin.video.mdmoviepool  1.0.2
-no need to update existing key plugin.video.mdmoviepoolold version is 1.0.2
-FOUND ADDON : plugin.video.mdhdbox  2.0.1
-no need to update existing key plugin.video.mdhdboxold version is 2.0.1
-FOUND ADDON : plugin.video.mdmovievault  2.0.2
-no need to update existing key plugin.video.mdmovievaultold version is 2.0.2
-FOUND ADDON : plugin.video.gorillastreams  2.2
-no need to update existing key plugin.video.gorillastreamsold version is 2.2
-FOUND ADDON : plugin.video.mdpmovies  1.0.1
-no need to update existing key plugin.video.mdpmoviesold version is 1.0.1
-FOUND ADDON : plugin.video.mdsportsextra  1.0.2
-no need to update existing key plugin.video.mdsportsextraold version is 1.0.2
-FOUND ADDON : plugin.audio.DnB-Sets  1.0.2
-no need to update existing key plugin.audio.DnB-Setsold version is 1.0.2
-FOUND ADDON : repository.metalkettle  2.0.0
-no need to update existing key repository.metalkettleold version is 2.0.0
-FOUND ADDON : plugin.video.mdwatchtvseries  1.1.9
-no need to update existing key plugin.video.mdwatchtvseriesold version is 1.1.9
-FOUND ADDON : plugin.video.mdwww  1.0.2
-no need to update existing key plugin.video.mdwwwold version is 1.0.2
 FOUND ADDON : repository.mdrepo  1.0.2
 no need to update existing key repository.mdrepoold version is 1.0.2
+FOUND ADDON : plugin.video.mdmtvuk  1.0.2
+no need to update existing key plugin.video.mdmtvukold version is 1.0.2
+FOUND ADDON : plugin.video.gorillastreams  2.2
+no need to update existing key plugin.video.gorillastreamsold version is 2.2
+FOUND ADDON : plugin.video.mdgenvideos  1.0.2
+no need to update existing key plugin.video.mdgenvideosold version is 1.0.2
+FOUND ADDON : plugin.video.mdmovievault  2.0.2
+no need to update existing key plugin.video.mdmovievaultold version is 2.0.2
+FOUND ADDON : repository.metalkettle  2.0.0
+no need to update existing key repository.metalkettleold version is 2.0.0
+FOUND ADDON : plugin.video.mdws  2.0.1
+no need to update existing key plugin.video.mdwsold version is 2.0.1
 FOUND ADDON : plugin.video.mdafdah  2.0.1
 no need to update existing key plugin.video.mdafdahold version is 2.0.1
-FOUND ADDON : plugin.video.mdniter  2.0.0
-no need to update existing key plugin.video.mdniterold version is 2.0.0
-FOUND ADDON : plugin.video.mdpubfilm  2.1.0
-no need to update existing key plugin.video.mdpubfilmold version is 2.1.0
+FOUND ADDON : plugin.video.mdwww  1.0.2
+no need to update existing key plugin.video.mdwwwold version is 1.0.2
+FOUND ADDON : plugin.video.mdcmovieshd  2.0.0
+no need to update existing key plugin.video.mdcmovieshdold version is 2.0.0
+FOUND ADDON : plugin.video.mdspacemov  1.0.1
+no need to update existing key plugin.video.mdspacemovold version is 1.0.1
+FOUND ADDON : plugin.video.mdvodlocker  1.0.7
+no need to update existing key plugin.video.mdvodlockerold version is 1.0.7
+FOUND ADDON : plugin.video.welovesoaps  1.0.3
+no need to update existing key plugin.video.welovesoapsold version is 1.0.3
+FOUND ADDON : plugin.video.mdsportsextra  1.0.2
+no need to update existing key plugin.video.mdsportsextraold version is 1.0.2
+FOUND ADDON : skin.aeon.nox.lego  1.0
+no need to update existing key skin.aeon.nox.legoold version is 1.0
+FOUND ADDON : plugin.audio.DnB-Sets  1.0.2
+no need to update existing key plugin.audio.DnB-Setsold version is 1.0.2
+FOUND ADDON : repository.duckpool  10.5
+no need to update existing key repository.duckpoolold version is 10.5
 FOUND ADDON : plugin.video.mdyesmovies  2.0.1
 no need to update existing key plugin.video.mdyesmoviesold version is 2.0.1
 FOUND ADDON : plugin.video.mdm4u  2.1.4
 no need to update existing key plugin.video.mdm4uold version is 2.1.4
-FOUND ADDON : plugin.video.mddizibox  1.0.4
-no need to update existing key plugin.video.mddiziboxold version is 1.0.4
 FOUND ADDON : plugin.video.mdwizard  1.1.6
 no need to update existing key plugin.video.mdwizardold version is 1.1.6
-FOUND ADDON : skin.aeon.nox.lego  1.0
-no need to update existing key skin.aeon.nox.legoold version is 1.0
+FOUND ADDON : plugin.video.mdhdmovie14  1.0.5
+no need to update existing key plugin.video.mdhdmovie14old version is 1.0.5
+FOUND ADDON : plugin.video.mdfubar  1.1.7
+no need to update existing key plugin.video.mdfubarold version is 1.1.7
+FOUND ADDON : plugin.video.mdwatchtvseries  1.1.9
+no need to update existing key plugin.video.mdwatchtvseriesold version is 1.1.9
+FOUND ADDON : plugin.video.mdniter  2.0.0
+no need to update existing key plugin.video.mdniterold version is 2.0.0
+FOUND ADDON : plugin.video.mddizibox  1.0.4
+no need to update existing key plugin.video.mddiziboxold version is 1.0.4
+FOUND ADDON : plugin.video.md123movies  2.1.3
+no need to update existing key plugin.video.md123moviesold version is 2.1.3
+FOUND ADDON : plugin.video.mdimperialstreams  3.0.1
+no need to update existing key plugin.video.mdimperialstreamsold version is 3.0.1
+FOUND ADDON : plugin.audio.MD3-Audio  1.0.2
+no need to update existing key plugin.audio.MD3-Audioold version is 1.0.2
+FOUND ADDON : plugin.audio.oldskool  1.0.3
+no need to update existing key plugin.audio.oldskoolold version is 1.0.3
+FOUND ADDON : plugin.video.mdpubfilm  2.1.0
+no need to update existing key plugin.video.mdpubfilmold version is 2.1.0
+FOUND ADDON : plugin.video.mdizle  2.0.1
+no need to update existing key plugin.video.mdizleold version is 2.0.1
+FOUND ADDON : plugin.video.mdhdbox  2.0.1
+no need to update existing key plugin.video.mdhdboxold version is 2.0.1
+FOUND ADDON : plugin.video.mdpmovies  1.0.1
+no need to update existing key plugin.video.mdpmoviesold version is 1.0.1
+FOUND ADDON : plugin.video.mdmoviepool  1.0.2
+no need to update existing key plugin.video.mdmoviepoolold version is 1.0.2
+FOUND ADDON : plugin.video.mdluckytv  2.0.0
+no need to update existing key plugin.video.mdluckytvold version is 2.0.0
+FOUND ADDON : script.module.muckys.common  1.3.5
+no need to update existing key script.module.muckys.commonold version is 1.3.5
 REPO : repositories/repository.mdrepo-1.0.2.zip
 repository.mdrepo addon version: 1.0.2
 xml for repository:  repositories/repository.mdrepo-1.0.2.zip is not a repository
@@ -93,20 +93,20 @@ repository.k3l3vra addon version: 1.0.0
 found repo data : http://github.com/k3l3vra1/k3l3vra.repo/raw/master/zips/
 repository.k3l3vra-1.0.0.zip - ziptype is  true
 http://github.com/k3l3vra1/k3l3vra.repo/raw/master/addons.xml
-FOUND ADDON : repository.k3l3vra  1.0.1
-no need to update existing key repository.k3l3vraold version is 1.0.1
-FOUND ADDON : context.salts.tools  1.0.7
-no need to update existing key context.salts.toolsold version is 1.0.7
 FOUND ADDON : script.salts.themepak  0.0.12
 no need to update existing key script.salts.themepakold version is 0.0.12
-FOUND ADDON : script.module.tknorris.shared  0.0.23
-no need to update existing key script.module.tknorris.sharedold version is 0.0.23
+FOUND ADDON : repository.k3l3vra  1.0.1
+no need to update existing key repository.k3l3vraold version is 1.0.1
 FOUND ADDON : plugin.video.salts  2.0.195
 no need to update existing key plugin.video.saltsold version is 2.0.195
-FOUND ADDON : script.1channel.themepak  0.0.8
-no need to update existing key script.1channel.themepakold version is 0.0.8
+FOUND ADDON : context.salts.tools  1.0.7
+no need to update existing key context.salts.toolsold version is 1.0.7
 FOUND ADDON : plugin.video.1channel  2.5.78
 no need to update existing key plugin.video.1channelold version is 2.5.78
+FOUND ADDON : script.1channel.themepak  0.0.8
+no need to update existing key script.1channel.themepakold version is 0.0.8
+FOUND ADDON : script.module.tknorris.shared  0.0.23
+no need to update existing key script.module.tknorris.sharedold version is 0.0.23
 REPO : repositories/repository.k3l3vra-1.0.0.zip
 repository.k3l3vra addon version: 1.0.0
 found repo data : https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/zips/
@@ -118,10 +118,10 @@ repository.Jk$p addon version: 1.0.1
 found repo data : https://raw.githubusercontent.com/Jksp/jksp.repo/master/repository/zips
 repository.Jk$p-1.0.1.zip - ziptype is  true
 https://raw.githubusercontent.com/Jksp/jksp.repo/master/repository/zips/addons.xml
-FOUND ADDON : repository.Jk$p  1.0.2
-no need to update existing key repository.Jk$pold version is 1.0.2
 FOUND ADDON : plugin.video.jksp  0.0.13
 no need to update existing key plugin.video.jkspold version is 0.0.13
+FOUND ADDON : repository.Jk$p  1.0.2
+no need to update existing key repository.Jk$pold version is 1.0.2
 REPO : repositories/repository.Jk$p-1.0.1.zip
 repository.Jk$p addon version: 1.0.1
 xml for repository:  repositories/repository.Jk$p-1.0.1.zip is not a repository
@@ -143,34 +143,34 @@ repository.McFly addon version: 2.0
 found repo data : http://repo.mcfly.tk/
 repository.McFly-2.0.zip - ziptype is  true
 http://bit.mcfly.tk/xml
-FOUND ADDON : script.video.F4mProxy  2.8.6
-no need to update existing key script.video.F4mProxyold version is 2.8.7
-FOUND ADDON : script.module.simplejson  3.3.0
-no need to update existing key script.module.simplejsonold version is 3.4.0
-FOUND ADDON : plugin.music.McflyWorldRadio  1.0
-no need to update existing key plugin.music.McflyWorldRadioold version is 1.0
-FOUND ADDON : script.module.requests  2.9.1
-no need to update existing key script.module.requestsold version is 2.12.4
-FOUND ADDON : plugin.video.f4mTester  2.7.1
-no need to update existing key plugin.video.f4mTesterold version is 2.7.1
-FOUND ADDON : script.tvguide-IL  1.0
-no need to update existing key script.tvguide-ILold version is 1.0
-FOUND ADDON : program.mcfly.fontInstaller  1.0
-no need to update existing key program.mcfly.fontInstallerold version is 1.0
-FOUND ADDON : plugin.video.live.streamspro  2.7.4
-no need to update existing key plugin.video.live.streamsproold version is 2.7.4
-FOUND ADDON : script.module.httplib2  0.8.0
-no need to update existing key script.module.httplib2old version is 0.8.0
-FOUND ADDON : script.module.html5lib  0.999.0
-no need to update existing key script.module.html5libold version is 0.999.0
 FOUND ADDON : script.module.t0mm0.common  2.1.1.01
 no need to update existing key script.module.t0mm0.commonold version is 2.1.1.01
-FOUND ADDON : script.module.urlresolver  3.0.16
-script.module.urlresolver  is in blacklist - 
 FOUND ADDON : repository.McFly  2.0
 no need to update existing key repository.McFlyold version is 2.0
+FOUND ADDON : plugin.video.f4mTester  2.7.1
+no need to update existing key plugin.video.f4mTesterold version is 2.7.1
+FOUND ADDON : script.module.html5lib  0.999.0
+no need to update existing key script.module.html5libold version is 0.999.0
+FOUND ADDON : script.tvguide-IL  1.0
+no need to update existing key script.tvguide-ILold version is 1.0
+FOUND ADDON : script.module.httplib2  0.8.0
+no need to update existing key script.module.httplib2old version is 0.8.0
+FOUND ADDON : program.mcfly.fontInstaller  1.0
+no need to update existing key program.mcfly.fontInstallerold version is 1.0
+FOUND ADDON : script.module.requests  2.9.1
+no need to update existing key script.module.requestsold version is 2.12.4
+FOUND ADDON : script.module.urlresolver  3.0.16
+script.module.urlresolver  is in blacklist - 
+FOUND ADDON : plugin.video.live.streamspro  2.7.4
+no need to update existing key plugin.video.live.streamsproold version is 2.7.4
+FOUND ADDON : plugin.music.McflyWorldRadio  1.0
+no need to update existing key plugin.music.McflyWorldRadioold version is 1.0
+FOUND ADDON : script.module.simplejson  3.3.0
+no need to update existing key script.module.simplejsonold version is 3.4.0
 FOUND ADDON : script.module.stream.resolver  1.6.50
 no need to update existing key script.module.stream.resolverold version is 1.6.51
+FOUND ADDON : script.video.F4mProxy  2.8.6
+no need to update existing key script.video.F4mProxyold version is 2.8.7
 REPO : repositories/repository.McFly-2.0.zip
 repository.McFly addon version: 2.0
 xml for repository:  repositories/repository.McFly-2.0.zip is not a repository
@@ -186,11 +186,11 @@ repository.elysium-2017.06.10.zip - ziptype is  true
 https://github.com/OpenELEQ/repository.elysium/raw/master/elysium.xml
 FOUND ADDON : repository.elysium  2017.06.10
 no need to update existing key repository.elysiumold version is 2017.06.10
-FOUND ADDON : script.elysium.artwork  2017.06.27
-no need to update existing key script.elysium.artworkold version is 2017.06.27
-FOUND ADDON : plugin.video.elysium  2017.06.27t
 FOUND ADDON : script.module.schism.common  2017.06.08
 no need to update existing key script.module.schism.commonold version is 2017.06.08
+FOUND ADDON : plugin.video.elysium  2017.06.27t
+FOUND ADDON : script.elysium.artwork  2017.06.27
+no need to update existing key script.elysium.artworkold version is 2017.06.27
 Downloading plugin.video.elysium version:2017.06.27t
 file already exist guessin the dev didnot have a correct xml  removing from updated plugins if so 
 Downloding zip from: https://raw.github.com/OpenELEQ/repository.elysium/master//plugin.video.elysium/plugin.video.elysium-2017.06.27t.zip  To Path:  repo/plugin.video.elysium/plugin.video.elysium-2017.06.27t.zip
@@ -201,38 +201,38 @@ repository.noobsandnerds addon version: 1.8
 found repo data : https://raw.githubusercontent.com/noobsandnerds/noobsandnerds/master/zips/
 repository.noobsandnerds-1.8.zip - ziptype is  true
 https://raw.githubusercontent.com/noobsandnerds/noobsandnerds/master/zips/addons.xml
-FOUND ADDON : repository.elysium  2017.06.10
-no need to update existing key repository.elysiumold version is 2017.06.10
-FOUND ADDON : plugin.video.sportsdevil.launcher  0.2
-no need to update existing key plugin.video.sportsdevil.launcherold version is 0.2
-FOUND ADDON : plugin.video.nantuts  0.0.1
-no need to update existing key plugin.video.nantutsold version is 0.0.1
-FOUND ADDON : repository.q  0.0.2.3
-no need to update existing key repository.qold version is 0.0.2.3
-FOUND ADDON : plugin.program.totalinstaller  3.2.4
-no need to update existing key plugin.program.totalinstallerold version is 3.2.4
-FOUND ADDON : repository.primaeval  0.0.2
-no need to update existing key repository.primaevalold version is 0.0.2
 FOUND ADDON : plugin.program.securityshield  1.0.7
 no need to update existing key plugin.program.securityshieldold version is 1.0.7
-FOUND ADDON : plugin.video.redpill  2017.04.29.03
-no need to update existing key plugin.video.redpillold version is 2017.04.29.03
-FOUND ADDON : script.tvportal  2.1.0
-no need to update existing key script.tvportalold version is 2.1.0
-FOUND ADDON : repository.nanaddons  1.6
-no need to update existing key repository.nanaddonsold version is 1.6
-FOUND ADDON : repository.noobsandnerds  2.0
-no need to update existing key repository.noobsandnerdsold version is 2.0
-FOUND ADDON : plugin.video.revvedup  0.0.3
-no need to update existing key plugin.video.revvedupold version is 0.0.3
-FOUND ADDON : plugin.audio.karmamusic  1.0.1
-no need to update existing key plugin.audio.karmamusicold version is 1.0.1
-FOUND ADDON : plugin.video.metalliq  2.0.12
-plugin.video.metalliq  is in blacklist - 
 FOUND ADDON : plugin.video.bob  1.3.15
 no need to update existing key plugin.video.bobold version is 1.3.15
+FOUND ADDON : plugin.video.sportsdevil.launcher  0.2
+no need to update existing key plugin.video.sportsdevil.launcherold version is 0.2
+FOUND ADDON : repository.primaeval  0.0.2
+no need to update existing key repository.primaevalold version is 0.0.2
+FOUND ADDON : plugin.video.revvedup  0.0.3
+no need to update existing key plugin.video.revvedupold version is 0.0.3
+FOUND ADDON : repository.noobsandnerds  2.0
+no need to update existing key repository.noobsandnerdsold version is 2.0
+FOUND ADDON : repository.nanaddons  1.6
+no need to update existing key repository.nanaddonsold version is 1.6
+FOUND ADDON : repository.q  0.0.2.3
+no need to update existing key repository.qold version is 0.0.2.3
+FOUND ADDON : plugin.video.redpill  2017.04.29.03
+no need to update existing key plugin.video.redpillold version is 2017.04.29.03
+FOUND ADDON : repository.elysium  2017.06.10
+no need to update existing key repository.elysiumold version is 2017.06.10
+FOUND ADDON : plugin.program.totalinstaller  3.2.4
+no need to update existing key plugin.program.totalinstallerold version is 3.2.4
 FOUND ADDON : script.tvportal.tools  1.4
 no need to update existing key script.tvportal.toolsold version is 1.4
+FOUND ADDON : plugin.audio.karmamusic  1.0.1
+no need to update existing key plugin.audio.karmamusicold version is 1.0.1
+FOUND ADDON : plugin.video.nantuts  0.0.1
+no need to update existing key plugin.video.nantutsold version is 0.0.1
+FOUND ADDON : script.tvportal  2.1.0
+no need to update existing key script.tvportalold version is 2.1.0
+FOUND ADDON : plugin.video.metalliq  2.0.12
+plugin.video.metalliq  is in blacklist - 
 REPO : repositories/repository.noobsandnerds-1.8.zip
 repository.noobsandnerds addon version: 1.8
 found repo data : https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/
@@ -240,45 +240,45 @@ repository.noobsandnerds-1.8.zip - ziptype is  true
 https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml
 FOUND ADDON : script.module.urlresolver  3.0.32
 script.module.urlresolver  is in blacklist - 
-FOUND ADDON : script.module.liveresolver  0.1.49
-script.module.liveresolver  is in blacklist - 
-FOUND ADDON : script.module.python.koding.aio  0.9.6.5
-no need to update existing key script.module.python.koding.aioold version is 0.9
-FOUND ADDON : script.module.nanscrapers  0.5.22
-no need to update existing key script.module.nanscrapersold version is 0.5.22
 FOUND ADDON : plugin.video.f4mTester  2.7.1
 no need to update existing key plugin.video.f4mTesterold version is 2.7.1
-FOUND ADDON : script.video.F4mProxy  2.8.7
-no need to update existing key script.video.F4mProxyold version is 2.8.7
-FOUND ADDON : script.mrknow.urlresolver  2017.03.30.1
-no need to update existing key script.mrknow.urlresolverold version is 2017.06.14.1
+FOUND ADDON : script.module.python.koding.aio  0.9.6.5
+no need to update existing key script.module.python.koding.aioold version is 0.9
 FOUND ADDON : script.module.tulip  1.0.8
 no need to update existing key script.module.tulipold version is 1.0.8
+FOUND ADDON : script.module.nanscrapers  0.5.22
+no need to update existing key script.module.nanscrapersold version is 0.5.22
+FOUND ADDON : script.module.liveresolver  0.1.49
+script.module.liveresolver  is in blacklist - 
+FOUND ADDON : script.mrknow.urlresolver  2017.03.30.1
+no need to update existing key script.mrknow.urlresolverold version is 2017.06.14.1
+FOUND ADDON : script.video.F4mProxy  2.8.7
+no need to update existing key script.video.F4mProxyold version is 2.8.7
 REPO : repositories/repository.filmkodi.com-2.1.0.zip
 repository.filmkodi.com addon version: 2.1.0
 found repo data : http://kodi.filmkodi.com/
 repository.filmkodi.com-2.1.0.zip - ziptype is  true
 http://kodi.filmkodi.com/addons.xml
-FOUND ADDON : plugin.video.mrknowtv  2017.04.27.1
-plugin.video.mrknowtv  is in blacklist - 
-FOUND ADDON : script.specto.media  2016.07.07
-no need to update existing key script.specto.mediaold version is 2016.07.07
-FOUND ADDON : plugin.video.fanfilm  2017.04.07.2
-no need to update existing key plugin.video.fanfilmold version is 2017.04.07.2
-FOUND ADDON : plugin.video.mrknow.wizjatv  0.2.4
-plugin.video.mrknow.wizjatv  is in blacklist - 
-FOUND ADDON : plugin.video.specto  2017.06.11.1
-no need to update existing key plugin.video.spectoold version is 2017.06.11.1
-FOUND ADDON : script.module.metahandler  2.9.0
-no need to update existing key script.module.metahandlerold version is 2.9.1
 FOUND ADDON : plugin.video.mrknow  2017.06.14.2
 plugin.video.mrknow  is in blacklist - 
 FOUND ADDON : plugin.video.xbmcfilm  2.1.0
 plugin.video.xbmcfilm  is in blacklist - 
-FOUND ADDON : script.mrknow.urlresolver  2017.06.14.1
-no need to update existing key script.mrknow.urlresolverold version is 2017.06.14.1
+FOUND ADDON : plugin.video.fanfilm  2017.04.07.2
+no need to update existing key plugin.video.fanfilmold version is 2017.04.07.2
 FOUND ADDON : repository.filmkodi.com  2.1.0
 repository.filmkodi.com  is in blacklist - 
+FOUND ADDON : script.module.metahandler  2.9.0
+no need to update existing key script.module.metahandlerold version is 2.9.1
+FOUND ADDON : plugin.video.mrknowtv  2017.04.27.1
+plugin.video.mrknowtv  is in blacklist - 
+FOUND ADDON : plugin.video.mrknow.wizjatv  0.2.4
+plugin.video.mrknow.wizjatv  is in blacklist - 
+FOUND ADDON : script.specto.media  2016.07.07
+no need to update existing key script.specto.mediaold version is 2016.07.07
+FOUND ADDON : script.mrknow.urlresolver  2017.06.14.1
+no need to update existing key script.mrknow.urlresolverold version is 2017.06.14.1
+FOUND ADDON : plugin.video.specto  2017.06.11.1
+no need to update existing key plugin.video.spectoold version is 2017.06.11.1
 REPO : repositories/repository.filmkodi.com-2.1.0.zip
 repository.filmkodi.com addon version: 2.1.0
 xml for repository:  repositories/repository.filmkodi.com-2.1.0.zip is not a repository
