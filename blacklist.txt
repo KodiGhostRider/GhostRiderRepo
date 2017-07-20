@@ -47,7 +47,6 @@ script.icechannel.extn.extra.uk
 script.icechannel.extn.india
 script.icechannel.extn.italia
 script.icechannel.extn.xunitytalk
-script.image.resource.select
 script.facebook.media
 script.eztvapi2kd
 weather.metoffice

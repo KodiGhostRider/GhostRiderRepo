@@ -1,11 +1,4 @@
-https://github.com/jmarth/plugin.video.kmediatorrent
 https://github.com/amet/service.autosubs
-https://github.com/XBMCil/service.subtitles.subscenter
-https://github.com/XBMCil/service.subtitles.subtitle
-https://github.com/XBMCil/service.subtitles.torec
-https://github.com/XBMCil/metadata.hebmovies.wiz
-https://github.com/bromix/plugin.video.youtube/
-https://github.com/Diblo/KODI-Popcorn-Time/tree/master/plugin.video.kodipopcorntime
 https://github.com/XBMC-Addons/script.module.httplib2
 https://github.com/ruuk/script.module.youtube.dl
 https://github.com/DxCx/plugin.video.animeram
@@ -14,3 +7,12 @@ https://github.com/WayneD/script.tv.show.next.aired
 https://github.com/scakemyer/plugin.video.quasar
 https://github.com/burekas7/context.subtitlesdialog.contextmenu
 https://github.com/opensubtitles/service.subtitles.opensubtitles_by_opensubtitles
+https://github.com/Alanon202/skin.eminence.2.mod.Krypton
+https://github.com/marcelveldt/script.skinshortcuts
+https://github.com/marcelveldt/script.skin.helper.service
+https://github.com/marcelveldt/script.skin.helper.skinbackup
+https://github.com/marcelveldt/script.skin.helper.widgets
+https://github.com/marcelveldt/script.skin.helper.colorpicker
+https://github.com/phil65/script.extendedinfo
+https://github.com/ronie/script.image.resource.select
+https://github.com/phil65/plugin.program.autocompletion
