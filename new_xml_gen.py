@@ -74,11 +74,9 @@ def html(data):
     os.environ["TZ"]="Asia/Jerusalem"
     time.tzset()
     time_cur=time.strftime("%T %Z", time.localtime(time.time()))
-    html = '<html><head>NEW PLUGINS UPDATED - ' + time_cur + '<link rel="stylesheet" type="text/css" href='+ css + '></HEAD><BODY><table style="height: 342px;" width="759"><tr><th>Plugin Name</th><th>Version</th><th>uurl</th></tr>'
+    html = '<html><head>NEW PLUGINS UPDATED - ' + time_cur + '<link rel="stylesheet" type="text/css" href='+ css + '></HEAD><BODY><table style="height: 342px;" width="759"><tr><th>Plugin Name</th><th>Version</th></tr>'
     for key in data.keys():
-        updateUrl='http://repo.the-vibe.co.il/service/commit?id='+ key + '&version='  + data[key]
-        #urlopen(updateUrl)
-        html +='<tr><th>' + key + '</th><th>' + data[key] + '</th></tr></th><th>' +updateUrl + '</th></tr>'
+        html +='<tr><th>' + key + '</th><th>' + data[key] + '</th></tr>'
     html += '</table></BODY></HTML>'
     return(html)
 
@@ -503,17 +501,20 @@ class Generator:#update addons.xml to reflect local addon folder
                                 try:
                                     RST=ET.fromstring(xml_file)
                                     for line in xml_lines:
+                                        skip=1
                                         # skip encoding format line
                                         if ( str(line,'utf-8').find( "<?xml" ) >= 0 ):
+                                            skip=0
                                             if(str(line,'utf-8').find( "><" ) >= 0 ):
-                                                addon_xml +="<" + str(line,'utf-8').split("><").rstrip()[1] + "\n"
-                                            continue
-                                        # add line
-                                        addon_xml += str(line,'utf-8').rstrip() + "\n"
+                                                skip=1
+                                                addon_xml +="<" + str(line,'utf-8').split('?><')[1] + "\n"
+                                                continue
+                                        if skip == 1:
+                                           addon_xml += str(line,'utf-8') + "\n"
                                         # we succeeded so add to our final addons.xml text
-                                    addons_xml += addon_xml.rstrip() + "\n\n"
+                                    addons_xml += addon_xml + "\n\n"
                                 except Exception as e:
-                                    print("failed to add the xml from addon " +addon)
+                                    print("failed to add the xml from addon " +addon + str(e))
                         except Exception as e:
                                 # missing or poorly formatted addon.xml
                                 print("Excluding for %s" % (  e, ))
