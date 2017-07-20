@@ -161,6 +161,35 @@
 </addon>
 
 
+
+<addon id="plugin.video.kiddiecartoons" name="Kiddie Cartoons" version="1.0.2" provider-name="MetalKettle">
+
+  <requires>
+
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+
+  <extension point="xbmc.python.pluginsource" library="default.py">
+
+        <provides>video</provides>
+
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+
+    <summary lang="en"></summary>
+
+    <description lang="en"></description>
+
+    <platform>all</platform>
+
+  </extension>
+
+</addon>
+
+
+
 <addon id="resource.images.skinicons.hexagon.he" name="Skin Icons - Hexagon Design (Hebrew)" version="1.0.0" provider-name="Orna Post, Benny Buchnik">
 	<extension point="kodi.resource.images" compile="false" type="skinicons" />
 	<requires>
@@ -234,7 +263,7 @@
 </addon>
 
 
-<addon id="script.module.tulip" name="Tulip Routine Libraries" version="1.0.8" provider-name="Twilight0">
+<addon id="script.module.tulip" name="Tulip Routine Libraries" version="1.1.3" provider-name="Twilight0">
 	<requires>
 		<import addon="xbmc.python" version="2.24.0"/>
 	</requires>
@@ -632,6 +661,22 @@ provider-name="kodi senyor">
 </addon>
 
 
+<addon id="script.module.f4mproxy" 
+	     name="f4m proxy" 
+	     version="1.0.16" 
+	     provider-name="Shani">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Proxy for f4m</summary>
+    <description lang="en">Use this addon to play F4m v1 and v2 streams</description>
+  </extension>
+</addon>
+
+
 <addon id="script.torrent.pulsar" name="Torrent2Pulsar" version="0.0.2" provider-name="mancuniancol">
 	<requires>
 		<import addon="xbmc.python" version="2.12.0"/>
@@ -757,6 +802,21 @@ provider-name="kodi senyor">
         </disclaimer>
         <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
     </extension>
+</addon>
+
+
+<addon id="frenchdj.repository" name="frenchdj repository" version="0.0.1" provider-name="frenchdj">
+	<extension point="xbmc.addon.repository" name="frenchdj Add-on Repository">
+		<info compressed="false">http://raw.github.com/frenchdj/frenchdj.repository/master/addons.xml</info>
+		<checksum>http://raw.github.com/frenchdj/frenchdj.repository/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/frenchdj/frenchdj.repository/master/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>frenchdj Addon</summary>
+		<description>frenchdj addons repositorio</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
 </addon>
 
 
@@ -998,6 +1058,33 @@ v5.2.14 (2017-01-23)
 </addon>
 
 
+<addon id="plugin.video.Drstream" name="Dr Stream Fork" version="2.5.0" provider-name="The Alpha">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
+		<import addon="script.module.pyxbmct" version="1.1.4" />
+		<import addon="script.module.urlresolver" version="3.0.0"/>
+		<import addon="script.module.liveresolver" version="0.1.24"/>
+		<import addon="script.video.F4mProxy" version="2.2.3"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Dr Stream Fork</summary>
+		<description lang="en">Real Debrid Movies only.</description>
+		<platform>all</platform>
+		<forum></forum>
+		<website></website>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+		<news>REBOOT</news>
+	</extension>
+</addon>
+
+
 <addon id="plugin.video.reshet.video" name="רשת" version="1.3.3" provider-name="sbentin">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -1195,6 +1282,38 @@ v5.2.14 (2017-01-23)
 </addon>
 
 
+<addon id="script.tvguide.Assassins" name="[COLOR black].[/COLOR]Assassins [COLOR red]TV Guide[/COLOR]" version="0.0.1" provider-name="Smurf, Locknload">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0"/>
+        <import addon="script.module.simplejson" version="3.3.0"/>
+        <import addon="script.module.requests" version="2.9.1" />
+        <import addon="script.module.dateutil" version="2.4.2" />
+        <import addon="plugin.video.aini" version="1.0.1" />
+        <import addon="plugin.program.ATools" version="0.0.1" />
+		<import addon="plugin.video.FMG" version="2.15" />
+		<import addon="script.module.addon.common" optional="true" />
+		<import addon="script.module.pil" />
+    </requires>
+    <extension point="xbmc.python.script" library="addon.py">
+            <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="login"/>
+    <extension point="xbmc.addon.metadata">
+        
+		<summary lang="en">Powered By TV Streamers</summary>
+		<description lang="en">[COLOR red]IMPORTANT T&amp;C's [/COLOR] This Guide only provides a selection of Legitimatly Sourced Freeview Channels. On activating these streams you have agreed to having the Correct TV Licence for the Content you are viewing. Assassins TV Guide does not condone any illegitimate content, Adding [COLOR red]ANY[/COLOR] other content is done so at your own discretion. All Logos used are copyright to their respective owners. </description>
+        <disclaimer lang="en">Based on tvguide.fullscreen from Primaeval</disclaimer>
+        <language></language>
+        <platform>all</platform>
+        <license>GPLv2</license>
+        <forum></forum>
+        <source></source>
+        <website></website>
+        <email></email>
+    </extension>
+</addon>
+
+
 <addon id="plugin.video.nana10.video" name="נענע 10" version="1.0.10" provider-name="sbentin">
     <requires>
         <import addon="xbmc.python" version="2.0"/>
@@ -1367,6 +1486,23 @@ v5.2.14 (2017-01-23)
 </addon>
 
 
+<addon id="plugin.video.toddlerworldtv" name="Toddler World TV" version="1.0.1" provider-name="MetalKettle">  
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>    
+		<import addon="script.module.urlresolver"  version="2.1.2"/> 
+		<import addon="plugin.video.youtube" version="3.0.0"/>
+	</requires>  
+	<extension point="xbmc.python.pluginsource" library="default.py">        
+		<provides>video</provides>  
+	</extension>  
+	<extension point="xbmc.addon.metadata">    
+		<summary lang="en"></summary>    
+		<description lang="en"></description>    
+		<platform>all</platform>  
+	</extension>
+</addon>
+
+
 <addon id="script.module.html5lib"
        name="html5lib-python"
        version="0.999.0"
@@ -1403,6 +1539,22 @@ v5.2.14 (2017-01-23)
 		<description lang="he">חבילת אייקונים - בוס</description>
 		<platform>all</platform>
 	</extension>
+</addon>
+
+
+<addon id="plugin.program.readcomics" name="Read Comics" version="1.0.2" provider-name="MetalKettle">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en"></description>
+    <platform>all</platform>
+  </extension>
 </addon>
 
 
@@ -1730,6 +1882,23 @@ v5.2.14 (2017-01-23)
  </addon>
 
 
+<addon id="plugin.video.tonido-client" name="Tonido Client" version="1.0.1" provider-name="MetalKettle">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.t0mm0.common" version="2.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>audio video</provides>
+
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en"></description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+
 <addon id="metadata.universal"
        name="Universal Movie Scraper"
        version="2.8.0"
@@ -2052,6 +2221,43 @@ v5.2.14 (2017-01-23)
 </addon>
 
 
+<addon id="repository.colossus.common" name="[COLOR gold]Colossal Libraries Repository[/COLOR]" version="1.0.4" provider-name="Colossal">
+    <extension point="xbmc.addon.repository" name="Colossus Libraries Repository">
+        <info compressed="false">https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Faster Updating of Common Libraries for Kodi</summary>
+        <description>This repository contains intermediate builds of libraries commonly used by Colossus Kodi addons.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+
+
+<addon id="plugin.video.crackler"
+       name="Crackler"
+       version="1.0.6.1"
+       provider-name="eign">
+  <requires>
+	<import addon="xbmc.python" version="2.14.0"/>
+	<import addon="script.common.plugin.cache" version="0.9.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+	<summary lang="en">Crackler</summary>
+	<description lang="en">TV Shows and Movies from Crackle</description>
+	<platform>all</platform>
+	<language>en</language>
+	<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+  </extension>
+</addon>
+
+
 <addon id="plugin.video.featherence.kids" name="Featherence Kids" version="0.2.5" provider-name="finalmakerr">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -2252,6 +2458,19 @@ v5.2.14 (2017-01-23)
 </addon>
 
 
+<addon id="script.covenant.artwork" version="1.0.2" name="Covenant Artwork" provider-name="Covenant">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Themes for the Covenant Addon</summary>
+		<description></description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+
 <addon id="plugin.video.md123movies" name="123Movies" version="2.1.3" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -2287,6 +2506,22 @@ v5.2.14 (2017-01-23)
     <description>Телевидение</description>
     <platform>all</platform>
   </extension>
+</addon>
+
+
+<addon id="plugin.video.tvmix" name="TV Mix" version="1.0.6" provider-name="MetalKettle">  
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>    
+		<import addon="script.module.urlresolver"  version="2.1.2"/> 
+	</requires>  
+	<extension point="xbmc.python.pluginsource" library="default.py">        
+		<provides>video</provides>  
+	</extension>  
+	<extension point="xbmc.addon.metadata">    
+		<summary lang="en"></summary>    
+		<description lang="en"></description>    
+		<platform>all</platform>  
+	</extension>
 </addon>
 
 
@@ -2342,6 +2577,41 @@ v5.2.14 (2017-01-23)
 </addon>
 
 
+
+<addon id="plugin.video.DecadoDocs" name="Decado Documentaries" version="1.0.3" provider-name="MetalKettle">
+
+  <requires>
+
+    <import addon="xbmc.python" version="2.1.0"/>
+
+    <import addon="script.module.t0mm0.common" version="2.0.0"/>
+
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+
+  </requires>
+
+  <extension point="xbmc.python.pluginsource" library="default.py">
+
+        <provides>video</provides>
+
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+
+    <summary lang="en"></summary>
+
+    <description lang="en"></description>
+
+    <platform>all</platform>
+
+  </extension>
+
+</addon>
+
+
+
 <addon id="plugin.video.mddizibox" name="DiziBox" version="1.0.4" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -2358,6 +2628,22 @@ v5.2.14 (2017-01-23)
     <summary lang="en">Stream content From The dizibox.com WebSite</summary>
     <description lang="en">Stream Content From The dizibox.com WebSite</description>
 	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+
+<addon id="plugin.program.ATools" name="Assassins Tools" version="0.0.1" provider-name="Aftermath">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Assassins Tools</summary>
+    <description lang="en">Assassins Tools using Aftermath Wizard, which allows you to get access to the latest Aftermath Custom Builds.</description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -2789,6 +3075,35 @@ v5.2.14 (2017-01-23)
 </addon>
 
 
+
+<addon id="plugin.audio.televisiontunes" name="Themes" version="0.0.9" provider-name="MetalKettle">
+
+  <requires>
+
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+
+  <extension point="xbmc.python.pluginsource" library="default.py">
+
+        <provides>audio</provides>
+
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+
+    <summary lang="en">Browse TelevisionTunes.com</summary>
+
+    <description lang="en">Listen to TV Theme music and songs from different television shows</description>
+
+    <platform>all</platform>
+
+  </extension>
+
+</addon>
+
+
+
 <addon id="metadata.artists.universal"
        name="Universal Artist Scraper"
        version="3.6.2"
@@ -2928,6 +3243,30 @@ v5.2.14 (2017-01-23)
     <platform>all</platform>
     <source>https://github.com/andrewleech/script.module.pyopenssl</source>
   </extension>
+</addon>
+
+
+<addon id="repository.xibalba" name="Xibalba Repository" version="1.01" provider-name="Xibalba">
+    <extension point="xbmc.addon.repository" name="Xibalba Repository">
+    <dir>
+        <info compressed="false">https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/</datadir>
+    </dir>
+        <info compressed="false">https://github.com/xibalba10/repository.xibalba/raw/master/addons.xml</info>
+        <checksum>https://github.com/xibalba10/repository.xibalba/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/xibalba10/repository.xibalba/raw/master/zips/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Unofficial Kodi Addons from Xibalba</summary>
+        <description>Download and install unofficial Kodi add-ons from the Xibalba add-on repository.
+
+Kodi is a registered trademark of the XBMC Foundation. We are not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <forum>https://github.com/xibalba10</forum>
+        <website>https://github.com/xibalba10</website>
+    </extension>
 </addon>
 
 
@@ -3302,6 +3641,40 @@ http://www.hometheater.co.il</description>
     <news>Added exception in Get_ID - the function is not available on every platform</news>
     <source>https://github.com/totalrevolution/totalrevolution/tree/master/script.module.python.koding.aio</source>
   </extension>  
+</addon>
+
+
+<addon id="plugin.video.fof"
+       name="Film0n"
+       version="0.0.8"
+       provider-name="rattlehead">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+	<import addon="script.module.addon.common" />
+	<import addon="script.module.simplejson" version="3.3.0"/>
+    <import addon="script.common.plugin.cache" version="2.5.5"/>  
+    <import addon="script.module.livestreamer" optional="true"/>
+    <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+
+  <extension point="xbmc.addon.metadata">
+    <summary>Film0n</summary>
+    <description>A quick and dirty fork of LiveStreamsPro, to get Film0n working again</description>
+    <platform>all</platform>
+  </extension>
 </addon>
 
 
@@ -4025,6 +4398,40 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 </addon>
 
 
+
+<addon id="plugin.video.erotik" name="Erotik (XXX)" version="1.0.21" provider-name="MetalKettle">
+
+  <requires>
+
+    <import addon="xbmc.python" version="2.1.0"/>
+
+    <import addon="script.module.t0mm0.common" version="1.1.0"/>
+
+    <import addon="script.module.beautifulsoup"/>
+    <import addon="script.module.urlresolver" version="2.2.0"/>
+
+  </requires>
+
+  <extension point="xbmc.python.pluginsource" library="default.py">
+
+        <provides>video</provides>
+
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+
+    <summary lang="en"></summary>
+
+    <description lang="en"></description>
+
+    <platform>all</platform>
+
+  </extension>
+
+</addon>
+
+
+
 <addon id="plugin.video.featherence.extreme" version="0.1.6" name="Featherence Extreme" provider-name="finalmakerr">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -4136,6 +4543,38 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 </addon>
 
 
+<addon id="plugin.video.documented.hd"
+       name="Documented.HD"
+       version="1.1"
+       provider-name="frenchdj">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />    
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Dual Edition Addon</summary>
+    <description>Alternative documentaries in HD quality. 
+Playlists organized by categories and any source comes from Youtube users. 
+[B][COLOR lime]Advised the latest version of youtube 5.*.*[/B][/COLOR]</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+
 <addon id="service.autosubs"
     name="AutoSubs" version="1.0.0" provider-name="amet,schumi2004">
   <requires>
@@ -4223,6 +4662,58 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 - Fixed Russian providers
 - Added library integration
 - Fixed trakt watch/unwatched on seasons</news>
+	</extension>
+</addon>
+
+
+<addon id="repository.axbmcuser" name="axbmcuser REPO" version="1.1.5" provider-name="axbmcuser">
+	<requires>
+		<import addon="xbmc.addon" version="12.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.repository" name="axbmcuser REPO">
+		<dir minversion="15.9.0">
+			<info compressed="false">https://github.com/axbmcuser/_repo/raw/master/jarvis/addons.xml</info>
+			<checksum>https://github.com/axbmcuser/_repo/raw/master/jarvis/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/axbmcuser/_repo/raw/master/jarvis</datadir>
+			<hashes>false</hashes>
+		</dir>
+		<dir minversion="16.9.0">
+			<info compressed="false">https://github.com/axbmcuser/_repo/raw/master/krypton/addons.xml</info>
+			<checksum>https://github.com/axbmcuser/_repo/raw/master/krypton/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/axbmcuser/_repo/raw/master/krypton</datadir>
+			<hashes>false</hashes>
+		</dir>
+		<dir minversion="17.9.0">
+			<info compressed="false">https://github.com/axbmcuser/_repo/raw/master/leia/addons.xml</info>
+			<checksum>https://github.com/axbmcuser/_repo/raw/master/leia/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/axbmcuser/_repo/raw/master/leia</datadir>
+			<hashes>false</hashes>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">This repository contains KODI addons from user "axbmcuser".</summary>
+		<description lang="en">This repository contains KODI addons from user "axbmcuser".</description>
+		<platform>all</platform>
+		<license/>
+		<forum>http://forum.kodi.tv/showthread.php?tid=242892</forum>
+		<website/>
+		<email/>
+		<source/>
+		<news>[B]1.1.5[/B] (2017-01-16)
+- Minor cleanup
+
+[B]1.1.4[/B] (2017-01-16)
+- Now supporting KODI 18 (Leia)
+
+[B]1.1.3[/B] (2016-08-03)
+- Minor cleanup
+
+[B]1.1.2[/B] (2016-07-23)
+- Changes for KODI 17 (Krypton): Repo is multi-dir based again (for now)
+		</news>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
 	</extension>
 </addon>
 
@@ -4397,6 +4888,18 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
         <description lang="en">Watch [COLOR red][B]ADULT[/B][/COLOR] Movies with Ultimate WhiteCream</description>
 		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>        
     </extension>
+</addon>
+
+
+<addon id="script.xxxodus.scrapers" name="XXXODUS Scrapers" version="1.00.000" provider-name="Xibalba">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Scrapers for use in XXXODUS</summary>
+	</extension>
 </addon>
 
 
@@ -4609,6 +5112,46 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 </addon>
 
 
+<addon id="plugin.video.mic"
+       name="Made In Canada IPTV"
+       version="2.1"
+       provider-name="TheKrazy0ne">
+   <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />    
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Free Canadian IPTV</summary>
+    <description>
+        Follow @TheKrazy0ne (Note that is a zero) on twitter.
+			**DISCLAIMER**
+        1. MiC DOES NOT HOST ANY OF THE STREAMS FOUND WITHIN THIS ADDON
+        2. ALL STREAMS FOUND WITHING THIS ADDON ARE FOUND FREELY ON THE INTERNET
+        3. WE ACCEPT NO RESPONSIBILITY FOR THE USE OF THIS ADDON
+        4. THIS ADDON IS AND ALWAYS WILL BE FREE!!
+        5. IF YOU PAID FOR THIS ADDON, ASK FOR YOUR MONEY BACK!!!
+        6. ENJOY THE STREAMS WITHIN..... CHEERS!
+    
+    </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+
 <addon id="script.common.plugin.cache" name="Common plugin cache" provider-name="TheCollective" version="2.5.8">
   <requires>
     <import addon="xbmc.python" version="2.24.0"/>
@@ -4621,6 +5164,35 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
   </extension>
   <extension library="lib" point="xbmc.python.module"/>
 </addon>
+
+
+
+<addon id="plugin.video.tellyads" name="Telly Ads" version="1.0.0" provider-name="MetalKettle">
+
+  <requires>
+
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+
+  <extension point="xbmc.python.pluginsource" library="default.py">
+
+        <provides>video</provides>
+
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+
+    <summary lang="en"></summary>
+
+    <description lang="en"></description>
+
+    <platform>all</platform>
+
+  </extension>
+
+</addon>
+
 
 
 <addon id="plugin.video.teevee"
@@ -4776,6 +5348,29 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
     <website></website>
     <email></email>
     <source></source>
+  </extension>
+</addon>
+
+
+<addon id="plugin.video.FMG"
+       name="Find My Game"
+       version="2.16"
+       provider-name="Smurf">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Twitter Support @DeveloperSmurf</summary>
+    <description lang="en">Easy Way To Find which Add-on is showing your game. FMG does not provide any streams to matches, FMG seaches through your linked addons for streams, Add your addons using the Assassins ini Creator. Adding Add-ons to FMG is done so at users descression</description>
+    <disclaimer lang="en">FMG Does not the condone use of illegimate streams</disclaimer>
+	<platform>all</platform>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
   </extension>
 </addon>
 
@@ -5257,6 +5852,62 @@ Highly configurable: Set your PIN, set your watershed time, exclude addons if re
 </addon>
 
 
+<addon id="plugin.video.adultswim"
+       name="Adult Swim"
+       version="1.0.1"
+       provider-name="jsergio">
+  <requires>
+    <import addon="xbmc.python" version="2.20.0"/>
+    <import addon="script.module.t1mlib" version="1.0.18"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Adult Swim</summary>
+    <description lang="en">Watch free episodes from adultswim.com</description>
+    <disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.kodi.tv/showthread.php?tid=224741</forum>
+    <website>www.adultswim.com</website>
+    <email></email>
+    <source>https://github.com/learningit/Kodi-plugins-source</source>
+  </extension>
+</addon>
+
+
+
+<addon id="plugin.program.jollyroger" name="Jolly Roger Cookbook" version="1.0.0" provider-name="MetalKettle">
+
+  <requires>
+
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+
+  <extension point="xbmc.python.pluginsource" library="default.py">
+
+        <provides>executable</provides>
+
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+
+    <summary lang="en">Before you waste one entire second even considering mixing, creating, or otherwise implementing the instructions in these files, be aware that people have died from some of these very texts</summary>
+
+    <description lang="en">Before you waste one entire second even considering mixing, creating, or otherwise implementing the instructions in these files, be aware that people have died from some of these very texts </description>
+
+    <platform>all</platform>
+
+  </extension>
+
+</addon>
+
+
+
 <addon id="repository.echo" name="[COLOR lime]ECHO[/COLOR] [COLOR white]Repository[/COLOR]" version="1.03" provider-name="ECHO">
 	<extension point="xbmc.addon.repository" name="ECHO Repository">
 	<dir>
@@ -5313,6 +5964,25 @@ Highly configurable: Set your PIN, set your watershed time, exclude addons if re
 		<description lang="en">Completely redesigned to create a modern look, while retaining the classic Aeon feel.</description>
 		<platform>all</platform>
 	</extension>
+</addon>
+
+
+<addon id="repository.colossus" name="[COLOR gold]Colossus Repository[/COLOR]" version="999.999.6" provider-name="Colossal">
+    <extension point="xbmc.addon.repository" name="[COLOR gold]Colossus Repository[/COLOR]">
+    <dir>
+        <info compressed="false">https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/</datadir>
+    </dir>
+        <info compressed="false">https://raw.githubusercontent.com/Colossal1/repository.colossus/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Colossal1/repository.colossus/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Colossal1/repository.colossus/master/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Home Of 3rd Party Addons</summary>
+        <description></description>
+        <platform>all</platform>
+    </extension>
 </addon>
 
 
@@ -5591,6 +6261,36 @@ Highly configurable: Set your PIN, set your watershed time, exclude addons if re
 </addon>
 
 
+<addon id="plugin.video.TubTub" name="TubTub" version="1.0.1" provider-name="MetalKettle">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">24-7 Streaming of various tv shows or show types</summary>
+    <description lang="en">Some of the streams are poor quality, be warned :)</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+
+<addon id="plugin.video.spacetelescope" name="Space Telescope" version="0.0.7" provider-name="MetalKettle">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Videos and news releases from the Hubble Space Telescope project</summary>
+    <description lang="en">Videos and news releases from the Hubble Space Telescope project</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+
 <addon id="repository.ytplugin" name="Youtube Addon Repo" version="1.0" provider-name="Jeffrey Frasure">
 	<extension point="xbmc.addon.repository" name="Youtube Addon Repository">
 		<info compressed="false">https://github.com/jdf76/repository/raw/master/addons.xml</info>
@@ -5659,6 +6359,24 @@ Highly configurable: Set your PIN, set your watershed time, exclude addons if re
 </addon>
 
 
+    <addon id="repository.tvguides" name=".[COLOR red]TV GUIDES[/COLOR] Repository" version="0.0.1" provider-name="locknload">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="TV GUIDES Repository">
+            <info compressed="false">http://tvstreamers.net/repo/tvguides/addons.xml</info>
+            <checksum>http://tvstreamers.net/repo/tvguides/addons.xml.md5</checksum>
+            <datadir zip="true">http://tvstreamers.net/repo/tvguides/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>TV GUIDES Repository</summary>
+            <description>!! TV GUIDES !!</description>
+            <platform>all</platform>
+    </extension>
+</addon>
+
+
 <addon id="plugin.video.featherence.docu" name="Featherence Docu" version="0.1.9" provider-name="finalmakerr, yoel guy">
   <requires>
 	<import addon="xbmc.python" version="2.1.0"/>
@@ -5720,6 +6438,21 @@ provider-name="kodi senyor">
 </extension>
 </addon>
 
+
+
+<addon id="plugin.program.ukcheck" name="UK Vehicle Check" version="1.0.0" provider-name="MetalKettle">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en"></description>
+    <platform>all</platform>
+  </extension>
+</addon>
 
 
 <addon id="script.senyor.commands"
@@ -6068,6 +6801,21 @@ provider-name="kodi senyor">
 </addon>
 
 
+<addon id="plugin.video.toonmania" name="ToonMania" version="1.0.4" provider-name="MetalKettle">  
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>    
+	</requires>  
+	<extension point="xbmc.python.pluginsource" library="default.py">        
+		<provides>video</provides>  
+	</extension>  
+	<extension point="xbmc.addon.metadata">    
+		<summary lang="en"></summary>    
+		<description lang="en"></description>    
+		<platform>all</platform>  
+	</extension>
+</addon>
+
+
 <addon id="plugin.video.elysium" version="2017.07.20" name="Elysium" provider-name="Elysium">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
@@ -6232,6 +6980,31 @@ We have no control over the links on any site that we provide a link to. If you 
 		<website>http://noobsandnerds.com</website>
 	</extension>
 </addon>
+
+
+    <addon id="repository.alanon" name="Alanon's Repo" version="1.0.1" provider-name="Alanon">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="Alanon's Repo">
+            <info compressed="false">https://raw.githubusercontent.com/Alanon202/repository.alanon/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Alanon202/repository.alanon/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Alanon202/repository.alanon/master/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Alanon's Kodi Repo</summary>
+            <description>Here you can find my Eminence 2 MOD.</description>
+            <platform>all</platform>
+            <assets>
+ 			   <icon>resources/icon.png</icon>
+ 			   <fanart>resources/fanart.jpg</fanart>
+ 		    </assets>		
+			<news>
+			- 1.0.0 Initial release. 
+			- 1.0.1 Improved Git folder structure.</news>			
+		</extension>
+	</addon>
 
 
 <addon id="resource.images.skinicons.style.he" name="Skin Icons - Style Design (Hebrew)" version="1.0.0" provider-name="Orna Post, Benny Buchnik">
@@ -6714,6 +7487,21 @@ v5.2.14 (2017-01-23)
 
 
 
+    <addon id="repository.thgiliwt" name="Thgiliwt Addon Repository" version="1.1.2" provider-name="Thgiliwt">
+        <extension point="xbmc.addon.repository" name="Thgiliwt Addon Repository">
+            <info compressed="false">http://alivegr.net/repo/_thgiliwt/addons.xml</info>
+            <checksum>http://alivegr.net/repo/_thgiliwt/addons.xml.md5</checksum>
+            <datadir zip="true">http://alivegr.net/repo/_thgiliwt/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>AliveGR repo</summary>
+            <description>Repository for AliveGR and other add-ons</description>
+            <platform>all</platform>
+        </extension>
+    </addon>
+
+
 <addon id="plugin.video.yt-cook3"
 	name="Cooking on YouTube Volume 3"
 	version="1.0.0"
@@ -6732,6 +7520,38 @@ v5.2.14 (2017-01-23)
     <platform>all</platform>
     <forum>n/a</forum>
     <website>n/a</website>
+  </extension>
+</addon>
+
+
+<addon id="plugin.video.alive.hd"
+       name="Alive.HD"
+       version="5.1"
+       provider-name="frenchdj">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />    
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Dual Edition Addon</summary>
+    <description>Concerts and Djs live performances in HD quality. 
+Playlists organized by categories and any source comes from Youtube users. 
+[B][COLOR lime]Advised the latest version of youtube 5.*.*[/B][/COLOR]</description>
+    <platform>all</platform>
   </extension>
 </addon>
 
@@ -7150,6 +7970,25 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 </addon>
 
 
+<addon id="plugin.video.tinklepad" name="TinklePad" version="2.0.3" provider-name="jsergio">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.metahandler" version="2.9.1"/>
+		<import addon="script.module.urlresolver" version="3.0.32"/>
+		<import addon="plugin.video.youtube" version="5.2.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Watch a wide selection of movies and tv shows from 5movies.to</summary>
+		<description lang="en">Big thanks to Lambda for his foundation code and use of Exodus for the Latest HD section and Jokstergfx for the artwork!</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+
 <addon id="script.video.newparentalcontrols" name="Parental Controls" version="1.5.4" provider-name="killdash9">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -7395,6 +8234,19 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 </addon>
 
 
+<addon id="script.covenant.metadata" version="1.0.0" name="Covenant Metadata" provider-name="Covenant">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Metadata for the Covenant Addon</summary>
+		<description>Metadata for Covenant are maintained separately to make distribution of the the addon itself easier/faster.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+
 <addon id="script.tvaddons.debug.log" name="TVA Log Uploader" version="1.0.4" provider-name="tvaddons.ag">
     <requires>
         <import addon="xbmc.python" version="2.20.0"/>
@@ -7412,6 +8264,35 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
         <forum>https://forums.tvaddons.ag/maintenance-tool/</forum>
     </extension>
 </addon>
+
+
+
+<addon id="plugin.video.bigbuckbunny" name="Big Buck Bunny" version="1.0.3" provider-name="MetalKettle">
+
+  <requires>
+
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+
+  <extension point="xbmc.python.pluginsource" library="default.py">
+
+        <provides>video</provides>
+
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+
+    <summary lang="en"></summary>
+
+    <description lang="en"></description>
+
+    <platform>all</platform>
+
+  </extension>
+
+</addon>
+
 
 
 <addon id="plugin.video.asian4HB" name="Asian4HB" version="1.0.0" provider-name="The Mint Team">
@@ -7509,6 +8390,56 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 </addon>
 
 
+<addon id="plugin.video.learningzone" name="Learning Zone" version="1.0.8" provider-name="MetalKettle">
+  <requires>
+    <import addon="script.module.simplejson" version="3.3.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+    <import addon="script.module.urlresolver"  version="2.1.2"/>
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"> </summary>
+    <description lang="en">Welcome to the worlds largest collection of computer and technology related tutorials on XBMC/KODI</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+
+<addon id="plugin.video.fod" name="[COLOR red]FEAR[/COLOR][COLOR white]OF[/COLOR][COLOR red]THE[/COLOR][COLOR white]DARK[/COLOR]" version="0.0.2" provider-name="Taurus">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+	<import addon="script.module.urlresolver" />
+	<import addon="script.module.liveresolver" />
+    <import addon="script.module.simplejson" /> 
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Movies</summary>
+    <description lang="en">Brought To You By Taurus Find all your favourite Horror Movies in one place Releases from each year, classic collections and extreme films. Are you afraid of the Dark?</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+
 <addon id="script.xbmcbackup"
     name="Backup" version="1.0.6" provider-name="robweber">
   <requires>
@@ -7595,6 +8526,20 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
     <license>The MIT License</license>
     <forum>http://forum.xbmc.org/showthread.php?tid=129499</forum>
     <source>https://github.com/robweber/xbmcbackup</source>
+  </extension>
+</addon>
+
+
+<addon id="repository.ororotv" version="1.0.1" name="Ororo repository" provider-name="ororo.tv">
+  <extension point="xbmc.addon.repository" name="Ororo repository">
+    <info compressed="false">https://ororo.tv/kodi/addons.xml</info>
+    <checksum>https://ororo.tv/kodi/addons.xml.md5</checksum>
+    <datadir zip="true">https://ororo.tv/kodi/</datadir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Ororo repository</summary>
+    <description lang="en">Ororo repository</description>
+    <platform>all</platform>
   </extension>
 </addon>
 
@@ -8059,6 +9004,33 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 </addon>
 
 
+<addon id="plugin.video.moviedude" name="Movie Dude" version="16.7.17" provider-name="The Alpha">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
+		<import addon="script.module.pyxbmct" version="1.1.4" />
+		<import addon="script.module.urlresolver" version="3.0.0"/>
+		<import addon="script.module.liveresolver" version="0.1.24"/>
+		<import addon="script.video.F4mProxy" version="2.2.3"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Movie Dude</summary>
+		<description lang="en">Thanks Jokstergfx For The Artwork</description>
+		<platform>all</platform>
+		<forum></forum>
+		<website></website>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+		<news>New Artwork 2nd Scraper</news>
+	</extension>
+</addon>
+
+
 <addon id="plugin.video.mdwatchtvseries" name="Watch TV Series" version="1.1.9" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -8075,6 +9047,374 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
     <platform>all</platform>
   </extension>
+</addon>
+
+
+<addon
+    id="skin.eminence.2.mod.Krypton"
+    version="2.4.2"
+    name="Eminence 2.0 MOD"
+    provider-name="jurialmunkey - Mod by Guilouz - Mod by Alanon">
+    <requires>
+        <import addon="xbmc.gui" version="5.12.0"/>
+        <import addon="script.skinshortcuts" version="1.0.17"/>
+        <import addon="script.skin.helper.service" version="1.1.16"/>
+		<import addon="script.skin.helper.widgets" version="1.0.28"/>
+		<import addon="script.skin.helper.colorpicker" version="1.0.12"/>
+        <import addon="script.extendedinfo" version="5.0.0"/>
+        <import addon="script.image.resource.select" version="0.0.5"/>
+        <import addon="plugin.program.autocompletion" version="1.0.1"/>
+    </requires>
+    <extension point="xbmc.gui.skin" effectslowdown="1.00" debugging="false">
+        <res width="1920" height="1080" aspect="16:9" default="true" folder="16x9" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Clean, clear, simple, modern.</summary>
+        <summary lang="fr">Clair, simple et moderne.</summary>
+        <description lang="en">Eminence is a skin that aims to be clean, clear, simple and modern.</description>
+        <description lang="fr">Eminence est un thème qui vise à être clair, simple et moderne.</description>
+		<assets>
+		 	<icon>icon.png</icon>
+ 			<fanart>fanart.jpg</fanart>
+			<screenshot>extras/viewthumbs/56.jpg</screenshot>
+ 			<screenshot>extras/viewthumbs/521.jpg</screenshot>
+ 			<screenshot>extras/viewthumbs/600.jpg</screenshot>
+ 			<screenshot>extras/viewthumbs/506.jpg</screenshot>
+ 			<screenshot>extras/viewthumbs/52.jpg</screenshot>
+ 			<screenshot>extras/viewthumbs/159.jpg</screenshot>
+		</assets>	
+		<news> Changelog:
+		
+		[B]2.4.2[/B]
+		1. Huge viewtype overhaul.
+		2. Showcase fix.
+		3. RSS font size enlargement.
+		4. Ported Settings screen.
+		5. Ported Showcase Widget.
+		6. Tweaks to the info screen.
+		7. Small OSD fix.
+		8. Small Hub fix.
+		9. Script duration updates.
+		
+		[B]2.4.1[/B]
+		1. Fixed widget type bug.
+		2. Fix for viewtype lock.
+		
+		[B]2.4[/B]
+		1. Further viewtype fixes.
+		2. Music artwork overhaul.
+		3. Add-on Info dialogue tweaks.
+		4. Light theme info fix.
+		5. Light theme busy dialogue tweak.
+		6. Set Icon fix.
+		7. Added manfeed's Videolyrics Plus.
+		8. Showcase tweaks.
+		9. Tweaked playlist background options.
+		10. Added Low List view.
+		11. Rotation label bugfix.
+		12. Support for Artwork Beef add-on.
+		13. Skin Backup workaround.
+		14. French translation overhaul (by Kelexel)
+		15. Light theme dark interface tweaks.
+		16. Info and flags redundancy fixes.
+		17. Caching OSD fix.
+
+		[B]2.3.9.1[/B]
+		1. Add-on browsing quick-fix.
+
+		[B]2.3.9[/B]
+		1. Busy Dialog tweak.
+		2. Tweaked viewtypes conditions.
+		3. Fixed add-on loading artefacts.
+		4. Small log error fixes (syntax).
+		5. Home menu header is now hideable.
+		6. Fixed logo and flags bugs.
+		7. Video Info ratings tweak.
+		8. Video Info darken effect.
+		9. QuickNav tweak.
+		10. Subtitle Sync tweak.
+		11. Added Hebrew translation (scofield272)!
+		
+		[B]2.3.8[/B]
+		1. Context menu support for Library Editor Script.
+		2. Context menu support for SimplePlaylists.
+		3. PVR OSD fixes.
+		4. Darkened the dim option.
+		5. Random Backgrounds fix.
+		6. Scrollbar fixes.
+		7. Another attempt at RSS animation fix.
+		8. OSD Logo fix.
+		9. Poster Border fix.
+		
+		[B]2.3.7[/B]
+		1. RSS animation tweaks.
+		2. RightList artist thumbs fix.		
+		3. LiveTV OSD fix.
+		4. Flag fallbacks fixes.
+		5. Added plot outline option.
+		6. Alternate RightList for music tweak.
+		7. RightList for video content.
+		
+		[B]2.3.6[/B]
+		1. Added a duration setting for home widgets.
+		2. Hub widget fixes.		
+		
+		[B]2.3.5[/B]
+		1. RightList tweaks.
+		2. Flags tweaks.
+		3. Spanish translation added!
+
+		[B]2.3.4[/B]
+		1. RightList fixes.
+		2. Skin settings reorganisation.
+		3. Fixes for the French translation.
+		4. Significant Hub widget improvements.
+		
+		[B]2.3.3[/B]
+		1. Updated a required add-on listing.
+		2. Added a preliminary RightList view.
+		3. Decreased the Home gradient.
+		4. Fixes for the French translation.
+		5. Disabled Black and Sollid colour themes (for now).
+
+		[B]2.3.2[/B]
+		1. Added a vertical/horizontal context menu switch.
+		2. Widget handling improved.
+		3. RSS bar for Text Only home.
+		
+		[B]2.3.1[/B]
+		1. More music views.
+		2. Updated French strings (Thanks to Kelexel!)
+		3. Scrollbar fixes.
+		4. Skin performance fixes.
+		5. User rating fix.
+		6. Fulscreen setting added.
+		
+		[B]2.3[/B]
+		1. Improved extrathumbs handling.
+		2. Improved the new context menu.
+		3. Improved rating icons.
+		4. Improved userratings.
+		5. Added an info menu in the PVR OSD.
+		6. Added screenshots for the addon.xml.
+		7. Default highlight is back to blue.
+		8. Dependencies version bump.
+		9. Updated manfeed's lyrics to V2.
+		10. Show/Hide CD case option.
+		11. Artist logo improvements.
+		12. Music OSD bugfix.
+		13. Adjusted the skin background colour effects.
+		
+		[B]2.2.7[/B]
+		1. Added a new context menu (testing!).
+		2. Added a rotating backgrounds timer.
+		3. Added extrathumbs support.
+		4. Addon settings button fixes.
+		
+		[B]2.2.6[/B]
+		1. QuickNav fixes.
+		2. More PVR fixes.
+		3. Other small fixes.		
+		
+		[B]2.2.5[/B]
+		1. Better mouse support for the skin settings.
+		2. Subtitle menu fixes.
+		3. Improved english language strings.
+		4. Several small PVR fixes and tweaks.
+		
+		[B]2.2.4[/B]
+		1. Added setting for onback command.
+		2. Small language fix.
+		
+		[B]2.2.3[/B]
+		1. Tweaks for the light colourscheme.
+		2. Version bump for the github experiment.
+
+		[B]2.2.2[/B]
+		1. Added an opacity setting for the OSD.
+				
+		[B]2.2.1[/B]
+		1. Added a clickable seekbar.
+		2. Added new colour themes.
+		3. Shortened the skin name.
+		4. Added new icons.
+		5. Tweaked the subtitles menu.
+		6. Small fixes.
+
+		[B]2.2[/B]
+		1. Added a custom dialog for the view selector.
+		2. Added new selector thumbnails.
+		3. Added "Plain List" view.
+		4. Added "Lovefilm" view.
+		5. Added "Info List 3" view.
+		6. Added "Medium Icons" view.
+		7. Added an improved NextUp PostPlay skin.
+		8. Added "disc.png" artwork for Music OSD.
+		9. Added more flags settings.
+		10. Added Director/Revenue info for the movie library.
+		11. Added Forced Views for most content types.
+		12. Fixed hub logos.
+		13. Fixed movieset overlay info.
+		14. Fixed subtitle dialog behaviour.
+		15. Fixed some minor dialogs.
+		16. General speed improvements. 
+		17. Improved Showcase posters.
+		18. Improved video thumbs.
+		19. Improved Header colours.
+		20. Improved hub back actions.
+		21. Improved the Line Labels.
+		
+		[B]2.1[/B]
+		1. Added manfeed's lyrics.
+		2. Fixes for Hub widgets.
+		3. Fixes for weather.
+		4. Added music genre and record label resources.
+		5. Added record label icons in dialog infos.
+		6. Refined view types and categories.
+		7. Added the old Hub menu as an option.
+		8. Improved QuickNav and submenu handling.
+		9. Functional Genre widget.
+		
+		[B]2.0.9[/B]
+		1. Some stubborn bugs squashed.
+		
+		[B]2.0.8[/B]
+		1. Fixed dialog buttons.
+		2. Fixed playlist dialog.
+		3. Added some new animations.
+		4. Mouse supported submenu.
+		
+		[B]2.0.7[/B]
+		1. Small fixes.
+		
+		[B]2.0.6[/B]
+		1. Added a fake disc with writing in Music OSD.
+		2. Repaired the repeat button.
+		3. Removed duplicate spinner textures. 
+		4. Added more dependencies.
+		5. Settings window shortcuts for OpenELEC, LibreELEC, and OSMC.
+		6. Added a record button to the PVR OSD.
+		7. Added Kodi's Privacy Policy display.
+		8. Code updates.
+		
+		[B]2.0.5[/B]
+		1. Tweaked the cast list.
+		2. Added and improved skin dependencies.
+		
+		[B]2.0.4[/B]
+		1. Color Picker fix.
+		
+		[B]2.0.3[/B]	
+		1. Power menu fix.
+		2. ColorPicker fixes.
+		3. Moved the busy spinner.
+		4. Moved the user ratings under the clock.
+		
+		[B]2.0.2[/B]
+		1. Revert header change.
+		2. New cast info in the OSD.
+		3. More code updates.
+		
+		[B]2.0.1[/B]
+		1. Quick bugfix.		
+		
+		[B]2.0[/B]
+		1. Added a Quick navigation shortcuts menu.
+		2. Further code updates from Eminence 2.5.
+		3. Fix for Library selection buttons.
+		4. A fix for true hidden headers.
+		5. PVR visual fixes.
+		6. Overhaul of the available views.
+		7. Further mouse control improvements.
+		
+		[B]1.9.2[/B]
+		1. Small updates for the backgrounds.
+		2. Changed position for the user rating.
+		
+		[B]1.9.1[/B]		
+		1. Flags and other modifications for Hubs.
+		2. Updated skin support for Extended Info dialogs.
+		
+		[B]1.9[/B]
+		1. Added a new Netflix view for video items (Arctic - Danvers).
+		2. New spinner textures (from Arctic - Danvers).
+		3. Added the user rating system for music and videos.
+		4. Overhauled and fixed the info screens.
+		5. Ported the new dialog design from Eminence 2.5.
+		6. Ported the Settings screen from Eminence 2.5.
+		7. More mouse optimizations for the setting menus.
+		8. Added an option to use music artwork backgrounds.
+		9. Ported the window shadows from Eminence 2.5.
+		10. Fixed a weather widget bug.
+		
+		[B]1.8.3[/B]
+		1. Updated the setting labels for Krypton, and improved mouse support.
+		
+		[B]1.8.2[/B]
+		1. More code updates and fixes.
+		2. Added new info for addons.
+		
+		[B]1.8.1[/B]
+		1. New skin icon.
+		2. Begun updating the code to reflect soon-to-be deprecated string bools.
+		3. A bunch of small fixes to the code.
+		4. Some new flags.
+		
+		[B]1.8[/B]
+		1. Improvements and fixes for the Video OSD.
+		2. Moved my portion of the changelog to the addon.xml.
+		3. Restored the addoninfo changelog button for the "news" value.
+		4. Added a setting for duration formats. "script.duration_axbmcuser" now required.
+		5. Updated required addons list.
+		6. Small fixes for the Showcase view.
+
+		[B]1.7[/B]
+		1. Improved vertical and horizontal scrolling.
+		2. Added letter scrollbar (by marcelvedt and the Aeon Madnox team!).
+		3. Added Player.Process dialog for Krypton.
+		4. Adapted the game controlers file from Eminence 2.5 (needs to be tested).
+		5. Fixed some small glitches.
+
+		[B]1.6[/B]
+		1. Added animated artwork!
+		2. Cleaned up inconsistent code.
+		3. Added proper settings and labels for various new features.
+
+		[B]1.5.1[/B]
+		1. Better flags icons and other small fixes.
+
+		[B]1.5[/B]
+		1. Added support for rotating ExtraFanart with Skin Helper!
+		2. Fixed the Krypton settings screen.
+		3. Added RottenTomatoes, Metacritic and IMDb ratings to the VideoInfo screen.
+		4. Updated the Dialogs and added the "Get more..." and "Cancel" buttons.
+		5. Added the Showcase view from Eminence 2.5!
+		6. Redesigned the way Video OSD works.
+		7. Fixed most of the Skin Helper properties.
+		8. Altered flag aspect ratio.
+		9. Fixed and improved the movieset display.
+		10. Redesigned the large submenu.
+		11. Tweaked the timestamp bubble.
+		12. Removed the changelog button from the addon info screen.
+		13. Darkened the interface dffuse graphic.
+		14. Repaired the subitle offset slider.
+		15. Modded the way source flags are displayed while playing.
+		16. Changed the OSD info button function.
+		</news>
+	</extension>
+</addon>
+
+
+<addon id="script.module.xibalba" name="Xibalba Libraries" version="1.00.001" provider-name="Xibalba">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Forked from TK Norris Shared Module. Reusable Modules used by several of Xibalba's addons</summary>
+	</extension>
 </addon>
 
 
@@ -8156,8 +9496,8 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 
 <addon id="plugin.video.ccloudtv"
        name="cCloud TV"
-       version="1.5.5"
-       provider-name="podgod">
+       version="1.5.6"
+       provider-name="rattlehead">
   <requires>
     <import addon="xbmc.python" version="2.19.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -8172,7 +9512,6 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 	<import addon="script.module.addon.common" />
 	<import addon="script.module.simplejson" version="3.3.0"/>
     <import addon="script.common.plugin.cache" version="2.5.5"/>
-    <import addon="repository.podgod" />   
     <import addon="script.tvaddons.debug.log" optional="true" />     
 </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
@@ -8778,6 +10117,29 @@ provider-name="kodi senyor">
 </addon>
 
 
+<addon id="plugin.video.nhlondemand" name="NHL On-demand" version="2.0.7" provider-name="lambda,jsergio">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.simplejson" optional="true"/>
+		<import addon="script.module.parsedom" optional="true"/>
+		<import addon="script.module.urlresolver" version="3.0.24"/>
+		<import addon="plugin.video.youtube" optional="true"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">NHL on demand</summary>
+		<description lang="en">Visit TVADDONS.ag for support</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+		<forum>http://forums.tvaddons.ag/forums/148-lambda-s-xbmc-addons</forum>
+		<source>https://offshoregit.com/lambda81/lambda-addons</source>
+		<website>https://offshoregit.com/lambda81/</website>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+
 <addon id="script.module.requests" name="requests" version="2.9.1" provider-name="kennethreitz, beenje">
   <requires>
     <import addon="xbmc.python" version="2.14.0"/>
@@ -8830,6 +10192,21 @@ provider-name="kodi senyor">
     <summary lang="en">[COLOR=ghostwhite]C[/COLOR][COLOR dodgerblue]ommunity[/COLOR] [COLOR=ghostwhite]P[/COLOR][COLOR dodgerblue]ortal[/COLOR]</summary>
 	<description>Your all in one Installer. The simplest way to have a fully setup system in a matter of minutes. Visit www.noobsandnerds.com and become a part of our great family, you get to choose what The Community Portal holds!</description>
     <ref>47dde68954e71460cb34886583bf21d7</ref>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+
+<addon id="plugin.video.pythontut" name="Python Tutorial Videos" version="1.0.8" provider-name="MetalKettle">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"> </summary>
+    <description lang="en"> Learn Python using these easy to follow videos from http://buckysroom.org/ </description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -9496,6 +10873,43 @@ provider-name="kodi senyor">
 </addon>
 
 
+<addon id="plugin.video.xxx-o-dus" 
+	     name="XXX-O-DUS" 
+	     version="3.00.001" 
+	     provider-name="Xibalba">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.xibalba"/>
+    <import addon="script.xxxodus.artwork"/>
+    <import addon="script.xxxodus.scrapers"/>
+    <import addon="script.module.urlresolver"/>
+    <import addon="repository.xibalba"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="startup">
+  </extension> 
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">The AIO XXX Addon for Kodi</summary>
+    <description lang="en">[COLOR white]XXX-O-DUS scrapes many websites to bring you hundreds of thousands of videos. Features of the addon include, history monitoring, favourites, downloadable videos, parental controls and more![/COLOR]
+
+[COLOR white]Websites Include: Porn.com, PornHD.com, Chaturbate.com, RedTube.com, Xhamster.com, YouPorn.com, PornFun.com, Motherless.com,Porn00.org, Spankbang.com, Virtualpornstars.com, Watchxxxfree.com, Perfectgirls.net, XNXX.com and many more.[/COLOR]</description>
+    <disclaimer lang="en">The pages of this addon are designed for ADULTS only and may include pictures and materials that some viewers may find offensive. If you are under the age of 18, if such material offends you or if it is illegal to view such material in your community please exit the addon.</disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <website>http://fusion.tvaddons.ag</website>
+    <forum>http://tvaddons.ag/forums</forum>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+
+
 <addon id="context.subtitlesdialog.contextmenu" name="Subtitles Dialog - Contextmenu" version="1.0.1" provider-name="burekas">
     <requires>
       <import addon="xbmc.python" version="2.20.0"/>
@@ -9718,6 +11132,27 @@ provider-name="kodi senyor">
   	<email></email>
   </extension>
 </addon>
+
+
+<addon id="plugin.video.aini"
+version="1.0.2"
+name="Assassins ini"
+provider-name="Smurf, Locknload">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  <import addon="script.module.requests" version="2.9.1" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">INI Creator for FMG &amp; Assassins TV Guide</summary>
+  <description lang="en"></description>
+  <disclaimer lang="en">.</disclaimer>
+</extension>
+</addon>
+
 
 
 <addon id="metadata.themoviedb.org"
@@ -10183,6 +11618,19 @@ provider-name="kodi senyor">
 </addon>
 
 
+<addon id="script.xxxodus.artwork" version="1.00.000" name="XXXODUS Artwork" provider-name="Xibalba">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Artwork for XXXODUS</summary>
+		<description>Artwork for XXXODUS is maintained separately to make distribution of the the addon itself easier/faster.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+
 <addon id="plugin.video.MakoTV"
        name="MakoTV (web)"
        version="1.1.5"
@@ -10266,6 +11714,22 @@ provider-name="kodi senyor">
 </addon>
 
 
+<addon id="plugin.video.cartoons8" name="Cartoons8" version="1.0.34" provider-name="MetalKettle">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.urlresolver"  version="0.0.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en"></description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+
 <addon id="plugin.video.moviepool"
        name="MoviePool"
        version="1.0.0"
@@ -10312,6 +11776,29 @@ provider-name="kodi senyor">
     <source>https://github.com/Razzeee/script.module.arrow</source>
     <email>beenje AT gmail.com</email>
   </extension>
+</addon>
+
+
+<addon id="script.mkplex"
+       name="MK Plex"
+       version="0.0.2"
+       provider-name="MetalKettle, Plex">
+    <requires>
+        <import addon="xbmc.python" version="2.24.0"/>
+        <import addon="script.module.requests" version="2.3.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.python.pluginsource" library="plugin.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="startup"></extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Plex for Kodi supporting free accounts</summary>
+        <description lang="en">Unofficial Plex for Kodi add-on</description>
+         <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <platform>all</platform>    </extension>
 </addon>
 
 
@@ -10389,6 +11876,29 @@ provider-name="kodi senyor">
 </addon>
 
 
+<addon id="plugin.video.nbaondemand" name="NBA On-demand" version="2.0.7" provider-name="lambda,enen92,jsergio">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.simplejson" optional="true"/>
+		<import addon="script.module.parsedom" optional="true"/>
+		<import addon="plugin.video.youtube" optional="true"/>
+		<import addon="script.module.urlresolver" version="3.0.24"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">NBA on demand</summary>
+		<description lang="en">Visit TVADDONS.ag for support</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+		<forum>http://forums.tvaddons.ag/forums/148-lambda-s-xbmc-addons</forum>
+		<source>https://offshoregit.com/lambda81/lambda-addons</source>
+		<website>https://offshoregit.com/lambda81/</website>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+
 <addon id="plugin.video.mdmovievault" name="MOVIE VAULT" version="2.0.2" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -10456,27 +11966,656 @@ provider-name="kodi senyor">
 </addon>
 
 
-<addon id="plugin.video.ororotv" name="Ororo TV" version="2.2.9" provider-name="lambda">
+<addon id="skin.aczg" version="4.0.74" name="A Confluence ZEITGEIST" provider-name="axbmcuser">
+	<requires>
+		<import addon="xbmc.gui" version="5.13.0"/>
+		<import addon="service.library.data.provider" version="0.2.0"/>
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false" effectslowdown="0.22">
+		<res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">"A Confluence ZEITGEIST" is a clean and modern rework of the Confluence skin.</summary>
+		<description lang="en">"A Confluence ZEITGEIST" is a clean and modern rework of the Confluence skin. It mainly features an icon-based main menu without the need for scrolling and two all new wall views, which replace the old thumbnail view. Countless other small graphics updates and optimizations are included.</description>
+		<platform>all</platform>
+		<license/>
+		<forum>http://forum.kodi.tv/showthread.php?tid=242892</forum>
+		<website/>
+		<email/>
+		<source/>
+		<news>[B]4.0.74[/B] (2017-01-16)
+- New icon for KODI 18 (Leia)
+
+[B]4.0.73[/B] (2017-01-14)
+- KODI 18 (Leia) Test release
+(Identical to 3.0.73, but with some KODI 18 changes as announced in the Official KODI Skinning Forum)
+
+[B]3.0.73[/B] (2017-01-14)
+- Sync latest Confluence changes
+- Other minor improvements
+
+[B]3.0.72[/B] (2016-12-21)
+- Fix Extended Info call on Video Info Dialog due to recent plugin changes
+- Other minor improvements
+
+[B]3.0.71[/B] (2016-11-23)
+- New optional skin setting: Automatically pause/resume playback when using INFO button in VideoOSD
+- Other minor improvements, including:
+- - Added variable "GlobalFanartVar" for a dark LibreELEC settings background
+- - [DialogMediaSource.xml] Focus fix (Sync from Confluence and Estuary)
+- - [Home.xml] Weather addon and widget minor conditional improvements
+
+[B]3.0.70[/B] (2016-11-14)
+- Other minor improvements
+
+[B]3.0.69[/B] (2016-11-14)
+- Added System Info Privacy Policy support (According to latest KODI core changes)
+- VideoOSD button "INFO" which leads to the video info dialog is now improved and based on "service.library.data.provider" (and automatically shown for movies and episodes VideoOSD)
+
+[B]3.0.68[/B] (2016-10-25)
+- Changed "New smart playlist" dialog [SmartPlaylistEditor.xml] [SmartPlaylistRule.xml] according to latest KODI 17 core changes. The dialog will only work correctly, if you use an up to date version of KODI 17 from now on, of course.
+- [DialogSelect.xml] support latest KODI core changes regarding Video Information Dialog actor search results
+- New Skin Settings option: Hide Suspend / Hide Hibernate from Shutdown Dialog
+- Added stinger scene tag support duringcreditsstinger/aftercreditsstinger (shows a dark small stinger icon in Video Information Dialog left to the movie title) icon based on great addon "service.stinger.notification" icon by rmrector
+- Reworked screen calibration graphics and dialog
+- Added system/kernel info to [SettingsSystemInfo.xml]
+- Many other improvements
+
+[B]3.0.67[/B] (2016-10-07)
+- New option: "Show logo-screen while in progress of shutdown/reboot/logout" (See "Skin Settings" experimental section)
+- Many other minor improvements, including:
+- - Further visual optimizations in [MyWeather.xml] [ViewsWeather.xml]
+- - Changed behind dialog dark fadeout layer order in almost all files
+- - Further visual slider optimizations
+- - Textures cleanup for all language/country-flags (removed not needed shadow)
+
+[B]3.0.66[/B] (2016-10-02)
+- Updated support for adsp addons after recent KODI core changes (slider activation) including visual rework
+- Other minor improvements
+
+[B]3.0.65[/B] (2016-10-02)
+- New skin settings option: "Shorten plot text in Video Details Dialog to prevent spoilers (5 lines)" (disabled by default)
+- Added music playlist button to MusicOSD
+- Many other diverse improvements, including:
+- - Dialog header font size changes
+- - Added dialog dark background fadein which has been missing for some dialogs like "Confirm"
+- - Reworked addon info dialog and addon settings dialog
+- - Standard button height changes for dialogs
+- - Improvements for subtitle download dialog
+- - Slight visual rework of system dialog backgrounds
+- - Added "Settings" button to weather home sub menu
+- - Reworked "Weather" page
+
+[B]3.0.64[/B] (2016-09-30)
+- Other minor improvements, including:
+- - [GUIWindowSystemInfo] - allow one more label/row to be displayed (PR10568)
+
+[B]3.0.63[/B] (2016-09-28)
+- Added new skin option: "Hide some fullscreen VideoOSD buttons for simplicity (rewind/fforward)"
+- Added new experimental skin option: "Show INFO-button in VideoOSD (opens the info dialog for movies/episodes)"
+- Reworked Music OSD [MusicOSD.xml]
+- Add timer button to PVR info dialog
+- Many other minor improvements, including:
+- - Cleanup viewtypes in [ViewsPVRGuide.xml] for KODI v18
+- - Improve button visibility-conditions in [DialogPVRInfo.xml]
+
+[B]3.0.62[/B] (2016-09-23)
+- Reworked "Recently added" widgets on home screen:
+- - They are now dynamic lists with the possibility of showing the context menu or opening the info dialog of the selected item
+- - Showing artwork for the selected recently added item while being on the home screen also works
+- Other minor improvements
+
+[B]3.0.61[/B] (2016-09-23)
+- Other minor improvements
+
+[B]3.0.60[/B] (2016-09-22)
+- Visual rework of home screen including PVR status widget, recently added items
+- Other minor improvements
+
+[B]3.0.59[/B] (2016-09-20)
+- Visually changed some blue bordered focus button states for UX uniformity
+- Other minor improvements
+
+[B]3.0.58[/B] (2016-09-19)
+- Large visual rework removing the dated looking "window-based style"
+- Some optimizations including mouse control fixes for Subtitle Download Dialog (Bugs in Original Confluence) [DialogSubtitles.xml]
+- Reworked Music Playlist Editor [MyMusicPlaylistEditor]
+- Many other minor improvements
+
+[B]3.0.57[/B] (2016-09-14)
+- Added support for player speed controls (tempo) (Changes adapted from from Confluence 3.0.34) [DialogSeekBar.xml] [Includes.xml]
+- Added scrollbar for LiveTV guide timeline (matching latest KODI code changes) [MyPVRGuide.xml] [ViewsPVRGuide.xml]
+- Reworked Profiles Settings-Dialog [SettingsProfile.xml]
+- Added new View "Text" which is only used for displaying: Years, Genres, Tags
+- Other minor improvements
+
+[B]3.0.56[/B] (2016-09-09)
+- Reworked some icons [DefaultIconError.png] [DefaultIconInfo.png] [DefaultIconWarning.png]
+
+[B]3.0.55[/B] (2016-09-09)
+- Reworked uniform search-selection dialog
+- Slightly reworked Favorites Dialog, including: Favorites now have 3 items per row instead of 2 [DialogFavourites.xml]
+- Login screen usability improvements [LoginScreen.xml]
+- Changed user profile default picture to match KODI standard/Estuary
+- Other minor improvements
+
+[B]3.0.54[/B] (2016-09-01)
+- Long time existing option "Hide some view types for simplicity (Disable to see all Confluence view types)"
+is now DISABLED by DEFAULT. Enable it to hide all views except both Wall Views (500 + 909) + List View (50).
+- Other minor improvements
+
+[B]3.0.53[/B] (2016-09-01)
+- Other minor improvements
+
+[B]3.0.52[/B] (2016-08-29)
+- Added graphics and support for UK BBFC age ratings
+- Other minor improvements
+
+[B]3.0.51[/B] (2016-08-27)
+- Other minor improvements
+
+[B]3.0.50[/B] (2016-08-27)
+- Other minor improvements including reworked [icon_back.png] [icon_home.png] mouse control buttons
+
+[B]3.0.49[/B] (2016-08-25)
+- Other minor improvements
+
+[B]3.0.48[/B] (2016-08-24)
+- [DialogGameControllers.xml] [language/] Sync latest Confluence changes
+- [VideoOSD.xml] Minor change of OSD player controls when playing LiveTV: Switched channel up/down button onclick-actions to match remote control and keyboard controls (this has been unituitive and inconsistent before)
+- Reworked [OverlayWatching.png] (Inspired by Estuary + un1versal)
+- Other minor improvements
+
+[B]3.0.47[/B] (2016-08-17)
+- [DialogVideoInfo.xml] New button: "Set" (Example: If a movie is part of a movie set, you can jump right into the set via this button. It's positioned to the right of the "Director" button and only visible, if the item is part of a set.)
+- [VideoOSD.xml] Added permanent default focus for OSD play controls for LiveTV content (Non-LiveTV content defaulted to pause button already. Now LiveTV content defaults to channel down button)
+
+[B]3.0.46[/B] (2016-08-16)
+- Other minor improvements
+
+[B]3.0.45[/B] (2016-08-15)
+- Other minor improvements
+
+[B]3.0.44[/B] (2016-08-14)
+- Other minor improvements
+
+[B]3.0.43[/B] (2016-08-14)
+- Added experimental, TOTALLY OPTIONAL, BY DEFAULT DISABLED, automatic VolumeAmplification-DRC options 
+(see http://forum.kodi.tv/showthread.php?tid=242892 for more information or questions)
+See: System - Skin Settings - General Settings - scroll all the way down to: EXPERIMENTAL section
+WARNING: Please only enable this options if you are really really knowing what you are doing!
+
+[B]3.0.42[/B] (2016-08-09)
+- Other improvements
+
+[B]3.0.41[/B] (2016-08-07)
+- Added _optional_ support for Rotten Tomatoes and Metacritic Ratings (via script.skin.helper.service - if installed)
+- Other minor improvements
+
+[B]3.0.40[/B] (2016-08-06)
+- Optimized some views
+- Other improvements
+
+[B]3.0.39[/B] (2016-08-05)
+- Reworked breadcrumbs
+- Weather settings button now leads directly to weather settings
+- Reworked many views (List, Big List, LiveTV, ...)
+- Other minor improvements
+
+[B]3.0.38[/B] (2016-08-03)
+- Support for recent KODI Krypton changes regarding [DialogPlayerProcessInfo.xml] (replaces CodecInfo)
+- Reworked OSD player button graphics
+- Added all new uniform search-selection-dialog on home screen based on internal search functions (search button can be hidden in Skin Settings, workaround for broken youtube add-on search, dropped direct script.globalsearch add-on support (still can be used as widget!))
+- Reworked footer area regarding item count and mouse buttons
+- Reworked home screen "player controls" including fullscreen button and search button position
+- Floor graphics now plain color
+- Improved Option "Remove floor-graphics"
+- Reworked Bookmarks/Chapters-Dialog to timeline-style [VideoOSDBookmarks.xml]
+- Added submenu items "Special Lists" for Movies + TV shows main menu items [Home.xml] [IncludesHomeMenuItems.xml]
+- Added submenu item "Refresh" for Weather main menu item [Home.xml] [IncludesHomeMenuItems.xml]
+- Added submenu for main menu item "Add-ons" and changed click target [Home.xml] [IncludesHomeMenuItems.xml]
+- Reworked Addon Info Dialog [DialogAddonInfo.xml]
+- Improvements for Weather [MyWeather.xml] [ViewsWeather.xml]
+- Improved Fanart support
+- Weather focus fix (Bug in Original Confluence)
+- Sidebar player controls improvements including default focus fixes, added playlist button icon
+- Improved script.globalsearch support (only as widget! - see above) Use default skin provided by the addon itself, overwrite background
+- Sync latest Original Confluence changes
+- Other improvements including minor fix "black out everything behind playing video"
+
+[B]3.0.37[/B] (2016-07-17)
+- Other minor improvements
+
+[B]3.0.36[/B] (2016-07-15)
+- Added new Media Process Dialog (Open via keymap ActivateWindow(1100)) [Custom_1100_DialogMediaProcessInfo.xml]
+- Video OSD / Video FullScreen changes [VideoFullScreen.xml, VideoOSD.xml]
+- Reworked Seek Bar Dialog [DialogSeekBar.xml]
+- Notification Hack until fixed in KODI VideoPlayer [DialogNotification.xml]: 
+Hide annoying and often faulty messages #21454 #21455 ("Source too slow", "Read rate too low for continuous playback") They don't appear very often because some fixes have been made in KODI, but it's still an existing (rare) problem.
+- Other minor improvements
+- Fixes from Confluence 3.0.28/.29/(.30)
+
+[B]3.0.35[/B] (2016-07-08)
+- VideoFullScreen: Black gradient (bottom) slightly more transparent now
+- Minor improvements (main menu item focus vertical line +1px)
+- Added and fixed Skin support for AudioDSP-Plugins adsp.basic/adsp.freesurround/adsp.biquad.filters (broken in Original Confluence)
+
+[B]3.0.34[/B] (2016-06-26)
+- Reworked DialogTextViewer to match Custom TextViewer
+
+[B]3.0.33[/B] (2016-06-26)
+- Reworked and cleaned Footer Page/Item Count for simplicity and less overcrowded usability
+- Reworked NowPlaying display (Home, CommonNowPlaying, VideoFullscreen)
+- Complete rework of "Favorites" Dialog
+- Skin Settings: Added Option "Make Favorites Button first main menu item"
+- DialogVideoInfo: Added Year to TV Show Title (Header)
+- Other minor improvements
+
+[B]3.0.32[/B] (2016-06-25)
+- Skin Setting cosmetics
+- VideoFullScreen.xml: Display existing TV Show Name and Episode even if "VideoPlayer.Content(Episodes)" is false
+
+[B]3.0.31[/B] (2016-06-24)
+- Added Option to make "Super Folder" first item instead of last (Default)
+
+[B]3.0.30[/B] (2016-06-24)
+- New Feature: "Super Folder" as "Home Addon"-Widget (for MOVIES / TV SHOWS / VIDEOS main menu item)
+Now you can choose a Special Folder which is displayed along the "Home Addon"-Widgets on the Homescreen. 
+Select up to 6 Addons + 1 Super Folder or a max. of 7 Addons and no Super Folder. (Note: Enabled "Super Folder" disables Addon No. 7)
+
+[B]3.0.29[/B] (2016-06-23)
+- VideoFulllScreen.xml: Change TV-Show Episode Format to match "Now Playing" on Home Screen (Season X - Episode X) 
+- Moved Sidebar "Get more"-Buttons to match MyVideoNav.xml, added "Clean Library" to Music Sidebar like in Video Sidebar
+- Small usability ondown-change in "DialogSettings.xml"
+- Fix "Weather Settings" button
+- Remove deprecated window names + corrected window names for (visual) case sensitivity
+- Cleaned and simplified Skin Settings
+
+[B]3.0.28[/B] (2016-06-21)
+- Home.xml: Shortened "Now Playing" labels (they were far too wide), Optimized "Now Playing" Music/Video/Movie/Episode Information display
+- DialogAddonInfo.xml: Added Addon Size
+- DialogMusicInfo.xml: Removed Clock
+- IncludesHomeRecentlyAdded.xml: Reworked Home "Recently Added" (Movies, Episodes, Albums), Reworked graphics: RecentAddedBack.png, RecentAddedBack_hover.png
+- DialogTextViewer.xml: Hide scrollbar if no scrolling needed
+- IncludesBackgroundBuilding.xml: WallViews Background slightly more transparent
+
+[B]3.0.27[/B] (2016-06-19)
+- Optimizations of flagging-graphics
+- Smaller "DialogVideoInfo" changes, including: View Plot in TextViewer Button,
+- Year/Studio display change in: "Home.xml", "VideoFulllScreen.xml", "DialogVideoInfo.xml"
+- "VideoOSDBookmarks.xml": Added scrollbar
+- Support for latest Addon "changelog becomes news" changes (ListItem.AddonNews - old changelogs won't be available anymore after this KODI 17 change)
+- Added "Custom_1102_TextViewer.xml" (like Estuary) - used for AddonInfo "Changelog/What's new" and "Plot"
+- "MyVideoNav.xml": Moved "Hide Watched" from "Misc Options" to "View Options", Fixed "Playing" Label if only "Current Playlist is visible" (Confluence Bug), moved "Get more" (Video Addons) to "Actions"
+- "DialogTextViewer.xml": Removed Clock, text align changed from justify to left
+
+[B]3.0.26[/B] (2016-06-19)
+- Synced changes from Confluence 3.0.23 (language files + other Confluence 3.x changes)
+- Small usability onup-change in "DialogSettings.xml"
+- ListView SortByYear: Changes for label2/year display
+- Improved PlayerControls "Record"-button
+- Smaller "DialogVideoInfo" changes
+- Reworked graphics:
+VolumeIcon.png, GoFullscreen.png, PVR-IsRecording.png, PVR-HasTimerScheduleDisabled.png, PVR-HasTimerError.png, PVR-HasTimerConflict.png, PVR-HasTimerDisabled.png, PVR-HasTimerScheduleError.png, PVR-HasTimerScheduleConflict.png, DefaultIconWarning.png, DefaultIconError.png, DefaultIconInfo.png, OSDRateNF.png, OSDRateFO.png
+
+[B]3.0.25[/B] (2016-06-16)
+- Moved Sidebar Action "Clean library..." to the top (where other Actions like "Update Library" are)
+- Fixed tiny Confluence KODI 17 bug in "DialogSelect.xml" (Chapters and runtime of DISC-Image playlists were not shown)
+
+[B]3.0.24[/B] (2016-06-14)
+- Reworked almost all flagging-graphics (DD, DD+, THD, DTS, DTS-MA, DTS-HRA, aspect ratios, video formats, audio language)
+- Minor improvements
+
+[B]3.0.23[/B] (2016-06-14)
+- Added "Extended Info" Script Support to "DialogVideoInfo" similar to "Estuary"-Skin:
+Move DOWN on selected Actor to start Extended Info with additional Actor Information;
+Added "Extended Info" Button
+- "DialogVideoInfo" changes including: Addition of "Director"-Button (Same Director Search)
+- Minor improvements
+
+[B]3.0.22[/B] (2016-06-13)
+- Minor improvements
+
+[B]3.0.21[/B] (2016-06-13)
+- Minor improvements
+
+[B]3.0.20[/B] (2016-06-13)
+- Synced changes from Confluence 3.0.22
+- Minor improvements
+
+[B]3.0.19[/B] (2016-06-06)
+- Optimized MyVideoNav: Actions "Search" + "Update Library" moved to the top of the sidebar. Default sidebar-focus still remains on viewtype selection
+
+[B]3.0.18[/B] (2016-06-03)
+- Synced changes from Confluence 3.0.18
+- Changes in PVR-Section (Added small channel thumbnails on the right)
+- Small changes in: DialogVideoInfo including rating, duration, poster-aspectratio fixes
+
+[B]3.0.17[/B] (2016-06-01)
+- Initial Skin version for KODI 17.x (Krypton)
+- Restored old height for DialogSettings (way too small in height in Stock Krypton Confluence)
+- Added Skin-Settings Option to Hide TV main menu item (since there is no on/off option within TV-Settings anymore)
+- Small changes in: DialogVideoInfo including ratingstars fixes
+- Small changes in WallViews (poster not scaled+cropped for plugins-Containers anymore because they are no real posters in many cases but wider graphics which would be cut off)
+
+[B]2.8.73[/B] (2016-05-23)
+- Added small "disc-image"-indicator for ListItems within both WallView view types
+- Added support for LibreELEC (KODI exit helper script + LibreELEC-Settings submenu item)
+- Removed redundant main-submenu items: SYSTEM -&gt; Settings, TV -&gt; Channels, Radio -&gt; Channels
+- Added Genre-Icons support/graphics for both WallView view types
+Reworked Genre Icons are based on the great work by the following authors:
+limav &gt; most icons
+http://limav.deviantart.com/art/Movie-Genres-Folders-432790953/
+sonerbyzt &gt; comedy, war, ...
+http://sonerbyzt.deviantart.com/art/Movie-Genres-Folders-593250046/
+xzener &gt; sci-fi, ...
+http://addons.kodi.tv/show/resource.images.moviegenreicons.xzener-flat/
+(Disclaimer: The images used to create the folders are not mine, all image rights are reserved to their owners, firms and creators.)
+
+[B]2.8.72[/B] (2016-04-23)
+- Reworked standard main List view (50): Poster/thumb now right again
+
+[B]2.8.71[/B] (2016-02-12)
+- Visual changes in "DialogVideoInfo.xml" (Video Information Dialog)
+
+[B]2.8.70[/B] (2016-02-11)
+- Slightly cleaned up Settings area KODI logo graphic (no messy border anymore within the Skin)
+- Cleaned up global dialog header background graphic (no gradient anymore)
+- Reworked standard main List view (50). Poster/thumb now left, list-Panel now wider (making more labels readable without scrolling)
+- Some changes in "DialogVideoInfo.xml" (Video Information Dialog) (visual changes + removed conditonal plot height for Windows Platform, slightly optimized cast view)
+- Added two additional Roboto-Font variants (Light, Medium) (for now only used in "DialogVideoInfo.xml" to make the text less bulky)
+
+[B]2.8.69[/B] (2016-02-03)
+- Reworked floor graphics height and transparency
+- Added OPTIONAL setting for removal/replacement of floor-graphics (see Skin Settings)
+- Added clean KODI logo for SYSTEM area (native for 1080p)
+- Reworked DialogCloseButton.png (now native for 1080p)
+- Removed RDS and ProgrammeInfo player control buttons outside of FullscreenVideo (because of inconsistency and problems with ActivateWindow(PVRGuideInfo) - known KODI Bug)
+- Reworked standard folder icons like DefaultAddonLyrics.png etc. (just removed the strange border which was "hardcoded" within the graphics - icons itself untouched)
+
+[B]2.8.68[/B] (2016-01-31)
+- Minor fixes and improvements, including:
+Removed inconsistent MouseControl Close-Buttons for SYSTEM, SETTINGS, SKIN SETTINGS, ...,
+DialogBack slightly reworked,
+DialogContextXXX slightly reworked,
+MouseControl Close-Buttons corrections for Shutdown- and ContextMenu-Dialog (including hitrect fixes),
+Slightly increased fade-in time for neutral LoginScreen
+
+[B]2.8.67[/B] (2016-31-01)
+- Minor fixes and improvements, including:
+Close-Button now 1080p optimized,
+Reworked all Dialog headers and Dialog Header Close-button position,
+DialogBack slightly reworked
+
+[B]2.8.66[/B] (2016-01-24)
+- Minor fixes and improvements, including:
+Corrected KODI logo size on LoginScreen (now same as on home screen),
+Corrected Confluence CommonNowPlaying_Controls,
+Removed CommonBackground for LoginScreen and Startup,
+Changed OpenELEC "Exit KODI" helper script (now does a clean application restart instead of killing the app too aggressive),
+Global animation duration increased by a very small amount (compared to last version)
+
+[B]2.8.65[/B] (2016-01-19)
+- Minor fixes and improvements
+
+[B]2.8.64[/B] (2016-01-19)
+- Minor fixes and improvements, including:
+Restored Exit-Button functionality for OpenELEC (Note: Officially unsupported by OpenELEC)
+
+[B]2.8.63[/B] (2016-01-19)
+- Minor fixes and improvements, including:
+Conditional plot height in DialogVideoInfo (Linux/Windows) due to different font rendering
+
+[B]2.8.62[/B] (2016-01-19)
+- Minor fixes and improvements
+
+[B]2.8.61[/B] (2016-01-17)
+- First release for KODI 16 / Jarvis
+- New version based on clean KODI 16 / Jarvis Confluence 2.8.6 (GIT 2015-01-15 - no Isengard leftovers)
+
+
+[B]2.7.88[/B] (2016-01-02)
+- Minor improvements and optimizations
+
+[B]2.7.87[/B] (2016-01-02)
+- Added visual stars-rating (0-5 stars) in "Video Information Dialog"
+
+[B]2.7.86[/B] (2016-01-01)
+- Minor improvements and optimizations
+
+[B]2.7.85[/B] (2016-01-01)
+- New Option under SKIN SETTINGS -&gt; BACKGROUND OPTIONS -&gt; "Use Original Confluence Default Background "Blue Bubbles" instead of Black"
+(Disabled by default)
+If you really like the Original Confluence Default Background "Blue Bubbles" better than plain black, you may enable this option.
+
+[B]2.7.84[/B] (2016-01-01)
+- Reworked US MPAA Icons (now colored)
+- Added MPAA FSK-certification support for Germany in "Video Information Dialog" (including textures)
+- "Video Information Dialog": Header label is now scrolling if title name is too long
+
+[B]2.7.83[/B] (2016-01-01)
+- Reworked "DialogVideoInfo.xml" (Video Information Dialog) !
+- Moved movie release-year on homescreen within the "now playing" info. BEFORE: MovieName (YYYY) NOW: StudioName (YYYY)
+- Reworked textures: icon-rss.png, DefaultAddonNone.png
+- Removed option for windowed trailer in "Video Information Dialog"
+
+[B]2.7.82[/B] (2015-12-29)
+- Increased maximum no. of home screen addons (from 5 to 7)
+- Added movie release-year in VideoOSD &gt; BEFORE: StudioName NOW: StudioName (YYYY)
+
+[B]2.7.81[/B] (2015-12-28)
+- Visually optimized home screen addons
+
+[B]2.7.80[/B] (2015-12-27)
+- Visually optimized home screen addons
+- Added home screen addons option for "TV/Radio"
+- Visually optimized home screen RSS Feed
+- Reworked textures: PVR-EpgProgressIndicator.png
+
+[B]2.7.79[/B] (2015-12-26)
+- Reworked textures:
+arrow-big-left.png, 
+arrow-big-right.png, 
+PVR-IsRecording.png, 
+PVR-HasTimer.png,
+icon-mute.png
+
+[B]2.7.78[/B]
+- Reworked up/down left/right control graphics/arrows (type 1 + 2)
+
+[B]2.7.77[/B]
+- New MINI Weather Information for home screen:
+Reworked home screen option "Show weather information" (it does NOT replace the KODI logo with that large weather information anymore - mini info is added right to the KODI logo)
+- Fixed Video OSD Subtitle tooltip position (X-position slightly off because of the reworked OSD buttons)
+Textures:
+- Reworked "radio buttons" (AKA on/off button)
+- OSD Keyboard focus key optimized
+- OSD Keyboard radio buttons optimized to match radio button change
+
+[B]2.7.76[/B]
+- Home screen PVR recording/timer info position fix (very minor)
+
+[B]2.7.75[/B]
+- Reworked all OSD-Button graphics again (no focus + focus state changed)
+- More reworked gradients with near to no banding
+- Many smaller textures updates and icon size optimization
+
+[B]2.7.74[/B]
+- Small home main menu focus-item fix
+- Reworked backgrounds for main menu and bottom floor image (Containing new, much better, almost banding free gradients)
+
+[B]2.7.73[/B]
+- Reworked Home main menu (items now have text labels)
+- Some home main menu icons now smaller (have been too bulky before)
+- Don't hide "recently added [...]" on home screen if favorites sidebar is open
+- Small textures update (includes: removed strange 0.0 audio indicator like in Jarvis)
+
+[B]2.7.72[/B]
+- Added global home screen PVR recording/timer indicator
+- Fixed Recording OSD Button togglebutton states
+- Minor improvements and optimizations (including):
+VideoOSD, MusicOSD: Dim disabled items more,
+Home screen "Recently added ..." font size corrections,
+Small optimization in OSD Buttons: AudioSettings, VideoSettings, Record, EPG, TXT
+
+[B]2.7.71[/B]
+- Reworked home screen icons for Shutdown Menu and Favorites
+- Minor improvements and optimizations
+
+[B]2.7.70[/B]
+- New optional setting "Move Favorites Button to main menu (ONLY works if main menu isn't full!)"
+
+[B]2.7.69[/B]
+- Reworked Home Widgets/Addons
+- Added 5% home main menu, home sub menu and floor transparency
+- Minor improvements and optimizations
+
+[B]2.7.68[/B]
+- Optimized animation/transition timings
+- Minor improvements and optimizations
+
+[B]2.7.67[/B]
+- Some viewtypes a now hidden by default for more simplicity. (All stock-views can be simply re-activated in Skin Settings.)
+- Home: Switched Shutdown and Favorites Button
+- Minor improvements and optimizations
+
+[B]2.7.66[/B]
+- Wall Views now use a semi-transparent background like the other ViewsTypes to match Confluence typical background-video-style (Can be disabled in Skin Settings!)
+
+[B]2.7.65[/B]
+- Minor improvements and optimizations (including):
+Reworked TV/Radio-Channel-Section, Wall Views
+
+[B]2.7.64[/B]
+- Reworked TV/Radio-Channel-Section (Larger Plot, removed minimized window, enable background video for TV/Radio-Channel-Section)
+
+[B]2.7.63[/B]
+- Minor improvements and optimizations (including):
+Removed "MediaItemDetailBG.png" code+image,
+Reworked "DefaultAddon.png",
+Cosmetic px fixes within "Settings.xml", "SettingsCategory.xml"
+
+[B]2.7.62[/B]
+- Minor viewtypes fix ("script.module.xbmcswift2" MOD to version 2.4.01)
+
+[B]2.7.61[/B]
+- Added Settings Option to make the "Wall View" with more items default ("Wall View" with fewer items is default - enable option for change/switch)
+- Minor improvements and optimizations
+
+[B]2.7.60[/B]
+- Settings sub menu item "OpenELEC" now conditional
+- Fixed "logfile-cosmetic" error regarding missing "settings.jpg"
+- Minor improvements and optimizations (including):
+DefaultAlbumCover.png, DefaultAudio.png, DefaultAudio.png, 
+further optimized main menu icons
+
+[B]2.7.59[/B]
+- Some small but important viewtype fixes
+- Minor improvements and optimizations (including):
+"DefaultArtist.png"
+
+[B]2.7.58[/B]
+- Reworked Favorites-Sidebar
+- Minor improvements and optimizations (including):
+Subtitle Download Dialog
+
+[B]2.7.57[/B]
+- Added option to hide main menu item "TV-Radio"
+- Minor improvements and optimizations (including):
+Subtitle Download Dialog
+
+[B]2.7.56[/B]
+- Reworked OSD Subtitle Download Dialog
+
+[B]2.7.55[/B]
+- Reworked and optimized OSD-Keyboard(s)
+- Minor improvements and optimizations (including):
+"PVR-EpgProgressIndicator.png", 
+"DefaultActor.png", 
+Added header label above "Clean Library..."-Button in Sidebar
+
+[B]2.7.54[/B]
+- Optimized "DialogVideoInfo.xml"
+- Minor improvements and optimizations (including):
+Removed additional font-faces in "Font.xml" , 
+removed "GlassOverlay.png" code+image, 
+removed "HasSub.png" code+image, 
+"DefaultAddSource.png", 
+"DialogVideoInfo.xml" Plot height fix
+
+[B]2.7.53[/B]
+- Fixed "Dialog Header Image" widths and left-positions for all files
+- Integrate support for optional custom movie duration script
+- Minor improvements
+
+[B]2.7.52[/B]
+- Minor improvements
+
+[B]2.7.51[/B]
+- Reworked all OSD-Buttons (now 1080p optimized)
+- Reworked main menu icons TV and Radio
+- Reworked Header Icons for different Sections (Movies, TV-Shows, Files ...) (now they are matching the main menu icons)
+- Minor fixes and improvements
+
+[B]2.7.50[/B]
+- Added another Wall View with more items (Now: Wall View 1 &amp; Wall View 2)
+- Added "Clean library" button in sidebar (below "Update Library")
+- Minor improvements and optimizations
+
+[B]2.7.49[/B]
+[B]2.7.48[/B]
+- Minor improvements
+
+[B]2.7.47[/B]
+- Reworked top left global KODI-Logo (now 1080p optimized)
+- Reworked DefaultFolderBack Icon (now 1080p optimized)
+- Reworked DefaultVideo and DefaultVideoCover Icon (now 1080p optimized)
+- Minor improvements
+
+[B]2.7.46[/B]
+- Reworked main menu icon for "Movies"
+
+[B]2.7.45[/B]
+- Reworked all main menu icons since they were a little blurry before. Now they are very sharp and 1080p optimized.
+- Wall view (Thumbnail view) optimizations
+
+[B]2.7.44[/B]
+- Minor fix
+
+[B]2.7.43[/B]
+- Minor improvements
+
+[B]2.7.42[/B]
+- While in the wall view (Thumbnail view), the KODI sidebar can now be opened again by going all left. 
+I had this disabled because i want to be able to jump to the most right object by going all left. Some ppl may have a dedicated key for the KODI sidebar on a remote. -&gt; SetFocus(9000) (remote.xml)
+
+[B]2.7.41[/B]
+- Initial Release based on Confluence 2.7.4
+		</news>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+	</extension>
+</addon>
+
+
+<addon id="plugin.video.ororotv" name="Ororo TV" version="3.4.9" provider-name="ororo.tv">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
-		<import addon="script.module.metahandler" version="1.0.0"/>
+		<import addon="repository.ororotv" version="1.0.1" />
 		<import addon="script.module.simplejson" version="2.0.10"/>
 		<import addon="script.common.plugin.cache" version="0.9.1"/>
-		<import addon="script.module.parsedom" version="0.9.1"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
 	</extension>
+  <extension point="xbmc.subtitle.module" library="default.py" />
 	<extension point="xbmc.service" library="service.py" start="startup">
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Watch tv shows from ororo.tv</summary>
-		<description lang="en">Visit TVADDONS.ag for support</description>
+		<summary lang="en">Learn English by watching TV shows and movies</summary>
+		<description lang="en">Learn English by watching TV shows and movies</description>
 		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
-		<forum>http://forums.tvaddons.ag/forums/148-lambda-s-xbmc-addons</forum>
-		<source>https://offshoregit.com/lambda81/lambda-addons</source>
-		<website>https://offshoregit.com/lambda81/</website>
-		<platform>all</platform>
 	</extension>
 </addon>
 
@@ -10499,6 +12638,21 @@ provider-name="kodi senyor">
     <platform>all</platform>
     <forum>http://forums.tvaddons.ag/forums/113-TVADDONS-AG-ADDON-REPOSITORY</forum>
     <website>http://www.tvaddons.ag/</website>
+  </extension>
+</addon>
+
+
+<addon id="plugin.video.toonstv" name="Angry Birds : Toons TV" version="1.0.0" provider-name="MetalKettle">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en"></description>
+    <platform>all</platform>
   </extension>
 </addon>
 
@@ -10920,6 +13074,27 @@ level.</description>
 		<description>DUCKPOOL Repo</description>n 
 		<platform>all</platform>
 	</extension>
+</addon>
+
+
+<addon id="plugin.video.bonanza"
+       name="IPTV BONANZA"
+       version="1.0.0"
+       provider-name="BONANZA">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.video.F4mProxy" version="2.5.7" />
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <license>GPL 2.0</license>
+        <summary lang="en">IPTV BONANZA</summary>
+        <description lang="en">Find and play daily IPTV lists in blogs and websites.</description>
+    </extension>
 </addon>
 
 
@@ -11517,6 +13692,41 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
 		<summary>Install my Addons</summary>
 		<description>Download and install addons from MetalKettle</description>
 		<platform>all</platform>
+	</extension>
+</addon>
+
+
+
+<addon id="plugin.video.covenant" version="1.1.2" name="Covenant" provider-name="Covenant">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.covenant.artwork" version="1.0.0" />
+		<import addon="script.covenant.metadata" version="1.0.0" />
+		<import addon="script.module.urlresolver" version="3.0.0" />
+		<import addon="script.module.metahandler" version="1.0.0" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="covenant.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Covenant</summary>
+		<description lang="en">[I]A New Generation[/I][CR][CR][B]Covenant Movies and TV[/B][CR][CR]This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.[CR][CR]The author does not host any of the content in this addon and takes no responsibility for content found.</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<forum></forum>
+		<website></website>
+		<source></source>
+		<disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+    			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
+    			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
+    			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
+		</assets>
+		<news>[B]1.1.2[/B][CR]- Trakt workaround in tools for Leia[CR]- Update translations[CR]- Code cosmetics</news>
 	</extension>
 </addon>
 </addons>
