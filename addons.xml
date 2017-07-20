@@ -5936,7 +5936,7 @@ We have no control over the links on any site that we provide a link to. If you 
 
 </addon>
 
-<addon id="script.module.nanscrapers" name="NaN Scrapers" version="0.5.22" provider-name="Team NaN">
+<addon id="script.module.nanscrapers" name="NaN Scrapers" version="0.5.23" provider-name="Team NaN">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.beautifulsoup" version="3.2.1"/>
