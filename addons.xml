@@ -745,6 +745,25 @@ provider-name="kodi senyor">
 </addon>
 
 
+<addon id="script.playalbum" name="Play Album Script" version="3.0.1" provider-name="ronie">
+	<requires>
+		<import addon="xbmc.python" version="2.25.0"/>
+	</requires>
+	<extension point="xbmc.python.library" library="default.py" />
+	<extension point="xbmc.addon.metadata">	
+		<language></language>
+		<summary lang="en">Play Album Script</summary>
+		<description lang="en">Script will play a full album when executed in the album info dialog.</description>
+		<platform>all</platform>
+		<forum>http://forum.kodi.tv/showthread.php?tid=104189</forum>
+		<source>https://github.com/ronie/script.playalbum</source>
+		<license>GNU GENERAL PUBLIC LICENSE Version 2</license>
+		<website></website>
+		<email></email>
+	</extension>
+</addon>
+
+
 <addon id="resource.images.skinicons.lightwhite.he" name="Skin Icons - Light White Design (Hebrew)" version="1.0.4" provider-name="Orna Post, Benny Buchnik">
 	<extension point="kodi.resource.images" compile="false" type="skinicons" />
 	<requires>
@@ -3296,7 +3315,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 </addon>
 
 
-<addon id="script.artistslideshow" name="Artist Slideshow" version="1.8.7" provider-name="pkscout,ronie">
+<addon id="script.artistslideshow" name="Artist Slideshow" version="2.0.8" provider-name="pkscout,ronie">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 		<import addon="xbmc.addon" version="14.0.0"/>
@@ -3307,6 +3326,11 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<provides>executable</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
+		<news>
+v.2.0.8
+- fix for crash if Kodi plugin tries to load bio with oddly encoded characters
+- fix for crash if a services cache file contains a string that doesn't evaluate to int
+		</news>
 		<summary lang="ar">حمل المزيد من الصور والمعلومات عن الفنان الذى يُغنِى حالياً</summary>
 		<summary lang="be">Download images and additional info of the currently playing artist</summary>
 		<summary lang="bg">Сваля изображения и допълнителна инф. за изпълнителя на текущата песен</summary>
@@ -3338,31 +3362,31 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<summary lang="sl">Naložite slike in dodatne informacije, za trenutno predvajanega izvajalca</summary>
 		<summary lang="sv">Ladda ner bilder samt ytterligare information om den spelade artisten</summary>
 		<summary lang="zh">下载当前播放艺人的图片和附加信息</summary>
-		<description lang="ar">ملحق يساعدك على تَنِزِيل صور ومعلومات إضافيه عن الفنان الذى تستمع اليه حالياً من موقع fanart.tv و theaudiodb.com و htbackdrops.org. كما يمكنك جعل جلد واجهتك الحالى يستخدم كل ما سبق ﻹنشاء عروض شرائح للفنان الذى تستمع إليه</description>
-		<description lang="bg">Добавката сваля картинки и допълнителна информация от www.fanart.tv, www.theaudiodb.com и www.htbackdrops.org за изпълнителя който звучи в момента. Картинките, заедно с фанарт изображенията на изпълнителя, може да се ползват от облика, за създаването на слайдшоу за изпълнителя, който звучи в момента.</description>
-		<description lang="ca">Complement per descarregar imatges i informació addicional de fanart.tv, theaudiodb.com i htbackdrops.org de l'artista que s'està reproduint. Les imatges, juntament amb les imatges locals d'artistes, i la informació, pot ser utilitzada per la pell per crear una presentació de diapositives per a l'artista que s'està escoltant.</description>
-		<description lang="de">Addon um Bilder und zusätzliche Informationen von fanart.tv, theaudiodb.com und htbackdrops.org zum aktuell gespielten Künstler herunterzuladen. Diese Bilder können zusammen mit den lokalen Künstlerbildern und Infos vom Skin genutzt werden, um eine Slideshow für den aktuell angehörten Künstler zu erstellen.</description>
-		<description lang="el">Πρόσθετο για τη λήψη εικόνων και επιπλέον πληροφοριών από το fanart.tv, το theaudiodb.com, και το htbackdrops.com για τον τρέχοντα καλλιτέχνη. Οι εικόνες, μαζί με τοπικές εικόνες του καλλιτέχνη καθώς και πληροφορίες, μπορούν να χρησιμοποιηθούν από το κέλυφος για τη δημιουργία παρουσιάσεων διαφανειών του καλλιτέχνη η μουσική του οποίου ακούγεται.</description>
-		<description lang="en">Addon to download images and additional information from fanart.tv, theaudiodb.com, and htbackdrops.org of the currently playing artist. The images, along with local artists' images, and info can be used by the skin to create a slideshow for the artist being listened to.</description>
-		<description lang="en_NZ">Addon to download images and additional information from fanart.tv, theaudiodb.com, and htbackdrops.org of the currently playing artist. The images, along with local artists' images, and info can be used by the skin to create a slideshow for the artist being listened to.</description>
-		<description lang="en_US">Addon to download images and additional information from fanart.tv, theaudiodb.com, and htbackdrops.org of the currently playing artist. The images, along with local artists' images, and info can be used by the skin to create a slideshow for the artist being listened to.</description>
-		<description lang="es">Addon para descargar imágenes e información adicional de fanart.tv, theaudiodb.com y htbackdrops.org del artista que se está reproduciendo. Las imágenes, junto con imágenes de artistas locales, y la información puede ser utilizada por la piel para crear una presentación de diapositivas para el artista que se está escuchando.</description>
-		<description lang="fr_CA">Addiciel pour télécharger des images et des informations additionnelles sur fanart.tv, theaudiodb.com et htbackdrops.org de l'artiste en cours d'écoute. Les images, ainsi que les images locales de l'artiste, et les infos peuvent être utilisées par l'habillage pour créer un diaporama pour l'artiste en cours d'écoute.</description>
+		<description lang="ar">ملحق يساعدك على تَنِزِيل صور ومعلومات إضافيه عن الفنان الذى تستمع اليه حالياً من موقع fanart.tv و theaudiodb.com. كما يمكنك جعل جلد واجهتك الحالى يستخدم كل ما سبق ﻹنشاء عروض شرائح للفنان الذى تستمع إليه</description>
+		<description lang="bg">Добавката сваля картинки и допълнителна информация от www.fanart.tv и www.theaudiodb.com за изпълнителя който звучи в момента. Картинките, заедно с фанарт изображенията на изпълнителя, може да се ползват от облика, за създаването на слайдшоу за изпълнителя, който звучи в момента.</description>
+		<description lang="ca">Complement per descarregar imatges i informació addicional de fanart.tv i theaudiodb.com de l'artista que s'està reproduint. Les imatges, juntament amb les imatges locals d'artistes, i la informació, pot ser utilitzada per la pell per crear una presentació de diapositives per a l'artista que s'està escoltant.</description>
+		<description lang="de">Addon um Bilder und zusätzliche Informationen von fanart.tv und theaudiodb.com zum aktuell gespielten Künstler herunterzuladen. Diese Bilder können zusammen mit den lokalen Künstlerbildern und Infos vom Skin genutzt werden, um eine Slideshow für den aktuell angehörten Künstler zu erstellen.</description>
+		<description lang="el">Πρόσθετο για τη λήψη εικόνων και επιπλέον πληροφοριών από το fanart.tv  και το theaudiodb.com για τον τρέχοντα καλλιτέχνη. Οι εικόνες, μαζί με τοπικές εικόνες του καλλιτέχνη καθώς και πληροφορίες, μπορούν να χρησιμοποιηθούν από το κέλυφος για τη δημιουργία παρουσιάσεων διαφανειών του καλλιτέχνη η μουσική του οποίου ακούγεται.</description>
+		<description lang="en">Addon to download images and additional information from fanart.tv and theaudiodb.com of the currently playing artist. The images, along with local artists' images, and info can be used by the skin to create a slideshow for the artist being listened to.</description>
+		<description lang="en_NZ">Addon to download images and additional information from fanart.tv and theaudiodb.com of the currently playing artist. The images, along with local artists' images, and info can be used by the skin to create a slideshow for the artist being listened to.</description>
+		<description lang="en_US">Addon to download images and additional information from fanart.tv and theaudiodb.com of the currently playing artist. The images, along with local artists' images, and info can be used by the skin to create a slideshow for the artist being listened to.</description>
+		<description lang="es">Addon para descargar imágenes e información adicional de fanart.tv y theaudiodb.com del artista que se está reproduciendo. Las imágenes, junto con imágenes de artistas locales, y la información puede ser utilizada por la piel para crear una presentación de diapositivas para el artista que se está escuchando.</description>
+		<description lang="fr_CA">Addiciel pour télécharger des images et des informations additionnelles sur fanart.tv et theaudiodb.com de l'artiste en cours d'écoute. Les images, ainsi que les images locales de l'artiste, et les infos peuvent être utilisées par l'habillage pour créer un diaporama pour l'artiste en cours d'écoute.</description>
 		<description lang="gl">Complemento para descargar imaxes e información adicional de fanart.tv e theaudiodb.com do artista que está a soar. Estas imaxes, xunto cas do artista gardadas en local e a información pódeas usar o tema para crear unha presentación. </description>
-		<description lang="he">הרחבה להורדת תמונות ומידע נוסף על האמן המושמע כעת מ-fanart.tv, theaudiodb.com ו-htbackdrops.org. התמונות, בנוסף לתמונות אמנים מקומיות והמידע על אמן יכולים לשמש את המעטפת ליצירת מצגת עבור האמן המושמע כעת.</description>
+		<description lang="he">הרחבה להורדת תמונות ומידע נוסף על האמן המושמע כעת מ-fanart.tv ו- theaudiodb.com. התמונות, בנוסף לתמונות אמנים מקומיות והמידע על אמן יכולים לשמש את המעטפת ליצירת מצגת עבור האמן המושמע כעת.</description>
 		<description lang="hr">Dodatak za preuzimanje slika i dodatnih informacije trenutno reproduciranog izvođača s fanart.tv, theaudiodb.com i theaudiodb.com. Slike, zajedno s lokalnim slikama izvođača i informacijama mogu se koristiti s presvlakom za stvaranje slikovne prezentacije izvođača koji se sluša.</description>
-		<description lang="hu">A Kiegészítő letölt képeket és infromációkat a fanart.tv, theaudiodb.com, és htbackdrops.org oldalakról az éppen hallgatott előadóhoz. A képek a helyben tárolt képekkel együtt felhasználhatóak a Felszín által diavetítéshez.</description>
-		<description lang="it">Addon per scaricare immagini ed informazioni aggiuntive da Last.FM, theaudiodb.com e htbackdrops sull'artista attualmente in esecuzione. Le immagini possono essere usate dallo skin, insieme a quelle locali, per creare una presentazione  per l'artista che si sta ascoltando.</description>
+		<description lang="hu">A Kiegészítő letölt képeket és infromációkat a fanart.tv és theaudiodb.com oldalakról az éppen hallgatott előadóhoz. A képek a helyben tárolt képekkel együtt felhasználhatóak a Felszín által diavetítéshez.</description>
+		<description lang="it">Addon per scaricare immagini ed informazioni aggiuntive da fanart.tv e theaudiodb.com sull'artista attualmente in esecuzione. Le immagini possono essere usate dallo skin, insieme a quelle locali, per creare una presentazione  per l'artista che si sta ascoltando.</description>
 		<description lang="ko">현재 재생중인 아티스트의 이미지와 추가정보를 fanart.tv 와 theaudiodb.com 에서 다운로드합니다. 다운로드한 이미지와 정보는 로컬 이미지와 함께 현재 재생중인 음악의 아티스트 슬라이드쇼에 사용할 수 있습니다.</description>
-		<description lang="nl">Add-on om afbeeldingen en bijkomende informatie van Fanart.tv, theaudiodb.com en htbackdrops.org van de te horen artiest binnen te halen. de afbeeldingen, net als de lokaal aanwezige artiest-afbeeldingen en -info kunnen gebruikt worden door de skin om een diashow te tonen van de artiest di nu beluisterd wordt.</description>
-		<description lang="no">Tillegg for å laste ned bilder og ytterligere informasjon fra fanart.tv, theaudiodb.com og htbackdrops.org for artisten som spilles av for øyeblikket. Bildene, sammen med lokale artistbilder og info, kan bli brukt av skallet til å lage en lysbildefremvisning for artisten som blir lyttet til for øyeblikket.</description>
-		<description lang="pl">Wtyczka pobiera obrazy i dodatkowe informacje z fanart.tv, theaudiodb.com oraz htbackdrops.org o aktualnie odtwarzanym wykonawcy. Obrazami wraz z informacjami o wykonawcach, mogą być wykorzystywane przez skórę do tworzenia pokazu slajdów dla artysty, którego aktualnie słuchasz.</description>
-		<description lang="pt">Um add-on para transferir imagens e informação adicional do artista em reprodução no momento, a partir de fanart.tv, theaudiodb.com, e htbackdrops.org. As imagens e a informação, assim como as imagens locais dos artistas, podem ser usadas pelo tema para criar uma apresentação de slides do artista em escuta no momento.</description>
-		<description lang="pt_BR">Addon para download de imagens e informações adicionais do artista que está sendo reproduzido provido por fanart.tv, theaudiodb e htbackdrops.org.  Tais dados e imagens serão usados pelas skins para criarem um slideshow dos artistas quando estivermos escutando-os.</description>
-		<description lang="ru">Дополнение для загрузки изображений и дополнительной информации о воспроизводимом исполнителе с ресурсов fanart.tv, theaudiodb.com and htbackdrops.org. Загруженные изображения и доп. информация, наравне с локальными, могут быть использованы для создания слайд-шоу во время прослушивания композиций.</description>
-		<description lang="sl">Dodatek za prenos slik in dodatnih informacij  iz fanart.tv, theaudiodb.com, in htbackdrops.org za trenutno predvajanega izvajalca. Slike, skupaj z lokalnimi slikami izvajalcev ter informacije, se lahko uporabljajo s preobleko za ustvarjanje diaprojekcije slik izvajalca, ki ga trenutno poslušate.</description>
-		<description lang="sv">Tillägg för att ladda ner bilder och tilläggsinformation från fanart.tv, theaudiodb.com och htbackdrops.org om artisten som spelas för tillfället. Bilderna, tillsammans med lokala artistbilder och information, kan användas av skinnet för att skapa ett bildspel av artisten man lyssnar på.</description>
-		<description lang="zh">从fanart.tv、theaudiodb.com和htbackdrops.org下载当前播放艺人的图片和附加信息的插件。这此图片可以和本地艺人图片及信息一起，被皮肤用来创建正收听的艺人的幻灯片。</description>
+		<description lang="nl">Add-on om afbeeldingen en bijkomende informatie van Fanart.tv en theaudiodb.com van de te horen artiest binnen te halen. de afbeeldingen, net als de lokaal aanwezige artiest-afbeeldingen en -info kunnen gebruikt worden door de skin om een diashow te tonen van de artiest di nu beluisterd wordt.</description>
+		<description lang="no">Tillegg for å laste ned bilder og ytterligere informasjon fra fanart.tv og theaudiodb.com for artisten som spilles av for øyeblikket. Bildene, sammen med lokale artistbilder og info, kan bli brukt av skallet til å lage en lysbildefremvisning for artisten som blir lyttet til for øyeblikket.</description>
+		<description lang="pl">Wtyczka pobiera obrazy i dodatkowe informacje z fanart.tv oraz theaudiodb.com o aktualnie odtwarzanym wykonawcy. Obrazami wraz z informacjami o wykonawcach, mogą być wykorzystywane przez skórę do tworzenia pokazu slajdów dla artysty, którego aktualnie słuchasz.</description>
+		<description lang="pt">Um add-on para transferir imagens e informação adicional do artista em reprodução no momento, a partir de fanart.tv e theaudiodb.com. As imagens e a informação, assim como as imagens locais dos artistas, podem ser usadas pelo tema para criar uma apresentação de slides do artista em escuta no momento.</description>
+		<description lang="pt_BR">Addon para download de imagens e informações adicionais do artista que está sendo reproduzido provido por fanart.tv e theaudiodb.  Tais dados e imagens serão usados pelas skins para criarem um slideshow dos artistas quando estivermos escutando-os.</description>
+		<description lang="ru">Дополнение для загрузки изображений и дополнительной информации о воспроизводимом исполнителе с ресурсов fanart.tv and theaudiodb.com. Загруженные изображения и доп. информация, наравне с локальными, могут быть использованы для создания слайд-шоу во время прослушивания композиций.</description>
+		<description lang="sl">Dodatek za prenos slik in dodatnih informacij  iz fanart.tv in theaudiodb.com za trenutno predvajanega izvajalca. Slike, skupaj z lokalnimi slikami izvajalcev ter informacije, se lahko uporabljajo s preobleko za ustvarjanje diaprojekcije slik izvajalca, ki ga trenutno poslušate.</description>
+		<description lang="sv">Tillägg för att ladda ner bilder och tilläggsinformation från fanart.tv och theaudiodb.com om artisten som spelas för tillfället. Bilderna, tillsammans med lokala artistbilder och information, kan användas av skinnet för att skapa ett bildspel av artisten man lyssnar på.</description>
+		<description lang="zh">从fanart.tv和theaudiodb.com下载当前播放艺人的图片和附加信息的插件。这此图片可以和本地艺人图片及信息一起，被皮肤用来创建正收听的艺人的幻灯片。</description>
 		<language></language>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
@@ -6541,18 +6565,21 @@ provider-name="kodi senyor">
 </addon>
 
 
-<addon id="service.library.data.provider" name="Library Data Provider" provider-name="BigNoid, Martijn" version="0.2.0">
+<addon id="service.library.data.provider" name="Library Data Provider" provider-name="BigNoid" version="0.3.1">
 	<requires>
 		<import addon="xbmc.json" version="7.9.0"/>
 		<import addon="xbmc.python" version="2.25.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
+		<import addon="script.module.routing" version="0.1.0"/>
 	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py" />
+	<extension point="xbmc.python.pluginsource" library="plugin.py">
+		<provides>video</provides>
+	</extension>
 	<extension library="service.py" point="xbmc.service" start="login" />
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Plugin for skins to provide library data throughout the skin.</summary>
-		<description lang="en">Plugin for skins to provide library data throughout the skin.</description>
-		<disclaimer lang="en">This plugin is not a standalone plugin, your skin must support it.</disclaimer>
+		<summary lang="en">Browse movies and episodes in a variety of sorted playlists.</summary>
+		<description lang="en">Plugin for skins to provide library data throughout the skin. It can also be used as standalone plugin to browse the playlists in the video library.</description>
+		<disclaimer lang="en" />
 		<platform>all</platform>
 		<language />
 		<license>GNU GENERAL PUBLIC LICENSE Version 2, June 1991</license>
@@ -6560,9 +6587,10 @@ provider-name="kodi senyor">
 		<website>https://github.com/BigNoid/service.library.data.provider</website>
 		<email>big.noid@kodi.tv</email>
 		<source>https://github.com/BigNoid/service.library.data.provider</source>
-		<news>Added 2 new calls to fetch a cast list or a single database item. See README.md for full details.</news>
+		<news>Fixed "Recent videos"</news>
 		<assets>
 			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
 		</assets>
 	</extension>
 </addon>
@@ -8038,6 +8066,31 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 </addon>
 
 
+<addon id="service.nextup.notification" name="Nextup Service Notification" provider-name="im85288" version="1.0.35">
+    <requires>
+        <import addon="xbmc.python" version="2.20.0"/>
+        <import addon="script.module.addon.signals" version="0.0.1"/>
+        <import addon="script.module.requests" version="2.9.1" />
+        <import addon="script.module.simplejson" version="3.3.0"/>
+    </requires>
+    <extension library="service.py" point="xbmc.service" start="login"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Provides a netflix style nextup pop up notification</summary>
+        <description lang="en">Provides a netflix style nextup pop up notification</description>
+        <disclaimer lang="en">This plugin is a standalone plugin.</disclaimer>
+        <platform>all</platform>
+        <language/>
+    <assets>
+			<icon>icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+			<screenshot>resources/screenshot-04.jpg</screenshot>
+    </assets>
+    </extension>
+</addon>
+
+
 <addon id="script.video.newparentalcontrols" name="Parental Controls" version="1.5.4" provider-name="killdash9">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -8077,10 +8130,9 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 </addon>
 
 
-<addon id="script.globalsearch" name="Global Search" version="6.0.6" provider-name="ronie">
+<addon id="script.globalsearch" name="Global Search" version="8.0.0" provider-name="ronie">
 	<requires>
-		<import addon="xbmc.python" version="2.24.0"/>
-		<import addon="script.module.simplejson" version="3.3.0"/>
+		<import addon="xbmc.python" version="2.25.0"/>
 	</requires>
 	<extension point="xbmc.python.script" library="default.py">
 		<provides>executable</provides>
@@ -8146,12 +8198,12 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 		<description lang="sv">Detta tillägg kan hitta vilket objekt som helst i ditt video och musikbibliotek.</description>
 		<description lang="tr">Bu eklenti video ve müzik kitaplığınızdaki herhangi bir öğeyi bulabilir.</description>
 		<description lang="zh">此插件搜索你的视频和音乐资料库项目。</description>
-		<language/>
+		<language></language>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE Version 2</license>
 		<forum>http://forum.kodi.tv/showthread.php?tid=109301</forum>
-		<website/>
-		<email/>
+		<website></website>
+		<email></email>
 		<source>https://github.com/ronie/script.globalsearch/</source>
 	</extension>
 </addon>
@@ -11920,6 +11972,33 @@ provider-name="Smurf, Locknload">
 </addon>
 
 
+<addon id="script.colorbox" name="colorbox Script" version="2.0.2" provider-name="BADMS">
+	<requires>
+		<import addon="xbmc.python" version="2.25.0"/>
+		<import addon="script.module.simplejson" version="2.0.10"/>
+		<import addon="script.module.pil" version="1.1.7"/>
+	</requires>
+    <extension point="xbmc.python.script" library="default.py">
+        <provides>executable</provides>
+    </extension>
+	<extension point="xbmc.addon.metadata">
+	    <summary lang="en">Image manipulator and colour matching tools</summary>
+		<language/>
+		<summary lang="en">colorbox Script</summary>
+		<description lang="en">Provides image tools for skinners</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE Version 2, June 1991</license>
+		<forum>http://forum.kodi.tv/</forum>
+		<source>https://github.com/BADMS/script.colorbox</source>
+		<email>philipkdick@gmail.com</email>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon>
+
+
 <addon id="plugin.video.cartoons8" name="Cartoons8" version="1.0.34" provider-name="MetalKettle">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -13825,6 +13904,25 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
 	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners.</disclaimer>
     <platform>all</platform>
   </extension>
+</addon>
+
+
+<addon id="script.image.resource.select" name="Image Resource Select Addon" version="2.0.2" provider-name="ronie">
+	<requires>
+		<import addon="xbmc.python" version="2.25.0"/>
+	</requires>
+	<extension point="xbmc.python.library" library="default.py"/>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Image resource selection addon</summary>
+		<description lang="en">Script for skinners to let users select an image resource addon.</description>
+		<language></language>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE Version 2</license>
+		<forum>http://forum.kodi.tv/showthread.php?tid=239558</forum>
+		<website></website>
+		<email></email>
+		<source>https://github.com/ronie/script.image.resource.select</source>
+	</extension>
 </addon>
 
 

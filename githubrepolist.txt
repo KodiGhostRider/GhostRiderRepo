@@ -16,3 +16,13 @@ https://github.com/marcelveldt/script.skin.helper.colorpicker
 https://github.com/phil65/script.extendedinfo
 https://github.com/ronie/script.image.resource.select
 https://github.com/phil65/plugin.program.autocompletion
+https://github.com/BigNoid/service.library.data.provider
+https://github.com/im85288/service.nextup.notification
+https://github.com/ronie/script.globalsearch
+https://github.com/pkscout/script.artistslideshow
+https://github.com/BADMS/script.colorbox
+https://github.com/WayneD/script.tv.show.next.aired
+https://github.com/ronie/script.cu.lrclyrics
+https://github.com/stefansielaff/script.cdartmanager
+https://github.com/ronie/script.playalbum
+https://github.com/marcelveldt/resource.images.busyspinners.titan
