@@ -25,4 +25,4 @@ https://github.com/WayneD/script.tv.show.next.aired
 https://github.com/ronie/script.cu.lrclyrics
 https://github.com/stefansielaff/script.cdartmanager
 https://github.com/ronie/script.playalbum
-https://github.com/marcelveldt/resource.images.busyspinners.titan
+https://github.com/marcelveldt/resource.images.busyspinners.basic
