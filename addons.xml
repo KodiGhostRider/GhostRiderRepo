@@ -1312,6 +1312,31 @@ v5.2.14 (2017-01-23)
 </addon>
 
 
+<addon id="repository.xxxecho" name="Echo Coder XXX Repository" version="9.99.999" provider-name="Echo Coder">
+    <extension point="xbmc.addon.repository" name="Echo XXX Coder Repository">
+    <dir>
+        <info compressed="false">https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/</datadir>
+    </dir>
+        <info compressed="false">https://github.com/xibalba10/repository.xibalba/raw/master/addons.xml</info>
+        <checksum>https://github.com/xibalba10/repository.xibalba/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/xibalba10/repository.xibalba/raw/master/zips/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Unofficial Kodi Addons from Xibalba</summary>
+        <description>Download and install unofficial Kodi add-ons from the Xibalba add-on repository.
+
+Kodi is a registered trademark of the XBMC Foundation. We are not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <forum>https://github.com/xibalba10</forum>
+        <website>https://github.com/xibalba10</website>
+    </extension>
+<extension point="xbmc.service" library="service.py" start="login" />
+</addon>
+
+
 <addon id="program.mcfly.fontInstaller" name=".Subtitle Font Wizard" version="1.0" provider-name="Marty Mcfly">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -5964,22 +5989,28 @@ Highly configurable: Set your PIN, set your watershed time, exclude addons if re
 
 
 
-<addon id="repository.echo" name="[COLOR lime]ECHO[/COLOR] [COLOR white]Repository[/COLOR]" version="1.03" provider-name="ECHO">
-	<extension point="xbmc.addon.repository" name="ECHO Repository">
-	<dir>
-		<info compressed="false">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml</info>
-		<checksum>https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/zips/</datadir>
-	</dir>
-		<info compressed="false">https://raw.githubusercontent.com/echocoderkodi/repository.echo/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/echocoderkodi/repository.echo/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/echocoderkodi/repository.echo/master/zips/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Echo Repository</summary>
-		<description>The official Echo repositroy.</description>
-		<platform>all</platform>
-	</extension>
+<addon id="repository.echo" name="Echo Coder Repository" version="9.99.999" provider-name="Echo Coder">
+    <extension point="xbmc.addon.repository" name="Echo Coder Repository">
+    <dir>
+        <info compressed="false">https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/</datadir>
+    </dir>
+        <info compressed="false">https://github.com/xibalba10/repository.xibalba/raw/master/addons.xml</info>
+        <checksum>https://github.com/xibalba10/repository.xibalba/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/xibalba10/repository.xibalba/raw/master/zips/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Unofficial Kodi Addons from Xibalba</summary>
+        <description>Download and install unofficial Kodi add-ons from the Xibalba add-on repository.
+
+Kodi is a registered trademark of the XBMC Foundation. We are not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <forum>https://github.com/xibalba10</forum>
+        <website>https://github.com/xibalba10</website>
+    </extension>
+<extension point="xbmc.service" library="service.py" start="login" />
 </addon>
 
 
