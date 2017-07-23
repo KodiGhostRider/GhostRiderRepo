@@ -12025,7 +12025,7 @@ provider-name="Smurf, Locknload">
 </addon>
 
 
-<addon id="script.colorbox" name="colorbox Script" version="2.0.2" provider-name="BADMS">
+<addon id="script.colorbox" name="colorbox Script" version="2.0.3" provider-name="BADMS">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0"/>
 		<import addon="script.module.simplejson" version="2.0.10"/>
@@ -12035,10 +12035,8 @@ provider-name="Smurf, Locknload">
         <provides>executable</provides>
     </extension>
 	<extension point="xbmc.addon.metadata">
-	    <summary lang="en">Image manipulator and colour matching tools</summary>
-		<language/>
-		<summary lang="en">colorbox Script</summary>
-		<description lang="en">Provides image tools for skinners</description>
+	    <summary lang="en_GB">Image manipulator and colour matching tools</summary>
+		<description lang="en_GB">Provides image tools for skinners</description>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE Version 2, June 1991</license>
 		<forum>http://forum.kodi.tv/</forum>
