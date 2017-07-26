@@ -4625,7 +4625,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 
 <addon id="plugin.video.documented.hd"
        name="Documented.HD"
-       version="2.0"
+       version="2.1"
        provider-name="frenchdj">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -4644,7 +4644,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Colossus Addon</summary>
+    <summary lang="en">Colossus Edition</summary>
     <description>Alternative documentaries in HD quality. 
 Playlists organized by categories and any source comes from Youtube users. 
 [B][COLOR lime]Advised the latest version of youtube 5.*.*[/B][/COLOR]</description>
@@ -7620,7 +7620,7 @@ v5.2.14 (2017-01-23)
 
 <addon id="plugin.video.alive.hd"
        name="Alive.HD"
-       version="5.2"
+       version="5.3"
        provider-name="frenchdj">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -11805,13 +11805,14 @@ provider-name="Smurf, Locknload">
 </addon>
 
 
-	<addon id="script.skin.helper.service" name="Skin Helper Service" version="1.1.17" provider-name="marcelveldt">
+	<addon id="script.skin.helper.service" name="Skin Helper Service" version="1.1.18" provider-name="marcelveldt">
 	<requires>
 		<import addon="xbmc.python" version="2.13.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
         <import addon="script.module.simplejson" version="3.3.0"/>
         <import addon="script.module.simplecache" version="1.0.0"/>
         <import addon="script.module.metadatautils" version="1.0.0"/>
+        <import addon="script.module.cherrypy" version="11.0.0"/>
 	</requires>
 
     <extension point="kodi.context.item">
