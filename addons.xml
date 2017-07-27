@@ -9672,9 +9672,10 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 </addon>
 
 
-<addon id="script.module.xibalba" name="Xibalba Libraries" version="1.00.001" provider-name="Xibalba">
+<addon id="script.module.xibalba" name="Xibalba Libraries" version="1.00.006" provider-name="Xibalba">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.requests" />
 	</requires>
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
