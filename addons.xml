@@ -9318,7 +9318,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 
 <addon
     id="skin.eminence.2.mod.Krypton"
-    version="2.4.2"
+    version="2.4.3"
     name="Eminence 2.0 MOD"
     provider-name="jurialmunkey - Mod by Guilouz - Mod by Alanon">
     <requires>
@@ -9351,6 +9351,14 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
  			<screenshot>extras/viewthumbs/159.jpg</screenshot>
 		</assets>	
 		<news> Changelog:
+		
+		[B]2.4.3[/B]
+		1. Showcase tweak.
+		2. RSS Editor dialogue.
+		3. Flags tweak.
+		4. Artwork Beef tweak.
+		5. Skin Helper fix.
+		6. Widget background setting.
 		
 		[B]2.4.2[/B]
 		1. Huge viewtype overhaul.
@@ -9672,7 +9680,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 </addon>
 
 
-<addon id="script.module.xibalba" name="Xibalba Libraries" version="1.00.006" provider-name="Xibalba">
+<addon id="script.module.xibalba" name="Xibalba Libraries" version="1.00.007" provider-name="Xibalba">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.requests" />
@@ -14095,7 +14103,7 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
 
 
 
-<addon id="plugin.video.covenant" version="1.1.3" name="Covenant" provider-name="Covenant">
+<addon id="plugin.video.covenant" version="1.1.4" name="Covenant" provider-name="Covenant">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.covenant.artwork" version="1.0.0" />
@@ -14124,7 +14132,7 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
     			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
     			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
-		<news>[B]1.1.3[/B][CR]Code cosmetics</news>
+		<news>[B]1.1.4[/B][CR]Fixed New Episodes List</news>
 	</extension>
 </addon>
 </addons>
