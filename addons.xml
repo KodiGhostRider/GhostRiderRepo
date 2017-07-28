@@ -14095,7 +14095,7 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
 
 
 
-<addon id="plugin.video.covenant" version="1.1.2" name="Covenant" provider-name="Covenant">
+<addon id="plugin.video.covenant" version="1.1.3" name="Covenant" provider-name="Covenant">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.covenant.artwork" version="1.0.0" />
@@ -14124,7 +14124,7 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
     			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
     			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
-		<news>[B]1.1.2[/B][CR]- Trakt workaround in tools for Leia[CR]- Update translations[CR]- Code cosmetics</news>
+		<news>[B]1.1.3[/B][CR]Code cosmetics</news>
 	</extension>
 </addon>
 </addons>
