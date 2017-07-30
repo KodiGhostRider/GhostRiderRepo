@@ -3797,6 +3797,23 @@ http://www.hometheater.co.il</description>
 </addon>
 
 
+<addon id="plugin.video.ourmatch" name="Our Match" version="1.0.0" provider-name="123456">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary>Football highlights from around the world</summary>
+		<description>Watch football highlights.</description>
+		<disclaimer lang="en">The author is not responsible for the media you find in this add-on.</disclaimer>
+	</extension>
+	
+</addon>
+
+
 <!--suppress ALL -->
 <addon id="plugin.video.salts" version="2.0.195" name="Stream All The Sources" provider-name="k3l3vra">
     <requires>
@@ -4830,6 +4847,19 @@ Playlists organized by categories and any source comes from Youtube users.
 </addon>
 
 
+<addon id="script.module.echo" name="Echo Libraries" version="1.00.000" provider-name="Echo Coder">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.requests" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Forked from TK Norris Shared Module. Reusable Modules used by several of Echo's addons</summary>
+	</extension>
+</addon>
+
+
 <addon id="plugin.video.vod.9movies" name="9movies" version="1.0.2" provider-name="anhlon">
 	<requires>
 		<import addon="xbmc.python" version="2.7.0"/>
@@ -4983,7 +5013,7 @@ Playlists organized by categories and any source comes from Youtube users.
 </addon>
 
 
-<addon id="script.xxxodus.scrapers" name="XXXODUS Scrapers" version="1.00.000" provider-name="Xibalba">
+<addon id="script.xxxodus.scrapers" name="XXXODUS Scrapers" version="1.00.011" provider-name="Echo Coder">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -11008,6 +11038,32 @@ provider-name="kodi senyor">
 </addon>
 
 
+<addon id="plugin.video.kidz" 
+         name="Kidz" 
+         version="1.02"
+         provider-name="Echo Coder">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension> 
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">A selection of content for Kids.</summary>
+    <description lang="en">A selection of content for Kids.</description>
+    <disclaimer lang="en"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+
+
 <addon id="plugin.video.kodisraelkids"
 	name="ילדודס"
 	version="1.25"
@@ -11201,15 +11257,16 @@ provider-name="kodi senyor">
 
 <addon id="plugin.video.xxx-o-dus" 
 	     name="XXX-O-DUS" 
-	     version="3.00.001" 
-	     provider-name="Xibalba">
+	     version="3.00.014" 
+	     provider-name="Echo Coder">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.xibalba"/>
+    <import addon="script.module.echo"/>
     <import addon="script.xxxodus.artwork"/>
     <import addon="script.xxxodus.scrapers"/>
     <import addon="script.module.urlresolver"/>
-    <import addon="repository.xibalba"/>
+    <import addon="script.module.urlresolver.xxx"/>
+    <import addon="script.module.pyxbmct"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
@@ -11218,16 +11275,16 @@ provider-name="kodi senyor">
   </extension> 
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
-    <summary lang="en">The AIO XXX Addon for Kodi</summary>
+    <summary lang="en">[B]Massive Credit to @_PYDEV_ KingKong for the pyxbmct work to provide a stunning interface to view the dialogs in this addon and the GitHub issues! Also A huge credit to jokstergfx for the icons and fanarts in this addon and many others! Thank you![/B]</summary>
     <description lang="en">[COLOR white]XXX-O-DUS scrapes many websites to bring you hundreds of thousands of videos. Features of the addon include, history monitoring, favourites, downloadable videos, parental controls and more![/COLOR]
 
 [COLOR white]Websites Include: Porn.com, PornHD.com, Chaturbate.com, RedTube.com, Xhamster.com, YouPorn.com, PornFun.com, Motherless.com,Porn00.org, Spankbang.com, Virtualpornstars.com, Watchxxxfree.com, Perfectgirls.net, XNXX.com and many more.[/COLOR]</description>
     <disclaimer lang="en">The pages of this addon are designed for ADULTS only and may include pictures and materials that some viewers may find offensive. If you are under the age of 18, if such material offends you or if it is illegal to view such material in your community please exit the addon.</disclaimer>
     <language></language>
     <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <website>http://fusion.tvaddons.ag</website>
-    <forum>http://tvaddons.ag/forums</forum>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+    <website>https://github.com/xibalba10/</website>
+    <forum>https://github.com/xibalba10/</forum>
     <assets>
         <icon>icon.png</icon>
         <fanart>fanart.jpg</fanart>
@@ -11274,6 +11331,31 @@ provider-name="kodi senyor">
     <description lang="en">Stream Movies From The 9movies.to WebSite</description>
 	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
     <platform>all</platform>
+  </extension>
+</addon>
+
+
+<addon id="plugin.audio.anfieldindex" 
+         name="Anfield Index Podcast" 
+         version="1.03"
+         provider-name="Echo Coder">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>audio</provides>
+  </extension> 
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en"></summary>
+    <description lang="en">A selection of podcasts from the Anfield Index website at anfieldindex.com/podcasts</description>
+    <disclaimer lang="en">We are in no way affiliated with Liverpool Football Club and are an independent Liverpool supporters site.</disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
   </extension>
 </addon>
 
@@ -11845,7 +11927,7 @@ provider-name="Smurf, Locknload">
 </addon>
 
 
-	<addon id="script.skin.helper.service" name="Skin Helper Service" version="1.1.19" provider-name="marcelveldt">
+	<addon id="script.skin.helper.service" name="Skin Helper Service" version="1.1.20" provider-name="marcelveldt">
 	<requires>
 		<import addon="xbmc.python" version="2.13.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
@@ -11970,7 +12052,7 @@ provider-name="Smurf, Locknload">
 </addon>
 
 
-<addon id="script.xxxodus.artwork" version="1.00.000" name="XXXODUS Artwork" provider-name="Xibalba">
+<addon id="script.xxxodus.artwork" version="1.00.0010" name="XXXODUS Artwork" provider-name="Echo Coder">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 	</requires>
@@ -12152,6 +12234,37 @@ provider-name="Smurf, Locknload">
     <website>http://crsmithdev.com/arrow/</website>
     <source>https://github.com/Razzeee/script.module.arrow</source>
     <email>beenje AT gmail.com</email>
+  </extension>
+</addon>
+
+
+<addon id="plugin.video.echodocs" 
+         name="Echo Documentaries" 
+         version="1.09"
+         provider-name="Echo Coder">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.urlresolver"/>
+    <import addon="plugin.video.youtube" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension> 
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">This addon provides documenraries from a variety of sources.</summary>
+    <description lang="en">This addon provides documenraries from a variety of sources.</description>
+    <disclaimer lang="en">We do not host any of the streams provided within the addon.</disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
   </extension>
 </addon>
 
