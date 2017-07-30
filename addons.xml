@@ -4009,6 +4009,35 @@ http://www.hometheater.co.il</description>
 </addon>
 
 
+<addon id="plugin.program.trumptweets" 
+	     name="President Trumps Tweets" 
+	     version="1.00.000" 
+	     provider-name="Echo Coder">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension> 
+  <extension point="xbmc.service" library="service.py" start="startup">
+  </extension> 
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Official Tweets of POTUS 45</summary>
+    <description lang="en">Checks for new @realDonaldTrump tweets every 5 min and transforms them into correct Presidential statement format. Inspired by @PatCunnane built by @russelneiss</description>
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+    <website>https://github.com/echocoderxbmc/</website>
+    <forum>https://github.com/echocoderxbmc/</forum>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+
+
 <addon id="plugin.video.trakt_list_manager" name="Trakt.tv List Manager" version="0.1.6" provider-name="Tristan Fischer (sphere@dersphere.de)">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
