@@ -4011,7 +4011,7 @@ http://www.hometheater.co.il</description>
 
 <addon id="plugin.program.trumptweets" 
 	     name="President Trumps Tweets" 
-	     version="1.00.000" 
+	     version="1.00.001" 
 	     provider-name="Echo Coder">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -5042,7 +5042,7 @@ Playlists organized by categories and any source comes from Youtube users.
 </addon>
 
 
-<addon id="script.xxxodus.scrapers" name="XXXODUS Scrapers" version="1.00.011" provider-name="Echo Coder">
+<addon id="script.xxxodus.scrapers" name="XXXODUS Scrapers" version="1.00.013" provider-name="Xibalba">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -11285,7 +11285,7 @@ provider-name="kodi senyor">
 
 <addon id="plugin.video.xxx-o-dus" 
 	     name="XXX-O-DUS" 
-	     version="3.00.014" 
+	     version="3.00.018" 
 	     provider-name="Echo Coder">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -12080,7 +12080,7 @@ provider-name="Smurf, Locknload">
 </addon>
 
 
-<addon id="script.xxxodus.artwork" version="1.00.0010" name="XXXODUS Artwork" provider-name="Echo Coder">
+<addon id="script.xxxodus.artwork" version="1.00.011" name="XXXODUS Artwork" provider-name="Xibalba">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 	</requires>
