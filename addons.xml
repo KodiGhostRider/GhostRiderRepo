@@ -88,8 +88,8 @@
 
 <addon id="script.module.metahandler" 
      name="metahandler" 
-     version="3.0.0" 
-     provider-name="eldorado, jsergio">
+     version="3.0.1" 
+     provider-name="Eldorado, jsergio">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.simplejson" version="3.3.0"/>
@@ -104,6 +104,8 @@
     <language></language>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum></forum>
+    <website></website>
     <email></email>
     <source></source>
   </extension>
@@ -8160,7 +8162,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 </addon>
 
 
-<addon id="plugin.video.tinklepad" name="TinklePad" version="2.0.3" provider-name="jsergio">
+<addon id="plugin.video.tinklepad" name="TinklePad" version="2.0.4" provider-name="jsergio">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.metahandler" version="2.9.1"/>
