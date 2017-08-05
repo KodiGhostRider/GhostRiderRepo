@@ -4878,7 +4878,7 @@ Playlists organized by categories and any source comes from Youtube users.
 </addon>
 
 
-<addon id="script.module.echo" name="Echo Libraries" version="1.00.001" provider-name="Echo Coder">
+<addon id="script.module.echo" name="Echo Libraries" version="1.00.002" provider-name="Echo Coder">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.requests" />
@@ -5044,7 +5044,7 @@ Playlists organized by categories and any source comes from Youtube users.
 </addon>
 
 
-<addon id="script.xxxodus.scrapers" name="XXXODUS Scrapers" version="1.00.015" provider-name="Echo Coder">
+<addon id="script.xxxodus.scrapers" name="XXXODUS Scrapers" version="1.00.016" provider-name="Echo Coder">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -6010,7 +6010,7 @@ Highly configurable: Set your PIN, set your watershed time, exclude addons if re
 
 <addon id="plugin.video.adultswim"
        name="Adult Swim"
-       version="1.0.1"
+       version="1.0.2"
        provider-name="jsergio">
   <requires>
     <import addon="xbmc.python" version="2.20.0"/>
@@ -10253,11 +10253,10 @@ provider-name="kodi senyor">
 
 <addon id="plugin.video.live.streamspro"
        name="LiveStreamsPro"
-       version="2.7.4"
+       version="2.8.1"
        provider-name="Shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="plugin.video.f4mTester" version="2.7.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
     <import addon="script.module.simple.downloader" version="0.9.4"/>
     <import addon="script.module.beautifulsoup4" />
@@ -11287,7 +11286,7 @@ provider-name="kodi senyor">
 
 <addon id="plugin.video.xxx-o-dus" 
 	     name="XXX-O-DUS" 
-	     version="3.00.020" 
+	     version="3.00.022" 
 	     provider-name="Echo Coder">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -12109,7 +12108,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 </addon>
 
 
-<addon id="script.xxxodus.artwork" version="1.00.013" name="XXXODUS Artwork" provider-name="Echo Coder">
+<addon id="script.xxxodus.artwork" version="1.00.014" name="XXXODUS Artwork" provider-name="Echo Coder">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 	</requires>
