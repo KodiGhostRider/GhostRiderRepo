@@ -5044,7 +5044,7 @@ Playlists organized by categories and any source comes from Youtube users.
 </addon>
 
 
-<addon id="script.xxxodus.scrapers" name="XXXODUS Scrapers" version="1.00.016" provider-name="Echo Coder">
+<addon id="script.xxxodus.scrapers" name="XXXODUS Scrapers" version="1.00.017" provider-name="Echo Coder">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -9345,7 +9345,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 </addon>
 
 
-<addon id="plugin.video.moviedude" name="Movie Dude" version="16.7.17" provider-name="The Alpha">
+<addon id="plugin.video.moviedude" name="Movie Dude" version="2017.08.05" provider-name="The Alpha">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
@@ -9359,7 +9359,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Movie Dude</summary>
-		<description lang="en">Thanks Jokstergfx For The Artwork</description>
+		<description lang="en"></description>
 		<platform>all</platform>
 		<forum></forum>
 		<website></website>
@@ -9367,7 +9367,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
 		</assets>
-		<news>New Artwork 2nd Scraper</news>
+		<news>New Artwork 2nd Scraper updated fixed version number</news>
 	</extension>
 </addon>
 
@@ -11286,7 +11286,7 @@ provider-name="kodi senyor">
 
 <addon id="plugin.video.xxx-o-dus" 
 	     name="XXX-O-DUS" 
-	     version="3.00.022" 
+	     version="3.00.023" 
 	     provider-name="Echo Coder">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -12108,7 +12108,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 </addon>
 
 
-<addon id="script.xxxodus.artwork" version="1.00.014" name="XXXODUS Artwork" provider-name="Echo Coder">
+<addon id="script.xxxodus.artwork" version="1.00.015" name="XXXODUS Artwork" provider-name="Echo Coder">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 	</requires>
