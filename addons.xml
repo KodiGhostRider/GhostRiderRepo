@@ -939,7 +939,7 @@ provider-name="kodi senyor">
 </addon>
 
 
-	<addon id="script.skin.helper.widgets" name="Skin Helper Service Widgets" version="1.0.32" provider-name="marcelveldt">
+	<addon id="script.skin.helper.widgets" name="Skin Helper Service Widgets" version="1.0.33" provider-name="marcelveldt">
 	<requires>
 		<import addon="xbmc.python" version="2.24.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
@@ -4623,7 +4623,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 </addon>
 
 
-<addon id="script.skinshortcuts" name="Skin Shortcuts" version="1.0.17" provider-name="BigNoid,marcelveldt">
+<addon id="script.skinshortcuts" name="Skin Shortcuts" version="1.0.18" provider-name="BigNoid,marcelveldt">
 	<requires>
 		<import addon="xbmc.python" version="2.20.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
@@ -12016,7 +12016,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 </addon>
 
 
-	<addon id="script.skin.helper.service" name="Skin Helper Service" version="1.1.21" provider-name="marcelveldt">
+	<addon id="script.skin.helper.service" name="Skin Helper Service" version="1.1.22" provider-name="marcelveldt">
 	<requires>
 		<import addon="xbmc.python" version="2.13.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
