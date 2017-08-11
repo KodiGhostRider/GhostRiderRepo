@@ -4687,7 +4687,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 
 <addon id="plugin.video.documented.hd"
        name="Documented.HD"
-       version="2.1"
+       version="2.2"
        provider-name="frenchdj">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -7695,7 +7695,7 @@ v5.2.14 (2017-01-23)
 
 <addon id="plugin.video.alive.hd"
        name="Alive.HD"
-       version="5.3"
+       version="5.4"
        provider-name="frenchdj">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
