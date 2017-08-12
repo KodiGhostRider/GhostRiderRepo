@@ -7839,10 +7839,11 @@ Playlists organized by categories and any source comes from Youtube users.
 </addon>
 
 
-<addon id="plugin.video.bennu" name="Bennu" version="17.8.5" provider-name="Bennu">
+<addon id="plugin.video.bennu" name="Bennu" version="17.8.11" provider-name="Bennu">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
-		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
+        <import addon="repository.colossus" /> 
+		<import addon="plugin.video.youtube" version="5.2.1" />
 		<import addon="script.module.pyxbmct" version="1.1.4" />
 		<import addon="script.module.urlresolver" version="3.0.0"/>
 		<import addon="script.module.liveresolver" version="0.1.24"/>
