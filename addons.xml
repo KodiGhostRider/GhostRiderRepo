@@ -6010,7 +6010,7 @@ Highly configurable: Set your PIN, set your watershed time, exclude addons if re
 
 <addon id="plugin.video.adultswim"
        name="Adult Swim"
-       version="1.0.2"
+       version="1.0.3"
        provider-name="jsergio">
   <requires>
     <import addon="xbmc.python" version="2.20.0"/>
