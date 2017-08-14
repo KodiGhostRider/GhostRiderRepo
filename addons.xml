@@ -8193,7 +8193,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 </addon>
 
 
-<addon id="plugin.video.tinklepad" name="TinklePad" version="2.0.7" provider-name="jsergio">
+<addon id="plugin.video.tinklepad" name="TinklePad" version="2.0.8" provider-name="jsergio">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.metahandler" version="2.9.1"/>
@@ -14320,7 +14320,7 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
 
 
 
-<addon id="plugin.video.covenant" version="1.1.6" name="Covenant" provider-name="Covenant">
+<addon id="plugin.video.covenant" version="1.1.7" name="Covenant" provider-name="Covenant">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.covenant.artwork" version="1.0.0" />
