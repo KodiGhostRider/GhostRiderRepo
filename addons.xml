@@ -5044,7 +5044,7 @@ Playlists organized by categories and any source comes from Youtube users.
 </addon>
 
 
-<addon id="script.xxxodus.scrapers" name="XXXODUS Scrapers" version="1.00.020" provider-name="Echo Coder">
+<addon id="script.xxxodus.scrapers" name="XXXODUS Scrapers" version="1.00.021" provider-name="Echo Coder">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
