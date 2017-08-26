@@ -12239,7 +12239,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 </addon>
 
 
-<addon id="script.colorbox" name="colorbox Script" version="2.0.4.2" provider-name="BADMS">
+<addon id="script.colorbox" name="colorbox Script" version="2.0.4.3" provider-name="BADMS">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0"/>
 		<import addon="script.module.simplejson" version="2.0.10"/>
@@ -12259,6 +12259,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<assets>
 			<icon>resources/icon.png</icon>
 			<fanart>resources/fanart.jpg</fanart>
+			<screenshot>resources/fanart.jpg</screenshot>
 		</assets>
 	</extension>
 </addon>
