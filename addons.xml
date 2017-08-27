@@ -7656,15 +7656,30 @@ v5.2.14 (2017-01-23)
 
 
 
-    <addon id="repository.thgiliwt" name="Thgiliwt Addon Repository" version="1.1.2" provider-name="Thgiliwt">
-        <extension point="xbmc.addon.repository" name="Thgiliwt Addon Repository">
+    <addon id="repository.thgiliwt" name="Thgiliwt Repository" version="1.4.0" provider-name="Thgiliwt">
+        <extension point="xbmc.addon.repository" name="Thgiliwt Repository">
             <info compressed="false">http://alivegr.net/repo/_thgiliwt/addons.xml</info>
             <checksum>http://alivegr.net/repo/_thgiliwt/addons.xml.md5</checksum>
             <datadir zip="true">http://alivegr.net/repo/_thgiliwt/</datadir>
             <hashes>false</hashes>
+            <dir>
+                <info compressed="false">https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/</datadir>
+            </dir>
+            <dir>
+                <info compressed="false">https://raw.githubusercontent.com/Twilight0/repo.twilight0/master/_zips/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/Twilight0/repo.twilight0/master/_zips/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/Twilight0/repo.twilight0/master/_zips/</datadir>
+            </dir>
+            <dir>
+                <info compressed="false">https://raw.githubusercontent.com/Twilight0/repo.twilight0.libs/master/_zips/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/Twilight0/repo.twilight0.libs/master/_zips/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/Twilight0/repo.twilight0.libs/master/_zips/</datadir>
+            </dir>
         </extension>
         <extension point="xbmc.addon.metadata">
-            <summary>AliveGR repo</summary>
+            <summary>Thgiliwt's repository</summary>
             <description>Repository for AliveGR and other add-ons</description>
             <platform>all</platform>
         </extension>
@@ -14322,7 +14337,7 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
 
 
 
-<addon id="plugin.video.covenant" version="1.1.10" name="Covenant" provider-name="Covenant">
+<addon id="plugin.video.covenant" version="1.1.11" name="Covenant" provider-name="Covenant">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.covenant.artwork" version="1.0.0" />
