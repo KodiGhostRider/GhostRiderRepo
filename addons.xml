@@ -2475,6 +2475,49 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 </addon>
 
 
+<addon id="plugin.video.echocommunityplayer" 
+	     name="ECHO Community Player" 
+	     version="1.05"
+	     provider-name="Echo Coder">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="plugin.video.f4mTester" version="2.7.1"/>
+    <import addon="script.module.urlresolver" version="3.0.26"/>
+    <import addon="script.module.liveresolver" version="0.1.48"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension> 
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Twitter Support: @EchoCoder</summary>
+    <description lang="en">The ECHO Community player brings together links shared by the community. 
+
+ECHO cannot be responsible for the content shared and/or the names used to identify the links.
+
+It is possible for the name identifiers of the list not to match the links.
+
+There is a possibility +18 content may be present in the addon.
+
+I ask that you please use the addon wisely and not abuse the service I am providing for you.</description>
+    <disclaimer lang="en">Due to the amount of spam I have seen whilst using the API on my Wizard there are some features included in this addon.
+
+If you decide to submit a link to us the API WILL LOG YOUR IP!
+
+If you are determined to be abusing the service by sharing spam links or wrong identifiers to the links your IP will be BANNED from ALL ECHO servers.
+
+Your IP will never be shared and/or given to any 3rd party.
+</disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://www.echocoder.com</forum>
+    <website>http://www.echocoder.com</website>
+    <email>echocoder@protonmail.com</email>
+  </extension>
+</addon>
+
+
 <addon id="plugin.video.jksp"
        name="[B][COLOR white]J[/COLOR][COLOR deepskyblue]k[/COLOR][COLOR green]$[/COLOR][COLOR red]p[/COLOR][/B] Movies Plugin"
        version="0.0.13"
@@ -3799,7 +3842,7 @@ http://www.hometheater.co.il</description>
 </addon>
 
 
-<addon id="plugin.video.ourmatch" name="Our Match" version="2.0.0" provider-name="Echo Coder">
+<addon id="plugin.video.ourmatch" name="Our Match" version="2.0.1" provider-name="Echo Coder">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver"/>
@@ -5847,6 +5890,24 @@ Tvheadend(4.1.1945): is a TV streaming server for Linux supporting DVB-S/S2, DVB
 		<summary lang="en">Weather Fanart Single</summary>
 		<description lang="en">A single Weather Fanart image for every weather condition</description>
 		<platform>all</platform>
+	</extension>
+</addon>
+
+
+<!--suppress ALL -->
+<addon id="plugin.video.link__tester" version="0.0.1" name="URLResolver Link Tester" provider-name="Echo Coder">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.urlresolver" version="2.2.0"/>
+        <import addon="script.module.echo"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>URLResolver Link Tester Addon - Forked from TK Norris</summary>
+        <description></description>
+        <platform>all</platform>
 	</extension>
 </addon>
 
@@ -8587,6 +8648,34 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 		<description lang="he">חבילת רקעים - סגנון מרובע</description>
 		<platform>all</platform>
 	</extension>
+</addon>
+
+
+<addon id="plugin.video.echoplayer" 
+	     name="ECHO Player" 
+	     version="1.03"
+	     provider-name="Echo Coder">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="plugin.video.f4mTester" version="2.7.1"/>
+    <import addon="script.module.urlresolver" version="3.0.26"/>
+    <import addon="script.module.liveresolver" version="0.1.48"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension> 
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Twitter Support: @echo_coding</summary>
+    <description lang="en">Play a variety of differnt file extentions via urls.</description>
+    <disclaimer lang="en">Play ts, m3u, m3u8, mp4, mkv and much much more!</disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://www.echocoder.com</forum>
+    <website>http://www.echocoder.com</website>
+    <email>echocoder@protonmail.com</email>
+  </extension>
 </addon>
 
 
@@ -11642,6 +11731,34 @@ provider-name="Smurf, Locknload">
 </extension>
 </addon>
 
+
+
+<addon id="plugin.video.youporn" 
+	     name="YouPorn" 
+	     version="2.02" 
+	     provider-name="Echo Coder">
+  <requires>
+	<import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">OVER 18 ONLY - Support is available on Twitter @EchoCoding</summary>
+    <description lang="en">YouPorn Scraping by Echo Coder
+
+Skin and code for skin by Demonstratorz</description>
+    <disclaimer lang="en"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://www.echocoder.com</forum>
+    <website>http://www.echocoder.com</website>
+    <email>echocoder@protonmail.com</email>
+  </extension>
+</addon>
 
 
 <addon id="metadata.themoviedb.org"
