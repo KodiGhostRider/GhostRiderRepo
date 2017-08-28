@@ -3799,23 +3799,6 @@ http://www.hometheater.co.il</description>
 </addon>
 
 
-<addon id="plugin.video.ourmatch" name="Our Match" version="1.0.0" provider-name="123456">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary>Football highlights from around the world</summary>
-		<description>Watch football highlights.</description>
-		<disclaimer lang="en">The author is not responsible for the media you find in this add-on.</disclaimer>
-	</extension>
-	
-</addon>
-
-
 <!--suppress ALL -->
 <addon id="plugin.video.salts" version="2.0.195" name="Stream All The Sources" provider-name="k3l3vra">
     <requires>
@@ -11335,7 +11318,7 @@ provider-name="kodi senyor">
 
 <addon id="plugin.video.xxx-o-dus" 
 	     name="XXX-O-DUS" 
-	     version="3.00.027" 
+	     version="3.00.028" 
 	     provider-name="Echo Coder">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -11362,8 +11345,8 @@ provider-name="kodi senyor">
     <language></language>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-    <website>https://github.com/xibalba10/</website>
-    <forum>https://github.com/xibalba10/</forum>
+    <website>https://github.com/echocoderxbmc/plugin.video.xxx-o-dus</website>
+    <forum>https://github.com/echocoderxbmc/plugin.video.xxx-o-dus</forum>
     <assets>
         <icon>icon.png</icon>
         <fanart>fanart.jpg</fanart>
