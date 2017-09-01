@@ -7958,7 +7958,7 @@ Playlists organized by categories and any source comes from Youtube users.
 </addon>
 
 
-<addon id="plugin.video.bennu" name="Bennu" version="17.8.11" provider-name="Bennu">
+<addon id="plugin.video.bennu" name="Bennu" version="17.8.19" provider-name="Bennu">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
         <import addon="repository.colossus" /> 
@@ -11776,18 +11776,20 @@ provider-name="Smurf, Locknload">
 
 <addon id="plugin.video.youporn" 
 	     name="YouPorn" 
-	     version="2.02" 
+	     version="3.00.000" 
 	     provider-name="Echo Coder">
   <requires>
 	<import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.requests" />
+    <import addon="script.module.urlresolver" />
+    <import addon="script.module.urlresolver.xxx"/>
   </requires>
   <extension point="xbmc.python.script" library="default.py">
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
-    <summary lang="en">OVER 18 ONLY - Support is available on Twitter @EchoCoding</summary>
+    <summary lang="en">OVER 18 ONLY - Support is available https://github.com/Colossal1/plugin.video.youporn/issues</summary>
     <description lang="en">YouPorn Scraping by Echo Coder
 
 Skin and code for skin by Demonstratorz</description>
@@ -11795,9 +11797,9 @@ Skin and code for skin by Demonstratorz</description>
     <language></language>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <forum>http://www.echocoder.com</forum>
-    <website>http://www.echocoder.com</website>
-    <email>echocoder@protonmail.com</email>
+    <forum>https://github.com/Colossal1/plugin.video.youporn</forum>
+    <website>https://github.com/Colossal1/plugin.video.youporn</website>
+    <email>echocoderxbmc@protonmail.com</email>
   </extension>
 </addon>
 
@@ -13869,6 +13871,41 @@ level.</description>
 		<description>DUCKPOOL Repo</description>n 
 		<platform>all</platform>
 	</extension>
+</addon>
+
+
+<addon id="plugin.video.cartooncrazy" name="Cartoon Crazy" version="0.0.1" provider-name="@LuciferOnKodi">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.beautifulsoup" version="3.2.1"/>
+	<import addon="plugin.video.youtube" version="5.3.12"/>
+	<import addon="repository.colossus" />
+	<import addon="repository.lucifer" />
+	<import addon="script.module.urlresolver" version="3.0.0"/>
+	<import addon="script.module.requests" version="2.9.1"/>
+	<import addon="script.module.futures" version="2.2.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Your one-stop shop for cartoons</summary>
+    <description>Whether you're young or old, everyone's watched cartoons at one point in their life. This multi-source add-on provides cartoons both new and old to suit everyone's taste.[CR][CR]Top-notch artwork courtesy of jokstergfx, thanks bud.</description>
+    <disclaimer>I do not own, nor host any content provided within this add-on. All links are gathered from publicly available resources.</disclaimer>
+    <language>english</language>
+    <platform>all</platform>
+    <license>GNU General Public License v3.0</license>
+    <forum></forum>
+    <website></website>
+    <email>luciferonkodi@protonmail.com</email>
+    <source>https://github.com/LuciferOnKodi/repository.lucifer</source>
+    <news></news>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+        <screenshot></screenshot>
+    </assets>
+  </extension>
 </addon>
 
 
