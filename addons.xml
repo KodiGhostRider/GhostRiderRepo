@@ -1971,7 +1971,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon id="plugin.video.sportie" 
          name="Sportie" 
-         version="2.00.003"
+         version="2.00.004"
          provider-name="Echo Coder">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -1979,6 +1979,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     <import addon="script.module.simplejson" />
     <import addon="script.module.liveresolver" />
     <import addon="script.module.urlresolver" />
+    <import addon="script.module.echo" />
     <import addon="script.video.F4mProxy" />
     <import addon="plugin.video.f4mTester" />
     <import addon="plugin.video.SportsDevil" />
@@ -3883,7 +3884,7 @@ http://www.hometheater.co.il</description>
 </addon>
 
 
-<addon id="plugin.video.ourmatch" name="Our Match" version="2.0.1" provider-name="Echo Coder">
+<addon id="plugin.video.ourmatch" name="Our Match" version="2.0.2" provider-name="Echo Coder">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver"/>
@@ -3894,7 +3895,7 @@ http://www.hometheater.co.il</description>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<platform>all</platform>
-		<summary>Football highlights from around the world</summary>
+		<summary>Support: https://github.com/Colossal1/plugin.video.ourmatch/issues/ - Football highlights from around the world</summary>
 		<description>Watch football highlights.</description>
 		<disclaimer lang="en">The author is not responsible for the media you find in this add-on.</disclaimer>
 	</extension>
@@ -12544,11 +12545,12 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon id="plugin.video.echodocs" 
          name="Echo Documentaries" 
-         version="1.09"
+         version="2.00.000"
          provider-name="Echo Coder">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.urlresolver"/>
+    <import addon="script.module.echo"/>
+    <import addon="script.module.urlresolver" />
     <import addon="plugin.video.youtube" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
@@ -12556,15 +12558,15 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
   </extension> 
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
-    <summary lang="en">This addon provides documenraries from a variety of sources.</summary>
+    <summary lang="en">Support: https://github.com/Colossal1/plugin.video.echodocs/issues - This addon provides documenraries from a variety of sources.</summary>
     <description lang="en">This addon provides documenraries from a variety of sources.</description>
     <disclaimer lang="en">We do not host any of the streams provided within the addon.</disclaimer>
     <language></language>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <forum></forum>
-    <website></website>
-    <email></email>
+    <forum>https://github.com/Colossal1/plugin.video.echodocs</forum>
+    <website>https://github.com/Colossal1/plugin.video.echodocs</website>
+    <email>echocoderxbmc@protonmail.com</email>
     <assets>
         <icon>icon.png</icon>
         <fanart>fanart.jpg</fanart>
