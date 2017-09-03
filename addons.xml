@@ -293,6 +293,25 @@
 </addon>
 
 
+<addon id="repository.gujal" name="Gujal Addon Repository" version="1.5" provider-name="Gujal">
+	<extension point="xbmc.addon.repository" name="Gujal Addons Repository">
+	<dir>
+        <info compressed="false">https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/</datadir>
+	</dir>   
+        <info compressed="false">https://raw.github.com/Gujal00/GujalKodiWork/master/addons.xml</info>
+        <checksum>https://raw.github.com/Gujal00/GujalKodiWork/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.github.com/Gujal00/GujalKodiWork/master/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Third party Addons for Kodi</summary>
+		<description>Gujal Addons Repository</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+
 <addon id="script.cdartmanager-NG"
        name="cdART Manager NG"
        version="4.1.0"
@@ -2008,6 +2027,29 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
         <screenshot>resources/art/screenshots/screenshot-03.jpg</screenshot>
     </assets>
   </extension>
+</addon>
+
+
+<addon id="plugin.video.desitashan"
+version="0.1.2"
+name="Desi Tashan"
+provider-name="Gujal">
+<requires>
+  <import addon="xbmc.python" version="2.24.0"/>
+  <import addon="repository.gujal"/>
+  <import addon="script.module.requests" version="2.4.3"/>
+  <import addon="script.module.beautifulsoup" version="3.2.1"/>
+  <import addon="script.module.urlresolver" version="3.0.0"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary>Desi Tashan Hindi Catchup TV</summary>
+  <description>Desitashan is a popular site to watch Hindi TV Shows on demand</description>
+  <disclaimer>This addon provides access to Desi Tashan site and is not liable for any content hosted on that site</disclaimer>
+  <broken>Deprecated as the Hosting site went out of service</broken>
+</extension>
 </addon>
 
 
@@ -3859,6 +3901,39 @@ http://www.hometheater.co.il</description>
         <description>Browse and streams an endless music library via YouTube. Manage favourites artists, albums and songs.</description>
     </extension>
 	
+</addon>
+
+
+<addon
+  id="plugin.video.imdb.trailers"
+  version="2.1.1"
+  name="IMDb Trailers"
+  provider-name="queeup, gujal">
+  <requires>
+    <import addon="xbmc.python"
+            version="2.1.0"/>
+	<import addon="script.module.simplejson"
+			version="2.0.10"/>
+	<import addon="script.common.plugin.cache"
+			version="2.5.5"/>
+    <import addon="repository.gujal"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>IMDb Trailers video add-on</summary>
+    <summary lang="tr">IMDb Fragmanları video eklentisi</summary>
+    <description>Watch movie trailers available on IMDb.</description>
+    <description lang="tr">IMDb'de bulunan film fragmanlarını izle.</description>
+    <language>en</language>
+    <platform>all</platform>
+    <license>WTFPL</license>
+    <forum></forum>
+    <website>http://www.imdb.com/</website>
+    <source>https://github.com/queeup/plugin.video.imdb.trailers</source>
+  </extension>
 </addon>
 
 
@@ -7544,6 +7619,42 @@ Plugin by @koderdude</description>
 </addon>
 
 
+<addon id="plugin.video.deccandelight"
+version="1.3.1"
+name="Deccan Delight"
+provider-name="Gujal">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="repository.gujal"/>
+  <import addon="script.module.requests" version="2.4.3"/>
+  <import addon="script.module.beautifulsoup" version="3.2.1"/>
+  <import addon="script.common.plugin.cache" version="2.5.5"/>
+  <import addon="script.module.urlresolver" version="3.0.0"/>
+  <import addon="plugin.video.f4mTester" version="2.2.3"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+	<summary>Entertainment from the Deccan region of India</summary>
+	<description>This addon provides access to entertainment in various Deccan languages such as Tamil, Telugu, Malayalam, Kannada, and Hindi</description>
+	<platform>all</platform>
+	<website>https://github.com/Gujal00</website>
+	<disclaimer>DeccanDelight and its developers are not in any way affiliated with Kodi or any of the sites and providers used in the addon.
+DeccanDelight is and always will be free and open-source. None of its code and resources may be sold or redistributed for any commercial purposes.
+DeccanDelight and its developers do not host, create, or distribute any of the content displayed in the addon, it simply scrapes public websites.</disclaimer>
+	<news>[B]Version 1.3.1 - 28 Aug 2017[/B] - Runtamil fix - Tamil Rasigan fix</news>
+	<assets>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+		<screenshot>resources/images/screenshot-01.jpg</screenshot>
+		<screenshot>resources/images/screenshot-02.jpg</screenshot>
+		<screenshot>resources/images/screenshot-03.jpg</screenshot>
+	</assets>
+</extension>
+</addon>
+
+
 <addon id="repository.featherence" name="Featherence repository" version="1.1.0" provider-name="finalmakerr">
 	<extension point="xbmc.addon.repository" name="Featherence repository">
 		<info compressed="false">https://raw.githubusercontent.com/finalmakerr/featherence/master/addons.xml</info>
@@ -9063,6 +9174,27 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 </addon>
 
 
+<addon id="plugin.audio.radiosindia"
+version="0.1.1"
+name="Radios India"
+provider-name="Gujal">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="repository.gujal"/>
+  <import addon="script.module.requests" version="2.4.3"/>
+  <import addon="script.module.beautifulsoup" version="3.2.1"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>audio</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary>Radios India</summary>
+  <description>Radios India is a popular site to listen to Radio Stations from around India</description>
+  <disclaimer>This addon provides access to Radios India website and is not liable for any content hosted on that site</disclaimer>
+</extension>
+</addon>
+
+
 <addon id="script.tv.show.next.aired" name="TV Show - Next Aired" version="6.0.15" provider-name="Ppic,Frost,ronie,`Black,phil65,WayneD">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
@@ -9981,6 +10113,28 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 		<summary lang="en">This addon is almost exact copy Urlresolver from Tknorris repository https://github.com/tknorris/script.module.urlresolver. Resolve common video host URL's to be playable in XBMC/Kodi. Website http://filmkodi.com . Our suport forum https://github.com/mrknow/filmkodi/issues. </summary>
 		<description lang="en">This addon is almost exact copy Urlresolver from Tknorris repository https://github.com/tknorris/script.module.urlresolver Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
 	</extension>
+</addon>
+
+
+<addon id="plugin.video.tamilgun"
+version="0.3.0"
+name="Tamil Gun"
+provider-name="Gujal">
+<requires>
+  <import addon="xbmc.python" version="2.24.0"/>
+  <import addon="repository.gujal"/>
+  <import addon="script.module.requests" version="2.4.3"/>
+  <import addon="script.module.beautifulsoup" version="3.2.1"/>
+  <import addon="script.module.urlresolver" version="3.0.0"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary>TamilGun</summary>
+  <description>TamilGun is a popular site to watch Tamil Movies on demand</description>
+  <disclaimer>This addon simply scrapes TamilGun website and is not liable for any content hosted on that site</disclaimer>
+</extension>
 </addon>
 
 
@@ -13566,6 +13720,30 @@ I had this disabled because i want to be able to jump to the most right object b
     <email>realgam3@gmail.com</email>
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
   </extension>
+</addon>
+
+
+<addon id="plugin.video.dailymotion_com" name="DailyMotion.com" version="2.2.5" provider-name="AddonScriptorDE, L0RE, Gujal">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="repository.gujal"/>
+        <import addon="script.module.simple.downloader" version="1.0.0"/>
+        <import addon="script.module.requests" version="2.4.3"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Movies, TV, Music, User-Clips, 3D and Livestreams</summary>
+        <language></language>
+        <description lang="en">Movies, TV, Music, User-Clips, 3D and Livestreams</description>
+        <disclaimer lang="en">Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing.</disclaimer>
+        <website>http://www.dailymotion.com</website>
+        <source>https://github.com/AddonScriptorDE/plugin.video.dailymotion_com</source>
+        <forum>http://forum.xbmc.org/showthread.php?tid=142626</forum>
+        <email>AddonScriptorDE at yahoo dot de</email>
+    </extension>
 </addon>
 
 
