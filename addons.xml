@@ -8916,6 +8916,36 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 </addon>
 
 
+<addon id="plugin.video.silenthunter" name="Silent Hunter" version="5.0" provider-name="SH">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+        <import addon="plugin.video.youtube" version="5.2.1" />
+		<import addon="script.module.pyxbmct" version="1.1.4" />
+		<import addon="script.module.urlresolver" version="3.0.0"/>
+		<import addon="script.module.liveresolver" version="0.1.24"/>
+		<import addon="script.video.F4mProxy" version="2.2.3"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Silent Hunter</summary>
+		<description lang="en">Above Us The Waves</description>
+		<platform>all</platform>
+		<forum></forum>
+		<website></website>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot></screenshot>
+			<screenshot></screenshot>
+			<screenshot></screenshot>
+		</assets>
+		<news>release</news>
+	</extension>
+</addon>
+
+
 <addon id="service.skin.widgets" name="Skin Widgets" version="0.0.32" provider-name="Martijn, phil65">
     <requires>
         <import addon="xbmc.json" version="6.0.0"/>
