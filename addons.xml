@@ -1991,10 +1991,11 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon id="plugin.video.sportie" 
          name="Sportie" 
-         version="2.00.004"
+         version="2.00.005"
          provider-name="Echo Coder">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="repository.colossus" />
 	<import addon="script.module.httplib2" />
     <import addon="script.module.simplejson" />
     <import addon="script.module.liveresolver" />
