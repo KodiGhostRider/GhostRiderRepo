@@ -1991,7 +1991,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon id="plugin.video.sportie" 
          name="Sportie" 
-         version="2.00.005"
+         version="2.00.006"
          provider-name="Echo Coder">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -14781,7 +14781,7 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
 
 
 
-<addon id="plugin.video.covenant" version="1.1.13" name="Covenant" provider-name="Covenant">
+<addon id="plugin.video.covenant" version="1.1.14" name="Covenant" provider-name="Covenant">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.covenant.artwork" version="1.0.0" />
