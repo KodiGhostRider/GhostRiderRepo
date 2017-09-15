@@ -9768,7 +9768,7 @@ provider-name="Gujal">
 
 <addon
     id="skin.eminence.2.mod.Krypton"
-    version="2.4.3.2"
+    version="2.4.3.3"
     name="Eminence 2.0 MOD"
     provider-name="jurialmunkey - Mod by Guilouz - Mod by Alanon">
     <requires>
@@ -9801,6 +9801,10 @@ provider-name="Gujal">
  			<screenshot>extras/viewthumbs/159.jpg</screenshot>
 		</assets>	
 		<news> Changelog:
+		
+		[B]2.4.3.3[/B]
+		1. Next Aired fixes.
+		2. Another PVR attempt		
 		
 		[B]2.4.3.2[/B]
 		1. Updated translations.
@@ -12674,7 +12678,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 </addon>
 
 
-<addon id="script.colorbox" name="colorbox Script" version="2.0.5" provider-name="BADMS">
+<addon id="script.colorbox" name="colorbox Script" version="2.0.5.1" provider-name="BADMS">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0"/>
 		<import addon="script.module.simplejson" version="2.0.10"/>
