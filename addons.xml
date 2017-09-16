@@ -1617,6 +1617,22 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 </addon>
 
 
+<addon id="script.module.unshortenit" name="Unshortenit Module" version="0.3.0" provider-name="Jeff Kehler, Twilight0">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.requests" version="2.12.4"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Unshortenit Module</summary>
+		<description lang="en">Unshortenit Module to reveal links from popular url shortener services</description>
+		<platform>all</platform>
+		<license>MIT</license>
+		<source>https://pypi.python.org/pypi/unshortenit/0.3.0</source>
+	</extension>
+</addon>
+
+
 <addon id="resource.images.skinicons.boss.he" name="Skin Icons - Boss Design (Hebrew)" version="1.0.4" provider-name="Orna Post, Benny Buchnik">
 	<extension point="kodi.resource.images" compile="false" type="skinicons" />
 	<requires>
@@ -4204,10 +4220,10 @@ http://www.hometheater.co.il</description>
 </addon>
 
 
-<addon id="plugin.video.cartoonsgr" name="CartoonsGR" version="0.0.7" provider-name="Bugatsinho">
+<addon id="plugin.video.cartoonsgr" name="CartoonsGR" version="0.0.8" provider-name="Bugatsinho">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.urlresolver"  version="3.0.0"/>
+    <import addon="script.module.urlresolver"  version="4.0.01"/>
     <import addon="script.module.unshortenit"  version="0.3.0"/>
     <import addon="script.module.addon.common" />
   </requires>
@@ -14821,7 +14837,7 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
 
 
 
-<addon id="plugin.video.covenant" version="1.1.14" name="Covenant" provider-name="Covenant">
+<addon id="plugin.video.covenant" version="1.1.15" name="Covenant" provider-name="Covenant">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.covenant.artwork" version="1.0.0" />
@@ -14836,12 +14852,14 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Covenant</summary>
 		<description lang="en">[I]A New Generation[/I][CR][CR][B]Covenant Movies and TV[/B][CR][CR]This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.[CR][CR]The author does not host any of the content in this addon and takes no responsibility for content found.</description>
+		<description lang="hr">[I]Nova generacija[/I][CR][CR][B]Covenant Filmova i TV serija[/B][CR][CR]Ovaj dodatak ne sadrži dijelove Kodi Medijskog Centra. Ne tažite pomoć za ovaj dodatak na službenim kanalima podrške za Kodi.[CR][CR]Autor ne posjeduje bilo kakav sadržaj u ovom dodatku i ne preuzima bilo kakvu odgovornost za pronađeni sadržaj.</description>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
 		<forum></forum>
 		<website></website>
 		<source></source>
 		<disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+		<disclaimer lang="hr">Autor ovog dodatka ne posjeduje bilo kakav sadržaj koji je pronađen i nije povezan sa bilo kojim izvorom sadržaja. Ovaj dodatak samo pretražuje sadržaj na web stranicama. Koristite ga na vlastitu odgovornost!</disclaimer>
 
 		<assets>
 			<icon>icon.png</icon>
