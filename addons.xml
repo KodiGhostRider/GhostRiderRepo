@@ -1404,6 +1404,34 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 </addon>
 
 
+<addon id="plugin.video.blamo" version="2.2.5" name="Death Streams" provider-name="MR.Blamo">
+    <requires>        
+		<import addon="xbmc.python" version="2.19.0"/>
+        <import addon="script.module.pyxbmct" version="1.1.4"/>
+        <import addon="script.module.urlresolver" version="3.0.0"/>
+		<import addon="script.module.metahandler" version="1.0.0" />
+		<import addon="script.module.futures"/>
+        <import addon="script.module.myconnpy" version="1.1.6" />
+        <import addon="script.module.deathstreams"/>
+        <import addon="script.module.six"/>
+        <import addon="script.module.dateutil"/>
+
+        <import addon="script.module.image_cache" optional="true" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+     <extension point="xbmc.service" library="service.py" start="startup"/>
+    <extension point="xbmc.addon.metadata">
+        <summary>Latest Version Made By MR.Blamo</summary>
+        <description>Minor bug fixes - cleaned up a more files, Removed everything todo with TMDB cache and Revamped the DS image Thanks Scott, Fixed API keys. 
+		Please if anyone is interested in helping me with this you can find me on twitter, Credit goes to TKNorris of SALTS!!	
+        </description>
+        <platform>all</platform>
+	</extension>
+</addon>
+
+
 <addon id="plugin.video.nana10.video" name="נענע 10" version="1.0.10" provider-name="sbentin">
     <requires>
         <import addon="xbmc.python" version="2.0"/>
@@ -12019,11 +12047,10 @@ provider-name="Smurf, Locknload">
 
 <addon id="plugin.video.youporn" 
 	     name="YouPorn" 
-	     version="3.00.000" 
+	     version="3.00.001" 
 	     provider-name="Echo Coder">
   <requires>
 	<import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.requests" />
     <import addon="script.module.urlresolver" />
     <import addon="script.module.urlresolver.xxx"/>
   </requires>
@@ -14406,6 +14433,18 @@ level.</description>
 	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
     <platform>all</platform>
   </extension>
+</addon>
+
+
+<addon id="script.module.deathstreams" name="Mr Blamos Common Libraries" version="0.0.24" provider-name="Mr Blamo">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Credit to TKnorris</summary>
+	</extension>
 </addon>
 
 
