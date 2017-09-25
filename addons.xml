@@ -6925,7 +6925,7 @@ provider-name="kodi senyor">
 </addon>
 
 
-<addon id="service.library.data.provider" name="Library Data Provider" provider-name="BigNoid" version="0.3.1">
+<addon id="service.library.data.provider" name="Library Data Provider" provider-name="BigNoid" version="0.3.2">
 	<requires>
 		<import addon="xbmc.json" version="7.9.0"/>
 		<import addon="xbmc.python" version="2.25.0"/>
@@ -6947,7 +6947,7 @@ provider-name="kodi senyor">
 		<website>https://github.com/BigNoid/service.library.data.provider</website>
 		<email>big.noid@kodi.tv</email>
 		<source>https://github.com/BigNoid/service.library.data.provider</source>
-		<news>Fixed "Recent videos"</news>
+		<news>Added Polish and Hebrew translations, thx Etharr and Eng2Heb</news>
 		<assets>
 			<icon>resources/icon.png</icon>
 			<fanart>resources/fanart.jpg</fanart>
