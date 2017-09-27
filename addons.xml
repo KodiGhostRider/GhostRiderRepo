@@ -1522,6 +1522,19 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 </addon>
 
 
+<addon id="script.deaths.themepak" version="0.0.14" name="DS Themepak" provider-name="MR Blamo">
+    <requires>
+        <import addon="kodi.resource" version="1.0.0"/>
+    </requires>
+    <extension point="kodi.resource.images" compile="false" type="themepak" />
+    <extension point="xbmc.addon.metadata">
+        <summary>These are Themes for the Death Streams Addon</summary>
+        <description>Themes are maintained separately to make distribution of the the addon itself easier and faster credit to k3l3vra for some good themes.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+
 <addon id="script.xbmc.debug.log" name="Kodi Log Uploader" version="14.2.0" provider-name="Tristan Fischer (sphere@dersphere.de)">
     <requires>
         <import addon="xbmc.python" version="2.12.0"/>
@@ -8146,11 +8159,12 @@ Playlists organized by categories and any source comes from Youtube users.
 </addon>
 
 
-<addon id="plugin.video.bennu" name="Bennu" version="17.8.19" provider-name="Bennu">
+<addon id="plugin.video.bennu" name="Bennu" version="17.9.27" provider-name="Bennu">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
         <import addon="repository.colossus" /> 
 		<import addon="plugin.video.youtube" version="5.2.1" />
+		<import addon="script.module.covenant" />
 		<import addon="script.module.pyxbmct" version="1.1.4" />
 		<import addon="script.module.urlresolver" version="3.0.0"/>
 		<import addon="script.module.liveresolver" version="0.1.24"/>
@@ -8478,6 +8492,18 @@ If for any reason the check of a successful wake-up via ping is not possible or 
             <screenshot>resources/screenshots/webui.png</screenshot>
         </assets>
     </extension>
+</addon>
+
+
+<addon id="script.module.covenant" name="Covenant Module" version="1.00.000" provider-name="Covenant">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Covenant</summary>
+	</extension>
 </addon>
 
 
@@ -14874,9 +14900,10 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
 
 
 
-<addon id="plugin.video.covenant" version="1.1.16" name="Covenant" provider-name="Covenant">
+<addon id="plugin.video.covenant" version="1.1.17" name="Covenant" provider-name="Covenant">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.covenant" />
 		<import addon="script.covenant.artwork" version="1.0.0" />
 		<import addon="script.covenant.metadata" version="1.0.0" />
 		<import addon="script.module.urlresolver" version="3.0.0" />
