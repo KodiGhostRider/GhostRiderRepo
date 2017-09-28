@@ -8495,7 +8495,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 </addon>
 
 
-<addon id="script.module.covenant" name="Covenant Module" version="1.00.002" provider-name="Covenant">
+<addon id="script.module.covenant" name="Covenant Module" version="1.00.003" provider-name="Covenant">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -14460,7 +14460,7 @@ level.</description>
 </addon>
 
 
-<addon id="script.module.deathstreams" name="Mr Blamos Common Libraries" version="0.0.24" provider-name="Mr Blamo">
+<addon id="script.module.deathstreams" name="Mr Blamos Common Libraries" version="0.1.9" provider-name="Mr Blamo">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
