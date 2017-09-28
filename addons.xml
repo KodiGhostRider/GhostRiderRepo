@@ -1404,7 +1404,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 </addon>
 
 
-<addon id="plugin.video.blamo" version="2.3.0" name="Death Streams" provider-name="MR.Blamo">
+<addon id="plugin.video.blamo" version="2.3.1" name="Death Streams" provider-name="MR.Blamo">
     <requires>        
 		<import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.pyxbmct" version="1.1.4"/>
@@ -8159,7 +8159,7 @@ Playlists organized by categories and any source comes from Youtube users.
 </addon>
 
 
-<addon id="plugin.video.bennu" name="Bennu" version="17.9.27" provider-name="Bennu">
+<addon id="plugin.video.bennu" name="Bennu" version="17.9.28" provider-name="Bennu">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
         <import addon="repository.colossus" /> 
@@ -8495,7 +8495,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 </addon>
 
 
-<addon id="script.module.covenant" name="Covenant Module" version="1.00.000" provider-name="Covenant">
+<addon id="script.module.covenant" name="Covenant Module" version="1.00.002" provider-name="Covenant">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
