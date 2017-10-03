@@ -12,131 +12,125 @@ repository.axbmcuser addon version: 1.1.5
 found repo data : https://github.com/axbmcuser/_repo/raw/master/leia
 repository.axbmcuser.zip - ziptype is  true
 https://github.com/axbmcuser/_repo/raw/master/leia/addons.xml
-FOUND ADDON : repository.axbmcuser  1.1.5
-no need to update existing key repository.axbmcuserold version is 1.1.5
 FOUND ADDON : skin.aczg  4.0.74
 no need to update existing key skin.aczgold version is 4.0.74
+FOUND ADDON : repository.axbmcuser  1.1.5
+no need to update existing key repository.axbmcuserold version is 1.1.5
 REPO : repositories/repository.colossus-999.999.6.zip
 repository.colossus addon version: 999.999.6
 found repo data : https://raw.githubusercontent.com/Colossal1/repository.colossus/master/
 repository.colossus-999.999.6.zip - ziptype is  true
 https://raw.githubusercontent.com/Colossal1/repository.colossus/master/addons.xml
-FOUND ADDON : plugin.video.fod  0.0.3
-no need to update existing key plugin.video.fodold version is 0.0.3
-FOUND ADDON : plugin.audio.anfieldindex  1.03
-no need to update existing key plugin.audio.anfieldindexold version is 1.03
-FOUND ADDON : repository.tvguides  0.0.1
-no need to update existing key repository.tvguidesold version is 0.0.1
-FOUND ADDON : repository.Agent  1.0.4
-no need to update existing key repository.Agentold version is 1.0.4
-FOUND ADDON : repository.colossus  999.999.6
-no need to update existing key repository.colossusold version is 999.999.6
-FOUND ADDON : script.module.covenant  1.00.008
-FOUND ADDON : repository.ororotv  1.0.1
-no need to update existing key repository.ororotvold version is 1.0.1
-FOUND ADDON : plugin.program.echowizard  2.00.001
-no need to update existing key plugin.program.echowizardold version is 2.00.001
-FOUND ADDON : plugin.video.youporn  3.00.001
-no need to update existing key plugin.video.youpornold version is 3.00.001
-FOUND ADDON : plugin.video.xxx-o-dus  3.00.032
-no need to update existing key plugin.video.xxx-o-dusold version is 3.00.032
-FOUND ADDON : script.covenant.artwork  1.0.2
-no need to update existing key script.covenant.artworkold version is 1.0.2
-FOUND ADDON : plugin.video.ourmatch  2.0.2
-no need to update existing key plugin.video.ourmatchold version is 2.0.2
-FOUND ADDON : plugin.video.covenant  1.1.18
-no need to update existing key plugin.video.covenantold version is 1.1.18
-FOUND ADDON : plugin.video.nhlondemand  2.0.7
-no need to update existing key plugin.video.nhlondemandold version is 2.0.7
 FOUND ADDON : repository.lucifer  0.0.1
 ADDING NEWKEY repository.lucifer
-FOUND ADDON : plugin.video.aini  1.0.2
-no need to update existing key plugin.video.ainiold version is 1.0.2
-FOUND ADDON : script.deaths.themepak  0.0.14
-no need to update existing key script.deaths.themepakold version is 0.0.14
-FOUND ADDON : plugin.video.adultswim  1.0.3
-no need to update existing key plugin.video.adultswimold version is 1.0.3
-FOUND ADDON : plugin.video.echodocs  2.00.000
-no need to update existing key plugin.video.echodocsold version is 2.00.000
-FOUND ADDON : plugin.video.echoplayer  2.00.000
-no need to update existing key plugin.video.echoplayerold version is 2.00.000
-FOUND ADDON : script.module.deathstreams  0.1.9
-no need to update existing key script.module.deathstreamsold version is 0.1.9
-FOUND ADDON : script.xxxodus.scrapers  1.00.024
-no need to update existing key script.xxxodus.scrapersold version is 1.00.024
+FOUND ADDON : plugin.video.crackler  1.0.6.1
+no need to update existing key plugin.video.cracklerold version is 1.0.6.1
+FOUND ADDON : plugin.video.covenant  1.1.18
+no need to update existing key plugin.video.covenantold version is 1.1.18
 FOUND ADDON : plugin.video.bennu  17.10.3
-FOUND ADDON : plugin.video.link__tester  0.0.1
-no need to update existing key plugin.video.link__testerold version is 0.0.1
-FOUND ADDON : frenchdj.repository  0.0.1
-no need to update existing key frenchdj.repositoryold version is 0.0.1
-FOUND ADDON : plugin.video.football.today  3.0.5
-plugin.video.football.today  is in blacklist - 
-FOUND ADDON : repository.gujal  1.5
-no need to update existing key repository.gujalold version is 1.5
-FOUND ADDON : repository.entertainmentrepobackup  1.1.5
-no need to update existing key repository.entertainmentrepobackupold version is 1.1.5
+no need to update existing key plugin.video.bennuold version is 17.10.3
 FOUND ADDON : script.covenant.metadata  1.0.0
 no need to update existing key script.covenant.metadataold version is 1.0.0
+FOUND ADDON : script.xxxodus.artwork  1.00.018
+no need to update existing key script.xxxodus.artworkold version is 1.00.018
+FOUND ADDON : repository.colossus  999.999.6
+no need to update existing key repository.colossusold version is 999.999.6
+FOUND ADDON : plugin.video.fod  0.0.3
+no need to update existing key plugin.video.fodold version is 0.0.3
+FOUND ADDON : repository.Agent  1.0.4
+no need to update existing key repository.Agentold version is 1.0.4
+FOUND ADDON : repository.ororotv  1.0.1
+no need to update existing key repository.ororotvold version is 1.0.1
+FOUND ADDON : plugin.video.nhlondemand  2.0.7
+no need to update existing key plugin.video.nhlondemandold version is 2.0.7
+FOUND ADDON : script.xxxodus.scrapers  1.00.024
+no need to update existing key script.xxxodus.scrapersold version is 1.00.024
+FOUND ADDON : repository.gujal  1.5
+no need to update existing key repository.gujalold version is 1.5
+FOUND ADDON : plugin.video.ourmatch  2.0.2
+no need to update existing key plugin.video.ourmatchold version is 2.0.2
+FOUND ADDON : plugin.audio.anfieldindex  1.03
+no need to update existing key plugin.audio.anfieldindexold version is 1.03
+FOUND ADDON : plugin.video.xxx-o-dus  3.00.032
+no need to update existing key plugin.video.xxx-o-dusold version is 3.00.032
 FOUND ADDON : plugin.video.nbaondemand  2.0.7
 no need to update existing key plugin.video.nbaondemandold version is 2.0.7
+FOUND ADDON : repository.tvguides  0.0.1
+no need to update existing key repository.tvguidesold version is 0.0.1
+FOUND ADDON : script.module.deathstreams  0.1.9
+no need to update existing key script.module.deathstreamsold version is 0.1.9
+FOUND ADDON : plugin.program.echowizard  2.00.001
+no need to update existing key plugin.program.echowizardold version is 2.00.001
+FOUND ADDON : script.tvguide.Assassins  0.0.1
+no need to update existing key script.tvguide.Assassinsold version is 0.0.1
 FOUND ADDON : plugin.video.tinklepad  2.0.8
 no need to update existing key plugin.video.tinklepadold version is 2.0.8
 FOUND ADDON : plugin.video.sportie  2.00.007
 no need to update existing key plugin.video.sportieold version is 2.00.007
-FOUND ADDON : plugin.video.crackler  1.0.6.1
-no need to update existing key plugin.video.cracklerold version is 1.0.6.1
-FOUND ADDON : script.tvguide.Assassins  0.0.1
-no need to update existing key script.tvguide.Assassinsold version is 0.0.1
+FOUND ADDON : frenchdj.repository  0.0.1
+no need to update existing key frenchdj.repositoryold version is 0.0.1
+FOUND ADDON : repository.entertainmentrepobackup  1.1.5
+no need to update existing key repository.entertainmentrepobackupold version is 1.1.5
+FOUND ADDON : plugin.video.adultswim  1.0.3
+no need to update existing key plugin.video.adultswimold version is 1.0.3
+FOUND ADDON : plugin.video.aini  1.0.2
+no need to update existing key plugin.video.ainiold version is 1.0.2
 FOUND ADDON : plugin.video.kidz  1.02
 no need to update existing key plugin.video.kidzold version is 1.02
-FOUND ADDON : plugin.video.blamo  2.3.1
-no need to update existing key plugin.video.blamoold version is 2.3.1
+FOUND ADDON : plugin.video.youporn  3.00.001
+no need to update existing key plugin.video.youpornold version is 3.00.001
+FOUND ADDON : plugin.video.echodocs  2.00.000
+no need to update existing key plugin.video.echodocsold version is 2.00.000
+FOUND ADDON : plugin.video.echoplayer  2.00.000
+no need to update existing key plugin.video.echoplayerold version is 2.00.000
 FOUND ADDON : plugin.video.cartoonsgr  0.0.8
 no need to update existing key plugin.video.cartoonsgrold version is 0.0.8
-FOUND ADDON : script.xxxodus.artwork  1.00.018
-no need to update existing key script.xxxodus.artworkold version is 1.00.018
-Downloading script.module.covenant version:1.00.008
-Downloding zip from: https://raw.githubusercontent.com/Colossal1/repository.colossus/master//script.module.covenant/script.module.covenant-1.00.008.zip  To Path:  repo/script.module.covenant/script.module.covenant-1.00.008.zip
-Saving:  repo/script.module.covenant/script.module.covenant-1.00.008.zip
-https://raw.githubusercontent.com/Colossal1/repository.colossus/master//script.module.covenant/script.module.covenant-1.00.008.zip
+FOUND ADDON : plugin.video.football.today  3.0.5
+plugin.video.football.today  is in blacklist - 
+FOUND ADDON : script.covenant.artwork  1.0.2
+no need to update existing key script.covenant.artworkold version is 1.0.2
+FOUND ADDON : script.deaths.themepak  0.0.14
+no need to update existing key script.deaths.themepakold version is 0.0.14
+FOUND ADDON : plugin.video.link__tester  0.0.1
+no need to update existing key plugin.video.link__testerold version is 0.0.1
+FOUND ADDON : plugin.video.blamo  2.3.1
+no need to update existing key plugin.video.blamoold version is 2.3.1
+FOUND ADDON : script.module.covenant  1.00.008
+no need to update existing key script.module.covenantold version is 1.00.008
 Downloading repository.lucifer version:0.0.1
 file already exist guessin the dev didnot have a correct xml  removing from updated plugins if so 
 Downloding zip from: https://raw.githubusercontent.com/Colossal1/repository.colossus/master//repository.lucifer/repository.lucifer-0.0.1.zip  To Path:  repo/repository.lucifer/repository.lucifer-0.0.1.zip
 Saving:  repo/repository.lucifer/repository.lucifer-0.0.1.zip
 https://raw.githubusercontent.com/Colossal1/repository.colossus/master//repository.lucifer/repository.lucifer-0.0.1.zip
-Downloading plugin.video.bennu version:17.10.3
-Downloding zip from: https://raw.githubusercontent.com/Colossal1/repository.colossus/master//plugin.video.bennu/plugin.video.bennu-17.10.3.zip  To Path:  repo/plugin.video.bennu/plugin.video.bennu-17.10.3.zip
-Saving:  repo/plugin.video.bennu/plugin.video.bennu-17.10.3.zip
-https://raw.githubusercontent.com/Colossal1/repository.colossus/master//plugin.video.bennu/plugin.video.bennu-17.10.3.zip
 REPO : repositories/repository.colossus-999.999.6.zip
 repository.colossus addon version: 999.999.6
 found repo data : https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/
 repository.colossus-999.999.6.zip - ziptype is  true
 https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml
-FOUND ADDON : script.module.urlresolver.xxx  1.0.09
-script.module.urlresolver.xxx  is in blacklist - 
+FOUND ADDON : script.module.urlresolver  4.0.06
+script.module.urlresolver  is in blacklist - 
+FOUND ADDON : plugin.video.SportsDevil  2017.10.01
+plugin.video.SportsDevil  is in blacklist - 
+FOUND ADDON : repository.colossus.common  1.0.5
+no need to update existing key repository.colossus.commonold version is 1.0.5
 FOUND ADDON : script.module.metahandler  3.0.2
 no need to update existing key script.module.metahandlerold version is 3.0.2
 FOUND ADDON : script.video.F4mProxy  2.8.7
 no need to update existing key script.video.F4mProxyold version is 2.8.7
+FOUND ADDON : script.module.urlresolver.xxx  1.0.09
+script.module.urlresolver.xxx  is in blacklist - 
+FOUND ADDON : script.module.liveresolver  0.1.49
+script.module.liveresolver  is in blacklist - 
 FOUND ADDON : script.module.tulip  1.2.5
 no need to update existing key script.module.tulipold version is 1.2.5
+FOUND ADDON : plugin.video.f4mTester  2.7.1
+no need to update existing key plugin.video.f4mTesterold version is 2.7.1
 FOUND ADDON : script.module.echo  1.00.003
 no need to update existing key script.module.echoold version is 1.00.003
-FOUND ADDON : plugin.video.SportsDevil  2017.10.01
-plugin.video.SportsDevil  is in blacklist - 
-FOUND ADDON : script.module.urlresolver  4.0.06
-script.module.urlresolver  is in blacklist - 
 FOUND ADDON : script.module.tknorris.shared  0.0.23
 no need to update existing key script.module.tknorris.sharedold version is 0.0.23
 FOUND ADDON : script.module.unshortenit  0.3.0
 no need to update existing key script.module.unshortenitold version is 0.3.0
-FOUND ADDON : repository.colossus.common  1.0.5
-no need to update existing key repository.colossus.commonold version is 1.0.5
-FOUND ADDON : script.module.liveresolver  0.1.49
-script.module.liveresolver  is in blacklist - 
-FOUND ADDON : plugin.video.f4mTester  2.7.1
-no need to update existing key plugin.video.f4mTesterold version is 2.7.1
 FOUND ADDON : plugin.video.live.streamspro  2.8.1
 no need to update existing key plugin.video.live.streamsproold version is 2.8.1
 REPO : repositories/repository.k3l3vra-1.0.0.zip
@@ -144,20 +138,20 @@ repository.k3l3vra addon version: 1.0.0
 found repo data : http://github.com/k3l3vra1/k3l3vra.repo/raw/master/zips/
 repository.k3l3vra-1.0.0.zip - ziptype is  true
 http://github.com/k3l3vra1/k3l3vra.repo/raw/master/addons.xml
-FOUND ADDON : context.salts.tools  1.0.7
-no need to update existing key context.salts.toolsold version is 1.0.7
-FOUND ADDON : script.salts.themepak  0.0.12
-no need to update existing key script.salts.themepakold version is 0.0.12
+FOUND ADDON : script.module.tknorris.shared  0.0.23
+no need to update existing key script.module.tknorris.sharedold version is 0.0.23
 FOUND ADDON : plugin.video.salts  2.0.195
 no need to update existing key plugin.video.saltsold version is 2.0.195
+FOUND ADDON : context.salts.tools  1.0.7
+no need to update existing key context.salts.toolsold version is 1.0.7
 FOUND ADDON : plugin.video.1channel  2.5.78
 no need to update existing key plugin.video.1channelold version is 2.5.78
 FOUND ADDON : repository.k3l3vra  1.0.1
 no need to update existing key repository.k3l3vraold version is 1.0.1
+FOUND ADDON : script.salts.themepak  0.0.12
+no need to update existing key script.salts.themepakold version is 0.0.12
 FOUND ADDON : script.1channel.themepak  0.0.8
 no need to update existing key script.1channel.themepakold version is 0.0.8
-FOUND ADDON : script.module.tknorris.shared  0.0.23
-no need to update existing key script.module.tknorris.sharedold version is 0.0.23
 REPO : repositories/repository.k3l3vra-1.0.0.zip
 repository.k3l3vra addon version: 1.0.0
 found repo data : https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/zips/
@@ -179,34 +173,34 @@ repository.McFly addon version: 2.0
 found repo data : http://repo.mcfly.tk/
 repository.McFly-2.0.zip - ziptype is  true
 http://bit.mcfly.tk/xml
-FOUND ADDON : script.module.httplib2  0.8.0
-no need to update existing key script.module.httplib2old version is 0.8.0
-FOUND ADDON : script.module.t0mm0.common  2.1.1.01
-no need to update existing key script.module.t0mm0.commonold version is 2.1.1.01
-FOUND ADDON : program.mcfly.fontInstaller  1.0
-no need to update existing key program.mcfly.fontInstallerold version is 1.0
 FOUND ADDON : script.module.stream.resolver  1.6.50
 no need to update existing key script.module.stream.resolverold version is 1.6.51
-FOUND ADDON : script.video.F4mProxy  2.8.6
-no need to update existing key script.video.F4mProxyold version is 2.8.7
-FOUND ADDON : script.module.html5lib  0.999.0
-no need to update existing key script.module.html5libold version is 0.999.0
-FOUND ADDON : repository.McFly  2.0
-no need to update existing key repository.McFlyold version is 2.0
 FOUND ADDON : script.module.urlresolver  3.0.16
 script.module.urlresolver  is in blacklist - 
 FOUND ADDON : script.module.simplejson  3.3.0
 no need to update existing key script.module.simplejsonold version is 3.4.0
-FOUND ADDON : plugin.music.McflyWorldRadio  1.0
-no need to update existing key plugin.music.McflyWorldRadioold version is 1.0
-FOUND ADDON : script.tvguide-IL  1.0
-no need to update existing key script.tvguide-ILold version is 1.0
-FOUND ADDON : plugin.video.f4mTester  2.7.1
-no need to update existing key plugin.video.f4mTesterold version is 2.7.1
 FOUND ADDON : plugin.video.live.streamspro  2.7.4
 no need to update existing key plugin.video.live.streamsproold version is 2.8.1
+FOUND ADDON : program.mcfly.fontInstaller  1.0
+no need to update existing key program.mcfly.fontInstallerold version is 1.0
+FOUND ADDON : script.module.t0mm0.common  2.1.1.01
+no need to update existing key script.module.t0mm0.commonold version is 2.1.1.01
+FOUND ADDON : script.video.F4mProxy  2.8.6
+no need to update existing key script.video.F4mProxyold version is 2.8.7
+FOUND ADDON : script.module.html5lib  0.999.0
+no need to update existing key script.module.html5libold version is 0.999.0
+FOUND ADDON : script.tvguide-IL  1.0
+no need to update existing key script.tvguide-ILold version is 1.0
+FOUND ADDON : script.module.httplib2  0.8.0
+no need to update existing key script.module.httplib2old version is 0.8.0
+FOUND ADDON : plugin.video.f4mTester  2.7.1
+no need to update existing key plugin.video.f4mTesterold version is 2.7.1
 FOUND ADDON : script.module.requests  2.9.1
 no need to update existing key script.module.requestsold version is 2.9.1
+FOUND ADDON : plugin.music.McflyWorldRadio  1.0
+no need to update existing key plugin.music.McflyWorldRadioold version is 1.0
+FOUND ADDON : repository.McFly  2.0
+no need to update existing key repository.McFlyold version is 2.0
 REPO : repositories/repository.McFly-2.0.zip
 repository.McFly addon version: 2.0
 xml for repository:  repositories/repository.McFly-2.0.zip is not a repository
@@ -220,22 +214,22 @@ repository.elysium addon version: 2017.06.10
 found repo data : https://raw.github.com/OpenELEQ/repository.elysium/master/
 repository.elysium-2017.06.10.zip - ziptype is  true
 https://github.com/OpenELEQ/repository.elysium/raw/master/elysium.xml
-FOUND ADDON : script.elysium.artwork  2017.08.18
-no need to update existing key script.elysium.artworkold version is 2017.08.18
-FOUND ADDON : repository.elysium  2017.06.10
-no need to update existing key repository.elysiumold version is 2017.06.10
-FOUND ADDON : plugin.video.elysium  2017.08.28
-no need to update existing key plugin.video.elysiumold version is 2017.08.28
 FOUND ADDON : script.module.schism.common  2017.06.08
 no need to update existing key script.module.schism.commonold version is 2017.06.08
+FOUND ADDON : script.elysium.artwork  2017.08.18
+no need to update existing key script.elysium.artworkold version is 2017.08.18
+FOUND ADDON : plugin.video.elysium  2017.08.28
+no need to update existing key plugin.video.elysiumold version is 2017.08.28
+FOUND ADDON : repository.elysium  2017.06.10
+no need to update existing key repository.elysiumold version is 2017.06.10
 REPO : repositories/repository.alanon-1.0.1.zip
 repository.alanon addon version: 1.0.1
 found repo data : https://raw.githubusercontent.com/Alanon202/repository.alanon/master/
 repository.alanon-1.0.1.zip - ziptype is  true
 https://raw.githubusercontent.com/Alanon202/repository.alanon/master/addons.xml
+FOUND ADDON : skin.eminence.2.mod.Krypton  2.4.3.4
 FOUND ADDON : repository.alanon  1.0.1
 no need to update existing key repository.alanonold version is 1.0.1
-FOUND ADDON : skin.eminence.2.mod.Krypton  2.4.3.4
 Downloading skin.eminence.2.mod.Krypton version:2.4.3.4
 file already exist guessin the dev didnot have a correct xml  removing from updated plugins if so 
 Downloding zip from: https://raw.githubusercontent.com/Alanon202/repository.alanon/master//skin.eminence.2.mod.Krypton/skin.eminence.2.mod.Krypton-2.4.3.4.zip  To Path:  repo/skin.eminence.2.mod.Krypton/skin.eminence.2.mod.Krypton-2.4.3.4.zip
