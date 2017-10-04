@@ -1404,7 +1404,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 </addon>
 
 
-<addon id="plugin.video.blamo" version="2.3.1" name="Death Streams" provider-name="MR.Blamo">
+<addon id="plugin.video.blamo" version="2.3.2" name="Death Streams" provider-name="MR.Blamo">
     <requires>        
 		<import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.pyxbmct" version="1.1.4"/>
@@ -1415,8 +1415,6 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
         <import addon="script.module.deathstreams"/>
         <import addon="script.module.six"/>
         <import addon="script.module.dateutil"/>
-
-        <import addon="script.module.image_cache" optional="true" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
