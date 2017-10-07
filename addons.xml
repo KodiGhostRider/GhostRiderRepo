@@ -1404,30 +1404,6 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 </addon>
 
 
-<addon id="plugin.video.blamo" version="2.3.2" name="Death Streams" provider-name="MR.Blamo">
-    <requires>        
-		<import addon="xbmc.python" version="2.19.0"/>
-        <import addon="script.module.pyxbmct" version="1.1.4"/>
-        <import addon="script.module.urlresolver" version="3.0.0"/>
-		<import addon="script.module.metahandler" version="1.0.0" />
-		<import addon="script.module.futures"/>
-        <import addon="script.module.myconnpy" version="1.1.6" />
-        <import addon="script.module.deathstreams"/>
-        <import addon="script.module.six"/>
-        <import addon="script.module.dateutil"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-     <extension point="xbmc.service" library="service.py" start="startup"/>
-    <extension point="xbmc.addon.metadata">
-        <summary>Stream video from many difference sources, SALTS fork by MR.Blamo</summary>
-        <description>This addon uses trakt.tv for most show and movie meta data and uses a variety of websites for hoster sources</description>
-        <platform>all</platform>
-	</extension>
-</addon>
-
-
 <addon id="plugin.video.nana10.video" name="נענע 10" version="1.0.10" provider-name="sbentin">
     <requires>
         <import addon="xbmc.python" version="2.0"/>
@@ -2528,6 +2504,27 @@ provider-name="Gujal">
     <description lang="en">NATURE HD</description>
     <platform>all</platform>
   </extension>
+</addon>
+
+
+<!--suppress ALL -->
+<addon id="context.ds.tools" version="1.1.0" name="DS Context Tools" provider-name="Mr.Blamo">
+    <requires>
+        <import addon="xbmc.python" version="2.2.0"/>
+        <import addon="plugin.video.blamo"/>
+        <import addon="script.module.deathstreams"/>
+    </requires>
+    <extension point="kodi.context.item" library="default.py">        
+      <item>
+        <label>Death Streams Tools...</label>
+        <visible>!StringCompare(ListItem.dbid,)+[StringCompare(ListItem.dbtype,movie)|StringCompare(ListItem.dbtype,tvshow)|StringCompare(ListItem.dbtype,season)|StringCompare(ListItem.dbtype,episode)]</visible>
+      </item>
+    </extension>    
+    <extension point="xbmc.addon.metadata">
+        <summary>Library Context Menu Tools for Death Streams</summary>
+        <description>This addon provides context menu tools for Death Streams</description>
+        <platform>all</platform>
+	</extension>
 </addon>
 
 
