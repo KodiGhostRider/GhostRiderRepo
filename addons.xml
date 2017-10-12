@@ -1372,7 +1372,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 </addon>
 
 
-<addon id="script.tvguide.Assassins" name="[COLOR black].[/COLOR]Assassins [COLOR red]TV Guide[/COLOR]" version="0.0.2" provider-name="Assassins">
+<addon id="script.tvguide.Assassins" name="[COLOR black].[/COLOR]Assassins [COLOR red]TV Guide[/COLOR]" version="0.0.3" provider-name="Assassins">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <import addon="repository.tvguides" /> 
@@ -2707,7 +2707,7 @@ Your IP will never be shared and/or given to any 3rd party.
 </addon>
 
 
-<addon id="script.covenant.artwork" version="1.0.2" name="Covenant Artwork" provider-name="Covenant">
+<addon id="script.covenant.artwork" version="1.0.3" name="Covenant Artwork" provider-name="Covenant">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 	</requires>
@@ -8154,7 +8154,7 @@ Playlists organized by categories and any source comes from Youtube users.
 </addon>
 
 
-<addon id="plugin.video.bennu" name="Bennu" version="17.10.9" provider-name="Bennu">
+<addon id="plugin.video.bennu" name="Bennu" version="17.10.11" provider-name="Bennu">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
         <import addon="repository.colossus" /> 
@@ -8490,7 +8490,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 </addon>
 
 
-<addon id="script.module.covenant" name="Covenant Module" version="1.00.010" provider-name="Covenant">
+<addon id="script.module.covenant" name="Covenant Module" version="1.00.011" provider-name="Covenant">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -8929,7 +8929,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 </addon>
 
 
-<addon id="script.covenant.metadata" version="1.0.0" name="Covenant Metadata" provider-name="Covenant">
+<addon id="script.covenant.metadata" version="1.0.1" name="Covenant Metadata" provider-name="Covenant">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 	</requires>
@@ -14895,7 +14895,7 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
 
 
 
-<addon id="plugin.video.covenant" version="1.1.20" name="Covenant" provider-name="Covenant">
+<addon id="plugin.video.covenant" version="1.1.21" name="Covenant" provider-name="Covenant">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.covenant" />
