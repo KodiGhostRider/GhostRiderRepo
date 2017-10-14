@@ -8934,7 +8934,7 @@ Donatello donations: http://donatellokodi.blogspot.co.il/2015/10/blog-post.html
 </addon>
 
 
-<addon id="script.covenant.metadata" version="1.0.1" name="Covenant Metadata" provider-name="Covenant">
+<addon id="script.covenant.metadata" version="1.0.2" name="Covenant Metadata" provider-name="Covenant">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 	</requires>
