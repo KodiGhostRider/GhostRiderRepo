@@ -1428,11 +1428,16 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 </addon>
 
 
-<addon id="repository.elysium" version="2017.06.10" name="Elysium repository" provider-name="Elysium">
+<addon id="repository.elysium" version="2017.10.14" name="Elysium repository" provider-name="Elysium">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 	</requires>
 	<extension point="xbmc.addon.repository" name="Elysium repository">
+		<dir minversion="14.0.0">
+			<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
+		</dir>
 		<dir minversion="14.0.0">
 			<info compressed="false">https://github.com/OpenELEQ/repository.elysium/raw/master/elysium.xml</info>
 			<checksum>https://github.com/OpenELEQ/repository.elysium/raw/master/elysium.xml.md5</checksum>
@@ -1442,9 +1447,9 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Elysium repository</summary>
 		<description lang="en">This repository contains Elysium and required dependencies.</description>
-		<disclaimer lang="en">The Author does not host or share any content, nor is he affiliated with any of the content providers.</disclaimer>
+		<disclaimer lang="en">The author does not host or share any content, nor is he affiliated with any of the content providers.</disclaimer>
 		<platform>all</platform>
-		<news>Rebrand from Zen to Elysium / Disabled Cinemabox</news>
+		<news>Added module4all repodir</news>
 		<assets>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
