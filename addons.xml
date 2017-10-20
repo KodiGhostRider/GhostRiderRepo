@@ -8159,7 +8159,7 @@ Playlists organized by categories and any source comes from Youtube users.
 </addon>
 
 
-<addon id="plugin.video.bennu" name="Bennu" version="17.10.14" provider-name="Bennu">
+<addon id="plugin.video.bennu" name="Bennu" version="17.10.19" provider-name="Bennu">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
         <import addon="repository.colossus" /> 
@@ -8176,6 +8176,7 @@ Playlists organized by categories and any source comes from Youtube users.
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Bennu</summary>
 		<description lang="en">We Rise From The Ashes</description>
+		<description lang="hr">Podigli smo se iz pepela</description>
 		<platform>all</platform>
 		<forum></forum>
 		<website></website>
@@ -8495,7 +8496,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 </addon>
 
 
-<addon id="script.module.covenant" name="Covenant Module" version="1.00.012" provider-name="Covenant">
+<addon id="script.module.covenant" name="Covenant Module" version="1.00.013" provider-name="Covenant">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -14903,7 +14904,7 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
 
 
 
-<addon id="plugin.video.covenant" version="1.1.22" name="Covenant" provider-name="Covenant">
+<addon id="plugin.video.covenant" version="1.1.23" name="Covenant" provider-name="Covenant">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.covenant" />
