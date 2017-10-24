@@ -8185,12 +8185,13 @@ Playlists organized by categories and any source comes from Youtube users.
 </addon>
 
 
-<addon id="plugin.video.bennu" name="Bennu" version="17.10.19" provider-name="Bennu">
+<addon id="plugin.video.bennu" name="Bennu" version="17.10.24" provider-name="Bennu">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
         <import addon="repository.colossus" /> 
 		<import addon="plugin.video.youtube" version="5.2.1" />
 		<import addon="script.module.covenant" />
+		<import addon="script.covenant.metadata" />
 		<import addon="script.module.pyxbmct" version="1.1.4" />
 		<import addon="script.module.urlresolver" version="3.0.0"/>
 		<import addon="script.module.liveresolver" version="0.1.24"/>
@@ -8203,6 +8204,7 @@ Playlists organized by categories and any source comes from Youtube users.
 		<summary lang="en">Bennu</summary>
 		<description lang="en">We Rise From The Ashes</description>
 		<description lang="hr">Podigli smo se iz pepela</description>
+		<description lang="he">אנחנו עולים מהאפר</description>
 		<platform>all</platform>
 		<forum></forum>
 		<website></website>
@@ -8522,7 +8524,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 </addon>
 
 
-<addon id="script.module.covenant" name="Covenant Module" version="1.00.013" provider-name="Covenant">
+<addon id="script.module.covenant" name="Covenant Module" version="1.00.014" provider-name="Covenant">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -14930,7 +14932,7 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
 
 
 
-<addon id="plugin.video.covenant" version="1.1.23" name="Covenant" provider-name="Covenant">
+<addon id="plugin.video.covenant" version="1.1.24" name="Covenant" provider-name="Covenant">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.covenant" />
@@ -14947,6 +14949,7 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
 		<summary lang="en">Covenant</summary>
 		<description lang="en">[I]A New Generation[/I][CR][CR][B]Covenant Movies and TV[/B][CR][CR]This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.[CR][CR]The author does not host any of the content in this addon and takes no responsibility for content found.</description>
 		<description lang="hr">[I]Nova generacija[/I][CR][CR][B]Covenant Filmova i TV serija[/B][CR][CR]Ovaj dodatak ne sadrži dijelove Kodi Medijskog Centra. Ne tažite pomoć za ovaj dodatak na službenim kanalima podrške za Kodi.[CR][CR]Autor ne posjeduje bilo kakav sadržaj u ovom dodatku i ne preuzima bilo kakvu odgovornost za pronađeni sadržaj.</description>
+		<description lang="he">[I]הדור החדש[/I][CR][CR][B]Covenant סרטים וסדרות[/B][CR][CR]ההרחבה הזו אינה חלק של Kodi Media Center. אנא אל תבקש עזרה עם ההרחבה זה מכל אחד מערוצי התמיכה הרשמיים של Kodi [CR][CR]. אין למחבר תוכן בהרחבה הזו והמחבר אינו אחראי לתוכן שנמצא.</description>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
 		<forum></forum>
@@ -14954,7 +14957,7 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
 		<source></source>
 		<disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
 		<disclaimer lang="hr">Autor ovog dodatka ne posjeduje bilo kakav sadržaj koji je pronađen i nije povezan sa bilo kojim izvorom sadržaja. Ovaj dodatak samo pretražuje sadržaj na web stranicama. Koristite ga na vlastitu odgovornost!</disclaimer>
-
+		<disclaimer lang="he">מחבר ההרחבה זה אינו מארח את התוכן שיתכן ויימצא ואין לו זיקה לאף אחד מספקי התוכן. הרחבה רק מחפשת תוכן שקיים באתרי אינטרנט. השימוש בהרחבה הוא על אחריותך בלבד!</disclaimer>
 		<assets>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
