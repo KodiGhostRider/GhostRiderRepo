@@ -8524,7 +8524,7 @@ If for any reason the check of a successful wake-up via ping is not possible or 
 </addon>
 
 
-<addon id="script.module.covenant" name="Covenant Module" version="1.00.016" provider-name="Covenant">
+<addon id="script.module.covenant" name="Covenant Module" version="1.00.018" provider-name="Covenant">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -14932,7 +14932,7 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
 
 
 
-<addon id="plugin.video.covenant" version="1.1.25" name="Covenant" provider-name="Covenant">
+<addon id="plugin.video.covenant" version="1.1.26" name="Covenant" provider-name="Covenant">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.covenant" />
