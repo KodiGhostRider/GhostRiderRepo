@@ -9871,7 +9871,7 @@ provider-name="Gujal">
 
 <addon
     id="skin.eminence.2.mod.Krypton"
-    version="2.4.3.3"
+    version="2.4.4"
     name="Eminence 2.0 MOD"
     provider-name="jurialmunkey - Mod by Guilouz - Mod by Alanon">
     <requires>
@@ -9905,9 +9905,14 @@ provider-name="Gujal">
 		</assets>	
 		<news> Changelog:
 		
+		[B]2.4.4[/B]
+		1. Two new viewtypes! (Credits go to ZERO ibis!)
+		2. Small bugfixes and improvements.
+		3. More Hebrew updates.
+		
 		[B]2.4.3.3[/B]
 		1. Next Aired fixes.
-		2. Another PVR attempt		
+		2. Another PVR attempt.	
 		
 		[B]2.4.3.2[/B]
 		1. Updated translations.
