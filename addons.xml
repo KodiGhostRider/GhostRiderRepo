@@ -1005,7 +1005,7 @@ provider-name="kodi senyor">
 </addon>
 
 
-<addon id="script.elysium.artwork" version="2017.08.18" name="Elysium Artwork" provider-name="Elysium">
+<addon id="script.elysium.artwork" version="2017.11.12" name="Elysium Artwork" provider-name="Elysium">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 	</requires>
@@ -1016,7 +1016,7 @@ provider-name="kodi senyor">
 		<summary>Themes for the Elysium Addon</summary>
 		<description></description>
 		<platform>all</platform>
-		<news>Added extra theme (thanks Will Martins)</news>
+		<news>Added new artwork</news>
 	</extension>
 </addon>
 
@@ -7255,31 +7255,32 @@ provider-name="kodi senyor">
 </addon>
 
 
-<addon id="plugin.video.elysium" version="2017.08.28" name="Elysium" provider-name="Elysium">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0"/>
-		<import addon="script.elysium.artwork" version="2017.06.27"/>
-		<import addon="script.module.urlresolver"/>
-		<import addon="script.module.metahandler"/>
-		<import addon="script.module.requests"/>
-		<import addon="script.module.beautifulsoup"/>
-		<import addon="script.module.schism.common"/>
-		<import addon="script.module.futures"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="elysium.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Elysium movies and TV shows</summary>
-		<description lang="en">Watch movies and TV shows in high quality! Please note that this addon is not an official part of the Kodi media player and is therefore not to be mentioned within Kodi's official support channels. This addon has nothing to do with the media player itself, nor its intended use, it is simply a third party plugin which has been added to your system.</description>
-		<disclaimer lang="en">The author does not host any content, nor is he affiliated with any of the content providers.</disclaimer>
-		<platform>all</platform>
-		<news>New api-key. Please get your own, might become mandatory in the near future / Added kids-categories (thanks Soulless)</news>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-		</assets>
-	</extension>
+<addon id="plugin.video.elysium" version="2017.11.12" name="Elysium" provider-name="Elysium">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0"/>
+        <import addon="script.elysium.artwork" version="2017.06.27"/>
+        <import addon="script.module.urlresolver" version="2.10.0"/>
+        <import addon="script.module.metahandler" version="2.9.0"/>
+        <import addon="script.module.requests" version="2.12.4"/>
+        <import addon="script.module.beautifulsoup" version="3.2.1"/>
+        <import addon="script.module.schism.common" version="2017.06.08"/>
+        <import addon="script.module.futures" version="2.2.0"/>
+        <import addon="script.module.nanscrapers" version="0.5.35"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="elysium.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Elysium movies and TV shows</summary>
+        <description lang="en">Watch movies and TV shows in high quality! Please note that this addon is not an official part of the Kodi media player and is therefore not to be mentioned within Kodi's official support channels. This addon has nothing to do with the media player itself, nor its intended use, it is simply a third party plugin which has been added to your system.</description>
+        <disclaimer lang="en">The author does not host any content, nor is he affiliated with any of the content providers.</disclaimer>
+        <platform>all</platform>
+        <news>Added Hebrew language strings (thanks Dambledore) / Added a bunch of lists (thanks Soulless and Griffin) / Fixed tools opening up wrong settings section / New api-key. Please get your own asap as it will become mandatory in next update / Switched to NanScrapers (thanks Midraal)</news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
 </addon>
 
 
